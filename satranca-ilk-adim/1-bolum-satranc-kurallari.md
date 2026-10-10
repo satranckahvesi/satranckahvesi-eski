@@ -73,7 +73,7 @@ Başlangıçta tahtada 32 adet taş bulunur. Bu taşlar, yarısı açık renkli,
 | FİL | ♗ | 2 |
 | AT | ♘ | 2 |
 | PİYON (ER) | ♙ | 8 |
-{: .table-center}
+{: .table-center .piece-symbols}
 
 Taşların tahtaya başlangıçta dizilişi aşağıdaki şekildedir (Diyagram 1.4):
 
