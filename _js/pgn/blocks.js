@@ -13,6 +13,9 @@ const FEN_TAG_RE = /^\[FEN\s+"/;
 const ORIENTATION_TAG_RE = /^\[Orientation\s+"/i;
 const MOVETEXT_RE = /^(\{|\d+\.)/;
 const RESULT_RE = /^(\*|1-0|0-1|1\/2-1\/2)$/;
+// A comment that only carries square highlights and arrows, e.g. `{ [%csl Gc6] [%cal Ge4b7] } *`.
+// Under a [FEN] header it annotates a static diagram instead of starting a game.
+const DIAGRAM_ANNOTATION_RE = /^(\{(?:\s*\[%(?:csl|cal)\s+[^\]]*\])+\s*\})(?:\s*\*)?$/;
 // Site-specific pseudo-header (not PGN): crops a bare <fen> diagram to a half
 // or a quarter of the board. Removed before ChessPublica sees it.
 const CROP_TAG_RE =
@@ -70,8 +73,9 @@ function parseBlock(p) {
   const { moveText, source } = findMoveText(p, inlineMoveText);
   // A header + movetext pair is a game, whatever position it starts from. A
   // lone [FEN] header is a static diagram. Anything else is not a chess block.
-  const kind = moveText !== null ? 'pgn' : hasFenTag ? 'fen' : null;
-  return kind && { kind, headerLines, moveText, crop, source };
+  const annotation = hasFenTag && moveText !== null ? moveText.match(DIAGRAM_ANNOTATION_RE)?.[1] : null;
+  const kind = annotation ? 'fen' : moveText !== null ? 'pgn' : hasFenTag ? 'fen' : null;
+  return kind && { kind, headerLines, moveText: annotation ? null : moveText, annotation, crop, source };
 }
 
 /** Which element to build for a game: puzzles open in the player, a saved choice wins. */
@@ -155,6 +159,7 @@ export function buildPgnBlocks(body, pendingCenterKey) {
     }
 
     let headerText = parsed.headerLines.join('\n');
+    if (parsed.annotation) headerText += `\n${parsed.annotation}`;
     if (tagName === 'pgn-player' && isPuzzle && needsBlackOrientation(parsed)) {
       headerText += '\n[Orientation "black"]';
     }

@@ -32,7 +32,15 @@ Satranç tahtasının kağıda çizilmiş haline **DİYAGRAM** denir.
 
 Dikine üst üste konulmuş 8 kare, bir **DİKEY** oluşturur. Bu dikeylerin her biri alfabenin harfleri ile kodlanır. Beyaz taşlarla oynayan oyuncunun (satranç taşlarının özelliklerini ileride göreceğiz) en solundaki dikey **a-dikeyi** olarak adlandırılır.
 
-Bitişik olarak yan yana konulmuş 8 kare, bir **YATAY** oluşturur. Bu yatayların her biri rakamlarla kodlanır. Beyaz taşlarla oynayan oyuncunun hemen önündeki yatay **1. yatay** (birinci yatay) olarak adlandırılır. Diyagram 1.2'de a-dikeyi ve 1. yatay gösterilmiştir (kitapta bunlar ok çizgileriyle belirtilir; yani a-dikeyi a1'den a8'e, 1. yatay ise a1'den h1'e uzanan karelerdir).
+Bitişik olarak yan yana konulmuş 8 kare, bir **YATAY** oluşturur. Bu yatayların her biri rakamlarla kodlanır. Beyaz taşlarla oynayan oyuncunun hemen önündeki yatay **1. yatay** (birinci yatay) olarak adlandırılır. Diyagram 1.2'de a-dikeyi ve 1. yatay gösterilmiştir.
+
+[Event "Diyagram 1.2"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/8/8/8 w - - 0 1"]
+
+{ [%cal Ga1a8,Ga1h1] } *
+
+*Diyagram 1.2*
 
 ### 1d. Kareler
 
@@ -41,6 +49,14 @@ Karelerin her biri, bulundukları yatayın harfi ile bulundukları dikeyin sayı
 ### 1e. Çaprazlar
 
 Köşelerinden birbirine değen karelerin aynı çizgi üzerinde bulunanları bir **ÇAPRAZ** oluştururlar. Çaprazlar, onları oluşturan ilk ve son karelerin kodlarının birleştirilmesiyle belirtilirler. Diyagram 1.3'te a3-f8 ve h1-a8 çaprazları ile c2, h5 ve f1-kareleri gösterilmiştir.
+
+[Event "Diyagram 1.3"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/8/8/8 w - - 0 1"]
+
+{ [%csl Gc2,Gh5,Gf1] [%cal Ba3f8,Bh1a8] } *
+
+*Diyagram 1.3*
 
 ### 1f. Taşlar
 
@@ -87,15 +103,17 @@ Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye 
 
 ### 2b. Taşların hareket biçimleri
 
+*(Kitaptaki yıldızlı kareler bu yazıda daire olarak gösterilmiştir: yeşil daireler taşın gidebileceği kareleri, kırmızı daireler alabileceği taşı belirtir.)*
+
 **FİL**, çapraz olarak istediği kadar ilerler ve taş alır. Diyagram 1.5'teki fil, yıldızla işaretlenmiş karelere gidebilir ve yolunun üzerindeki rakip taşları (b7-atı) alabilir.
 
 [Event "Diyagram 1.5"]
 [SetUp "1"]
 [FEN "8/1n6/8/8/4B3/8/8/8 w - - 0 1"]
 
-*
+{ [%csl Gh7,Gg6,Gf5,Gc6,Gd5,Gf3,Gg2,Gh1,Gd3,Gc2,Gb1,Rb7] } *
 
-*Diyagram 1.5: e4'teki fil h7, g6, f5, c6, d5, f3, g2, h1, d3, c2 ve b1 karelerine gidebilir; b7'deki atı alabilir.*
+*Diyagram 1.5*
 
 **KALE**, düz olarak istediği kadar ilerler ve taş alır. Diyagram 1.6'daki kale, işaretlenmiş karelere gidebilir ve yolunun üzerindeki rakip taşları (e6-fili) alabilir.
 
@@ -103,9 +121,9 @@ Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye 
 [SetUp "1"]
 [FEN "8/8/4b3/8/1B2R3/8/8/8 w - - 0 1"]
 
-*
+{ [%csl Ge5,Ge3,Ge2,Ge1,Gd4,Gc4,Gf4,Gg4,Gh4,Re6] } *
 
-*Diyagram 1.6: e4'teki kale e5, e3, e2, e1, d4, c4, f4, g4 ve h4 karelerine gidebilir; e6'daki fili alabilir. Kendi filini (b4) alamaz ve onun ötesine geçemez.*
+*Diyagram 1.6*
 
 **VEZİR**, düz veya çapraz olarak istediği kadar ilerler ve taş alır. Diyagram 1.7'deki vezir, işaretlenmiş karelere gidebilir ve yolunun üzerindeki rakip taşları (c2-kalesi) alabilir.
 
@@ -113,9 +131,9 @@ Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye 
 [SetUp "1"]
 [FEN "8/4B3/8/8/4Q3/8/2r5/8 w - - 0 1"]
 
-*
+{ [%csl Ga8,Gb7,Gc6,Gd5,Gf5,Gg6,Gh7,Gh1,Gg2,Gf3,Gd3,Ga4,Gb4,Gc4,Gd4,Gf4,Gg4,Gh4,Ge5,Ge6,Ge3,Ge2,Ge1,Rc2] } *
 
-*Diyagram 1.7: e4'teki vezir a4-h4 yatayında, e1-e6 dikeyinde ve her iki çaprazında (a8, b7, c6, d5, f5, g6, h7 ile h1, g2, f3, d3) ilerleyebilir; c2'deki kaleyi alabilir. e7'deki beyaz fil kendi vezirinin yolunu e6'da keser.*
+*Diyagram 1.7*
 
 **AT**, bir köşesinde bulunduğu (2 x 3) boyutlarındaki dikdörtgenin diğer köşesine doğru bir sıçrama hareketi yapar (bu hareket bir L-harfine de benzetilebilir). Ayrıca at her renkten taşın üzerinden atlayabilir (Diyagram 1.8).
 
@@ -123,9 +141,9 @@ Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye 
 [SetUp "1"]
 [FEN "8/8/8/8/2b5/4N3/8/8 w - - 0 1"]
 
-*
+{ [%csl Gd5,Gf5,Gg4,Gc2,Gg2,Gd1,Gf1,Rc4] } *
 
-*Diyagram 1.8: e3'teki at d5, f5, g4, c2, g2, d1 ve f1 karelerine gidebilir; c4'teki siyah fili de alabilir.*
+*Diyagram 1.8*
 
 **PİYON**, yalnızca öne doğru ve tek bir kare ilerleyebilir, ancak söz konusu karenin boş olması gereklidir. Piyon yalnızca ön çaprazındaki iki karede bulunan taşları alabilir. İlerleme ve taş alma şekli farklı olan tek taş piyondur. Piyonlar ilk kez hareket ederken, yine önlerinin boş olması kaydıyla, bir yerine iki kare ilerleyebilirler. Örneğin Diyagram 1.9'da a2-karesinde bulunan piyon a3- ve a4-karelerinden birine gidebilir; f3-piyonu ise yalnızca f4'e gidebilir. c4-karesinde bulunan piyonun önü rakip at tarafından tıkanmış olduğu için düz ilerleyemez ama hemen ön çaprazında bulunan d5-filini alabilir.
 
@@ -133,7 +151,7 @@ Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye 
 [SetUp "1"]
 [FEN "8/8/8/2nb4/2P5/5P2/P7/8 w - - 0 1"]
 
-*
+{ [%csl Ga4,Ga3,Gf4,Rd5] } *
 
 *Diyagram 1.9*
 
@@ -143,9 +161,9 @@ Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye 
 [SetUp "1"]
 [FEN "8/8/8/8/8/5r2/4K3/8 w - - 0 1"]
 
-*
+{ [%csl Gd1,Gd2,Ge1,Gf3] } *
 
-*Diyagram 1.10: Beyaz şah e2'de, siyah kale f3'te.*
+*Diyagram 1.10*
 
 Şah, diğer taşlardan farklı olarak, tehdit altında bir kareye gidemez veya rakip taşların tehdidi altında bırakılamaz. Başka bir deyişle hamle sırasının sahibi olan oyuncu, rakibinin şahını alabiliyor durumda olmamalıdır. Eğer alabiliyor ise tahtadaki konum kurallara aykırıdır; tahtada kurallara aykırı bir konumun ortaya çıkmasına yol açan hamleye ise **KURALDIŞI HAMLE** denir.
 

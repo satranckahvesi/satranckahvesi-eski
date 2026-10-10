@@ -19,6 +19,9 @@ it scans the DOM once on load; `_includes/scripts.html` loads the site bundle fi
 - Switching the view stores the choice in `sessionStorage` and reloads the page, since a block cannot
   change element type after the scan. `view-state.js` also stores which block to scroll back to
   (`pgn-center-pending`) and turns off native scroll restoration until then.
+- A lone `[FEN]` header followed by a comment holding only `[%csl ...]` / `[%cal ...]` (`{ [%csl Ge5] [%cal Ge4b7] } *`)
+  is a static `<fen>` diagram with highlights and arrows, not a game: a `{` starts movetext, so without this rule
+  it became an empty `<pgn>` that rendered nothing. The comment is passed to `<fen>` as its last line.
 - `<puzzle>` renders a bare flipped diagram with no move list, so FEN headers with movetext become `<pgn>`.
 - A `[P]` marker makes a position a puzzle. Studies strip it (nobody expects a quiz mid-article); a puzzle
   opens in `<pgn-player>` and, if the first marker is on Black's move, gets `[Orientation "black"]`.
