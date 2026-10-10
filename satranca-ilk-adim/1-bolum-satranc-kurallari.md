@@ -4,6 +4,11 @@ date: 2026-10-10
 title: "Satranç kuralları"
 author: "Görkem Sivri"
 column: "Satranca İlk Adım"
+standalone: true
+permalink: /satranca-ilk-adim/1-bolum-satranc-kurallari/
+redirect_from:
+  - /posts/satranc-kurallari/
+  - /posts/1-bolum-satranc-kurallari/
 ---
 
 Satranç, iki kişi arasında sıra ile yapılan hamlelerle oynanan bir zekâ oyunudur. Oyun, **SATRANÇ TAHTASI** adı verilen bir zeminin üzerinde, **SATRANÇ TAŞLARI** denen taşlarla oynanır. Tahta ve taşlar birlikte **SATRANÇ TAKIMI** olarak adlandırılır.
@@ -398,4 +403,7 @@ Oyuncu oyun süresince üçüncü bir kişiden, bilgisayardan, basılı ve yazı
 
 ---
 
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının 1. bölümünün (Satranç kuralları) yazarın izniyle web sayfasına uyarlanmış hâlidir. Sonraki bölüm: Notasyon.*
+*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının 1. bölümünün (Satranç kuralları) yazarın izniyle web sayfasına uyarlanmış hâlidir.*
+
+Önceki bölüm: [Satranca ilk adım](/posts/satranca-ilk-adim/)<br>
+Sonraki bölüm: Notasyon

@@ -14,6 +14,7 @@ layout: default
     </div>
 </article>
 
+{% unless page.standalone %}
 {% assign other_column_posts = site.posts | where: "column", page.column | where_exp: "post", "post.url != page.url" %}
 {% assign other_author_posts = site.posts | where: "author", page.author | where_exp: "post", "post.url != page.url" %}
 
@@ -40,3 +41,4 @@ layout: default
     </ul>
 </div>
 {% endif %}
+{% endunless %}
