@@ -164,6 +164,17 @@ posts.each do |post|
   warnings << "_posts/#{File.basename(post.file)}: dated #{date_string(date)}, in the future; Jekyll will not publish it yet"
 end
 
+# ChessPublica rejects a [FEN] without all six fields (placement, side to move, castling, en passant,
+# clocks) and draws "invalid FEN string" in place of the diagram.
+(Dir.glob(File.join(ROOT, '_posts', '*.md')) + Dir.glob(File.join(ROOT, 'satranca-ilk-adim', '*.md'))).sort.each do |path|
+  File.foreach(path, encoding: 'UTF-8').with_index(1) do |line, number|
+    fen = line[/\A\[FEN\s+"([^"]*)"\]/, 1] or next
+    next if fen.split.size == 6
+
+    errors << "#{path.delete_prefix("#{ROOT}/")}:#{number}: FEN #{fen.inspect} must have six fields, e.g. \"#{fen.split.first} w - - 0 1\""
+  end
+end
+
 warnings.each { |w| warn "warning: #{w}" }
 
 if errors.empty?
