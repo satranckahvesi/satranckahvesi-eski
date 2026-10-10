@@ -169,7 +169,9 @@ Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye 
 
 Rakip şahın tehdit edilmesine **ŞAH ÇEKMEK** (ya da kış demek) denir.
 
-Şaha yöneltilen tehdit kurallara uygun hiç bir hamle yardımıyla engellenemiyorsa, şah için **MAT OLMUŞ** denir. Aşağıdaki diyagramlarda birkaç mat örneği gösterilmiştir (kitapta tahtanın yalnızca sağ üst köşesi gösterilir; burada da öyle).
+Şaha yöneltilen tehdit kurallara uygun hiç bir hamle yardımıyla engellenemiyorsa, şah için **MAT OLMUŞ** denir. Aşağıdaki diyagramlarda birkaç mat örneği gösterilmiştir.
+
+<div class="diagram-row" markdown="1">
 
 [Event "Mat örneği 1"]
 [SetUp "1"]
@@ -191,6 +193,8 @@ Rakip şahın tehdit edilmesine **ŞAH ÇEKMEK** (ya da kış demek) denir.
 [Crop "top-right-quarter"]
 
 *
+
+</div>
 
 ### 2c. Özel hareketler
 
@@ -314,6 +318,8 @@ Oyun aşağıdaki durumlarda beraberlikle biter:
 
 4b2. Hamle sırasına sahip olan oyuncu, şahı tehdit altında olmadığı halde, kurallara uygun hiçbir hamle yapamıyorsa (**PAT**, aşağıda hamle sırasının Siyahta olduğu birkaç pat örneği gösterilmiştir),
 
+<div class="diagram-row" markdown="1">
+
 [Event "Pat örneği 1"]
 [SetUp "1"]
 [FEN "7k/8/6Q1/8/8/8/8/K7 b - - 0 1"]
@@ -327,6 +333,10 @@ Oyun aşağıdaki durumlarda beraberlikle biter:
 [Crop "top-right-quarter"]
 
 *
+
+</div>
+
+<div class="diagram-row" markdown="1">
 
 [Event "Pat örneği 3"]
 [SetUp "1"]
@@ -342,7 +352,10 @@ Oyun aşağıdaki durumlarda beraberlikle biter:
 
 *
 
+</div>
+
 *Pat örnekleri*
+{: .diagram-caption}
 
 4b3. Oyuncular aralarında beraberlikte anlaşırlarsa.
 
