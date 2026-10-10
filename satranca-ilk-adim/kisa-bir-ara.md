@@ -42,7 +42,7 @@ Usta bir oyuncuya karşı oynadığınızda ilk dikkatinizi çekecek olan şeyle
 
 [Event "Alıştırma 1"]
 [SetUp "1"]
-[FEN "8/8/8/2K5/4n3/8/8/8"]
+[FEN "8/8/8/2K5/4n3/8/8/8 w - - 0 1"]
 
 *
 
@@ -50,7 +50,7 @@ Usta bir oyuncuya karşı oynadığınızda ilk dikkatinizi çekecek olan şeyle
 
 [Event "Alıştırma 2"]
 [SetUp "1"]
-[FEN "8/5k2/5P2/5K2/n7/8/8/B7"]
+[FEN "8/5k2/5P2/5K2/n7/8/8/B7 w - - 0 1"]
 
 *
 
@@ -58,7 +58,7 @@ Usta bir oyuncuya karşı oynadığınızda ilk dikkatinizi çekecek olan şeyle
 
 [Event "Alıştırma 3"]
 [SetUp "1"]
-[FEN "8/8/3PP3/8/1b6/8/8/8"]
+[FEN "8/8/3PP3/8/1b6/8/8/8 w - - 0 1"]
 
 *
 
@@ -66,7 +66,7 @@ Usta bir oyuncuya karşı oynadığınızda ilk dikkatinizi çekecek olan şeyle
 
 [Event "Alıştırma 4"]
 [SetUp "1"]
-[FEN "8/8/3PP3/8/8/8/6r1/8"]
+[FEN "8/8/3PP3/8/8/8/6r1/8 b - - 0 1"]
 
 *
 
@@ -76,7 +76,7 @@ Usta bir oyuncuya karşı oynadığınızda ilk dikkatinizi çekecek olan şeyle
 
 [Event "Atın ulaşabileceği kareler"]
 [SetUp "1"]
-[FEN "8/8/8/8/4n3/8/8/8"]
+[FEN "8/8/8/8/4n3/8/8/8 w - - 0 1"]
 
 { [%csl Gb7,Gd7,Gf7,Gh7,Ge6,Gb5,Gd5,Gf5,Gh5,Gc4,Gg4,Gb3,Gd3,Gf3,Gh3,Ge2,Gb1,Gd1,Gf1,Gh1,Yc7,Ye7,Yg7,Yb6,Yh6,Ye5,Yb4,Yd4,Yf4,Yh4,Ye3,Yb2,Yh2,Yc1,Ye1,Yg1,Rc6,Rg6,Rc2,Rg2] } *
 
@@ -86,7 +86,7 @@ Atın iki hamlede ulaşabileceği kareler (yeşil daireler) ile, üç hamlede ul
 
 [Event "Fil a4-atını yelpazeye alıyor"]
 [SetUp "1"]
-[FEN "8/5k2/5P2/5K2/n2B4/8/8/8"]
+[FEN "8/5k2/5P2/5K2/n2B4/8/8/8 b - - 0 1"]
 
 { [%csl Gb6,Gc5,Gc3,Gb2] } *
 
