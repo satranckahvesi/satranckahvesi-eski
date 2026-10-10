@@ -1,9 +1,10 @@
 ---
 layout: post
 date: 2026-10-10
-title: "Satranca İlk Adım, 1. Bölüm: Satranç kuralları"
+title: "1. Bölüm: Satranç kuralları"
 author: "Görkem Sivri"
 column: "Satranca İlk Adım"
+redirect_from: /posts/satranca-ilk-adim-1-bolum-satranc-kurallari/
 ---
 
 Satranç, iki kişi arasında sıra ile yapılan hamlelerle oynanan bir zekâ oyunudur. Oyun, **SATRANÇ TAHTASI** adı verilen bir zeminin üzerinde, **SATRANÇ TAŞLARI** denen taşlarla oynanır. Tahta ve taşlar birlikte **SATRANÇ TAKIMI** olarak adlandırılır.
