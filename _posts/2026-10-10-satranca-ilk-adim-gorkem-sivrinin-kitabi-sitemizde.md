@@ -2,7 +2,7 @@
 layout: post
 date: 2026-10-10
 title: "Satranca İlk Adım: Görkem Sivri'nin kitabı sitemizde"
-author: "Satranç Kahvesi"
+author: "Görkem Sivri"
 column: "Satranca İlk Adım"
 ---
 
