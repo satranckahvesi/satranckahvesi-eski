@@ -137,6 +137,21 @@
     border-bottom: 2px solid var(--ink);
 }
 
+/* A small table centered on the page: `{: .table-center}` on the line after it. Not scrollable, and
+   padded evenly on both sides so the columns sit in the middle of their cells. */
+
+.post-body table.table-center {
+    display: table;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-body table.table-center th,
+.post-body table.table-center td {
+    padding: 1rem clamp(0.5rem, 4vw, 2rem);
+}
+
 /* A wide <pre> scrolls on its own instead of widening the post column. */
 
 .post-body pre {
