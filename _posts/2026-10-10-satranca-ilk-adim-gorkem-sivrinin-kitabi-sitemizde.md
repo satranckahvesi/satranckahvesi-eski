@@ -29,14 +29,14 @@ Beşinci bölümden sonra, iki yarıyı birbirinden ayıran kısa bir "ara böl�
 
 ## Neden yayımlıyoruz?
 
-Türkçede yetişkinlere yönelik, sade ve ulaşılabilir bir başlangıç kaynağı bulmak hâlâ kolay değil. Sivri'nin kitabı bu boşluğu dolduran, üstelik yazarı tarafından serbestçe paylaşıma açılmış bir eser. Biz de bu kitabın daha fazla okura ulaşmasını, özellikle de telefonundan ya da bilgisayarından tahtayı açmadan, diyagramlarla birlikte okunabilmesini istedik. Yazarın iznini aldık; tüm yazılarda yazar adı olarak Görkem Sivri görünecek.
+Türkçede yetişkinlere yönelik, sade ve ulaşılabilir bir başlangıç kaynağı bulmak hâlâ kolay değil. Sivri'nin kitabı bu boşluğu dolduran, üstelik kaynak gösterilmek kaydıyla paylaşılabilen bir eser. Biz de bu kitabın daha fazla okura ulaşmasını, özellikle de telefonundan ya da bilgisayarından tahtayı açmadan, diyagramlarla birlikte okunabilmesini istedik. Yazarın iznini aldık; tüm yazılarda yazar adı olarak Görkem Sivri görünecek.
 
 ## Yayın şekli
 
-Metinler kitaptaki hâliyle, yazarın ifadelerine sadık kalınarak aktarılıyor. Değişen yalnızca biçim: sayfa düzeni web sayfasına, kitaptaki diyagramlar ise sitemizin etkileşimsiz tahta diyagramlarına dönüştürülüyor. Kitapta yıldızlarla işaretlenmiş kareler, ok ve çizgilerle gösterilen unsurlar ise yazının içinde metinle anlatılıyor.
+Metinler kitaptaki hâliyle, yazarın ifadelerine sadık kalınarak aktarılıyor. Değişen yalnızca biçim: sayfa düzeni web sayfasına, kitaptaki diyagramlar ise sitemizin etkileşimsiz tahta diyagramlarına dönüştürülüyor. Kitapta yıldızlarla işaretlenmiş kareler ve ok çizgileriyle gösterilen unsurlar ise tahta üzerinde daireler ve oklarla gösteriliyor.
 
 Yazıları sırayla okumanızı öneririz. Yazarın da belirttiği gibi, en azından notasyon bölümünün sonuna kadar dikkatli ilerlemek ve bunun ardından hemen tahta başında oynamaya başlamak en verimli yol.
 
-Orijinal kitabın tamamına, yazarın sitesinden [PDF olarak](https://www.analizsatranc.com/files/satrancailkadim.pdf) ulaşabilirsiniz.
+Orijinal kitabın tamamına, [Analiz Satranç](https://www.analizsatranc.com/) sitesinden [PDF olarak](https://www.analizsatranc.com/files/satrancailkadim.pdf) ulaşabilirsiniz.
 
 İlk bölümle başlıyoruz: [Satranç kuralları](/posts/satranca-ilk-adim-1-bolum-satranc-kurallari/).
