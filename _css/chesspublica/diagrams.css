@@ -81,7 +81,7 @@
 .post-body .board-crop {
     overflow: hidden;
     position: relative;
-    margin: 1rem 0;
+    margin: 1rem auto;
     width: 100%;
     max-width: var(--board-size);
     aspect-ratio: 2 / 1;
