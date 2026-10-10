@@ -10,6 +10,14 @@ Create `_posts/YYYY-MM-DD-title-slug.md`. The date and slug must match the front
 `column`. `author` and `column` must match the `archive_value` of a page under
 `yazarlar/` or `koseler/`. `bundle exec ruby scripts/check_content_links.rb` checks all of this.
 
+### Book chapters
+
+A book published chapter by chapter ("Satranca İlk Adım") is one post that opens it, and the other chapters are plain
+pages under `satranca-ilk-adim/` with `layout: post`, `standalone: true` and an explicit `permalink`. Pages are not in
+`site.posts`, so they stay off the home page, archives, feed and offline list, and `standalone` also drops the "other
+posts" lists under them. Each chapter ends with a `Sonraki bölüm: [title](url)` line (and `Önceki bölüm`), which is how
+readers move on. A chapter still needs `author` and `column` matching a stub under `yazarlar/` / `koseler/`.
+
 Image sizes need no attributes: the site reads each image's size from the file so lazy images reserve their space.
 
 Posts dated in the future are not published until that date.
