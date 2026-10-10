@@ -1,9 +1,10 @@
 ---
 layout: post
 date: 2026-10-10
-title: "Satranca İlk Adım: Önsöz ve giriş"
+title: "Önsöz ve giriş"
 author: "Görkem Sivri"
 column: "Satranca İlk Adım"
+redirect_from: /posts/satranca-ilk-adim-onsoz-ve-giris/
 ---
 
 ## Önsöz
@@ -51,4 +52,4 @@ Satranç takımı meselesini çözmenizin ardından kendinize sessiz bir köşe 
 
 ---
 
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının Önsöz ve Giriş bölümleridir. Kitabın tamamı [Analiz Satranç](https://www.analizsatranc.com/) sitesinde PDF olarak bulunabilir. Sonraki yazı: [Satranç kuralları](/posts/satranca-ilk-adim-1-bolum-satranc-kurallari/).*
+*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının Önsöz ve Giriş bölümleridir. Kitabın tamamı [Analiz Satranç](https://www.analizsatranc.com/) sitesinde PDF olarak bulunabilir. Sonraki yazı: [Satranç kuralları](/posts/1-bolum-satranc-kurallari/).*
