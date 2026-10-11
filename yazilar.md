@@ -5,7 +5,6 @@ permalink: /yazilar/
 ---
 
 <div id="yazilar">
-  <h2>Yazılar</h2>
   <ul class="post-list">
     {% assign all_posts = site.posts | sort: "date" | reverse %}
     {% for post in all_posts %}
