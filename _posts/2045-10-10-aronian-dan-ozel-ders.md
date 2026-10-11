@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2045-10-10
-title: "AVRO 1938: Aronian'dan Özel Ders"
+title: "Aronian'dan Özel Ders"
 author: "FM Nazmi Can Doğan"
 column: "Fragmanlar"
 ---
