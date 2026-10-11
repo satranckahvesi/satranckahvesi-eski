@@ -1,9 +1,9 @@
-{%- comment %} Artwork of the home page and of the menu pages (title: the name set on it, "Satranç Kahvesi" by default): a 3 x 3 board with four hatched squares in a checkerboard pattern. The two left squares of the
-    middle row and of the bottom row sit under a veil in the page colour (80%). It is drawn over the hatching and over the
-    vertical line between the two squares, but inside the frame, so the outer lines and the horizontal lines stay whole.
-    The logo icon is centred on the middle pair; the name (live text, Merriweather Black, one line or, when it has a
-    space, two) is over the bottom pair. Pure
-    vector, drawn in currentColor so it follows the light/dark theme. {% endcomment %}
+{%- comment %} Artwork of the home page and of the menu pages (title: the name set on it, "Satranç Kahvesi" by default): a 3 x 3
+    board with four hatched squares in a checkerboard pattern. The four squares at the bottom left (the left two of the
+    middle and bottom rows) sit under one 95% veil in the page colour, drawn over the hatching and over every line
+    inside and around those squares, so they show through only faintly. The logo icon is centred on the middle pair; the
+    name (live text, Merriweather Black, one line or, when it has a space, two) is over the bottom pair. Pure vector,
+    drawn in currentColor so it follows the light/dark theme. {% endcomment %}
 {%- assign art_title = include.title | default: "Satranç Kahvesi" -%}
 {%- assign art_words = art_title | split: " " -%}
 <svg class="home-art" viewBox="0 0 450 450" role="img" aria-label="{{ art_title }}" focusable="false">
@@ -22,10 +22,7 @@
         <rect x="0.8" y="0.8" width="448.4" height="448.4"/>
         <path d="M150 0V450M300 0V450M0 150H450M0 300H450"/>
     </g>
-    <g style="fill: var(--bg)" fill-opacity="0.8">
-        <rect x="1.6" y="150.8" width="297.6" height="148.4"/>
-        <rect x="1.6" y="300.8" width="297.6" height="148.4"/>
-    </g>
+    <rect x="0" y="149.2" width="300.8" height="300.8" style="fill: var(--bg)" fill-opacity="0.95"/>
     {%- include logo-icon.html class="home-art-logo" halo="home-art-halo" attrs='x="85" y="160" width="130" height="130"' %}
     <g fill="currentColor" font-size="60" style="font-family: var(--font-logo-serif); font-weight: 900">
         {%- if art_words.size > 1 %}
