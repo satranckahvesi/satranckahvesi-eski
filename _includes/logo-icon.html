@@ -1,7 +1,9 @@
 {%- comment %} Cup mark only (the same drawing as assets/img/favicon.svg), inlined so it follows the theme through
-    currentColor, which the favicon file cannot do when the theme is switched by hand. {% endcomment %}
+    currentColor, which the favicon file cannot do when the theme is switched by hand.
+    Optional: halo (mask id), class, attrs (extra attributes for the <svg>, e.g. x / y / width / height when it is nested
+    in another SVG). {% endcomment %}
 {%- assign halo = include.halo | default: "footer-logo-halo" -%}
-<svg class="{{ include.class | default: 'footer-logo' }}" viewBox="10 -44 620 620" fill="currentColor" aria-hidden="true" focusable="false">
+<svg class="{{ include.class | default: 'footer-logo' }}" viewBox="10 -44 620 620" {{ include.attrs }} fill="currentColor" aria-hidden="true" focusable="false">
     <defs>
         <mask id="{{ halo }}" maskUnits="userSpaceOnUse" x="0" y="-60" width="640" height="640">
             <rect x="0" y="-60" width="640" height="640" fill="#fff"/>
