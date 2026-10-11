@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-09-20
+date: 2046-09-20
 title: "AVRO 1938: Tarihin en güçlü turnuvası"
 author: "FM Nazmi Can Doğan"
 column: "Satranç tarihi"
