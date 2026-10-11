@@ -20,7 +20,7 @@
     if (refreshed || (post && standalone)) document.documentElement.classList.add('app-refreshing');
 })();
 </script>
-<title>{% if page.title and page.title != site.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<title>{% if page.title and page.title != site.title %}{{ site.title }} · {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 {%- comment %} Link previews (WhatsApp etc.) read og:title: prefix it with the site name on inner pages. {% endcomment %}
 {%- capture seo_tags %}{% seo title=false %}{% endcapture %}
 {%- if page.title and page.title != site.title %}
@@ -29,9 +29,21 @@
   {%- capture og_title_new %}<meta property="og:title" content="{{ site.title | escape_once }} · {{ og_title }}" />{% endcapture %}
   {%- assign seo_tags = seo_tags | replace: og_title_old, og_title_new %}
 {%- endif %}
+{%- comment %} The description of a post is its first paragraph, not the "originally published in..." note the SEO tag takes from the excerpt. {% endcomment %}
+{%- if page.layout == "post" %}
+  {%- capture intro %}{% include first-paragraph.html html=page.content %}{% endcapture %}
+  {%- if intro != "" %}
+    {%- assign old_description = page.description | default: page.excerpt | strip_html | normalize_whitespace | truncate: 200 %}
+    {%- assign new_description = intro | normalize_whitespace | truncate: 200 %}
+    {%- assign old_html = old_description | escape_once %}
+    {%- assign new_html = new_description | escape_once %}
+    {%- assign old_json = old_description | jsonify %}
+    {%- assign new_json = new_description | jsonify %}
+    {%- assign seo_tags = seo_tags | replace: old_html, new_html | replace: old_json, new_json %}
+  {%- endif %}
+{%- endif %}
 {{ seo_tags }}
 {% feed_meta %}
-{%- comment %} No og:image on purpose: without one, WhatsApp shows the PNG icon as a small side thumbnail instead of a large image card. {% endcomment %}
 <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/img/icon-192.png' | relative_url }}">
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
 <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">

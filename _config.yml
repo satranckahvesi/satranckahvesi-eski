@@ -1,6 +1,11 @@
 title: Satranç Kahvesi
 description: Kahve eşliğinde satranç sohbetleri
 lang: tr
+# The logo is the share image of every page (og:image, twitter:image) and the publisher logo in the structured data.
+logo: /assets/img/icon-512.png
+# The share image is a square logo: a small card beside the text, not a large banner.
+twitter:
+  card: summary
 baseurl: ""
 url: "https://satranckahvesi.com"
 google_analytics: G-EQR45VG5M7
@@ -42,3 +47,13 @@ exclude:
 
 # Leading chess titles that are not part of a person's name (author initials).
 chess_titles: [FM, GM, IM, CM, WFM, WGM, WIM, WCM, NM, AGM, AIM]
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/img/icon-512.png
+        width: 512
+        height: 512
+        alt: Satranç Kahvesi logosu

@@ -1,0 +1,7 @@
+{%- comment -%}
+  The text of the first paragraph (<p>) of rendered HTML, without tags: notes and headings that open a post are not
+  paragraphs, so they are skipped. The AVRO post's raw "[^*]" footnote marker is dropped.
+    html: rendered HTML, e.g. post.content
+{%- endcomment -%}
+{%- assign first_paragraph = include.html | split: "<p>" | slice: 1 | first | split: "</p>" | first | strip_html | normalize_whitespace | replace: "[^*]", "" | strip -%}
+{{- first_paragraph -}}
