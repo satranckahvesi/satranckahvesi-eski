@@ -92,10 +92,12 @@
     margin: 0 0 1em;
 }
 
-/* Drop cap on the opening paragraph (or the one after the note above). */
+/* Drop cap on the opening paragraph (or the one after the note above), and on the intro of a menu page that opens
+   with a paragraph (Hakkında). */
 
 .post-body > p:first-child::first-letter,
-.post-body > h6:first-child + p::first-letter {
+.post-body > h6:first-child + p::first-letter,
+.split-main > p:first-child::first-letter {
     float: left;
     font-weight: bold;
     font-size: 3.4em;
