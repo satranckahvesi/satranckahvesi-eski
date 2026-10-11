@@ -31,7 +31,7 @@ html {
 }
 
 @media (min-width: 64em) {
-    :root { --column: 50rem; }
+    :root { --column: 56rem; }
 }
 
 /* Dark palette: the head script (_includes/head.html) always sets data-theme
