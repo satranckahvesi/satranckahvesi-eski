@@ -144,15 +144,16 @@
 
 #yazilar .post-list-body > a {
     font-size: var(--brand-size);
-    line-height: 1.2;
+    line-height: 40px;
 }
 
-/* The gap under the column name is wider than the one between the title and its author line (the
-   .post-list-body gap): the column name's descenders (ç, y) and the capitals of the line below eat
-   into the visible space, and these two values make the two visible gaps equal (about 17.5px). */
+/* On the home page the three lines (column name, title, author / date) touch: no gap between their
+   line boxes, so a text selection shows no whitespace between them. Line heights are whole pixels
+   (23 / 40 / 23) so that rounding cannot open a hairline between the boxes. */
 
-#yazilar .post-list li {
-    gap: 0.55rem;
+#yazilar .post-list li,
+#yazilar .post-list-body {
+    gap: 0;
 }
 
 /* The column name above each title and the author / date line below it are as large as the menu text. */
@@ -160,6 +161,7 @@
 #yazilar .post-list li > .post-list-meta,
 #yazilar .post-list-body > .post-list-meta {
     font-size: var(--nav-size);
+    line-height: 23px;
 }
 
 .post-list-meta {
