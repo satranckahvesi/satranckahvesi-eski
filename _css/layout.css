@@ -110,7 +110,7 @@
         flex-basis: auto;
         flex-direction: row;
         gap: 0.75rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
         /* Puts the link text's baseline on the same line as the name's (see .masthead-name):
            the drawing's base (0.1008 of the icon size up), less the 0.2251em under the baseline. */
         margin-bottom: calc(var(--logo-size) * 0.1008 - 0.2251em);
@@ -214,7 +214,8 @@
    measurement, not by browser baseline alignment: browsers disagree on where a replaced element's
    baseline is, but a text box's baseline offset is fixed by its font. The drawing ends 62.5 of
    the icon's 620 units above the bottom of its box (0.1008 of the icon size); in the name's line box
-   (line-height 1.2) the baseline is 0.2689em above the bottom. Anything else on the header's
+   (line-height 1.2) the baseline is 0.2419em above the bottom (measured at 1.45rem; the figure drifts a little with
+   the size, because the face's metrics are rounded). Anything else on the header's
    row is lifted the same way. */
 
 .masthead-name {
@@ -223,7 +224,7 @@
     font-size: var(--brand-size);
     line-height: 1.2;
     white-space: nowrap;
-    margin-bottom: calc(var(--logo-size) * 0.1008 - 0.2689em);
+    margin-bottom: calc(var(--logo-size) * 0.1008 - 0.2419em);
 }
 
 .section {
