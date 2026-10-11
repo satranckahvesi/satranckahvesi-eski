@@ -139,6 +139,13 @@
     border-bottom: none;
 }
 
+/* Home page titles are as large as the masthead name. */
+
+#yazilar .post-list li > a {
+    font-size: var(--brand-size);
+    line-height: 1.2;
+}
+
 .post-list-meta {
     color: var(--muted);
     font-family: var(--font-mono);

@@ -218,7 +218,7 @@
 .masthead-name {
     font-family: var(--font-logo-serif);
     font-weight: 900;
-    font-size: 1.85rem;
+    font-size: var(--brand-size);
     line-height: 1.2;
     white-space: nowrap;
     margin-bottom: calc(0.4536rem - 0.2088em);
