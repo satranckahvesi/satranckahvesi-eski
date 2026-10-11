@@ -33,10 +33,13 @@
     text-align: left;
 }
 
-/* The part of a title before its colon, on a line of its own at half the size of the rest. */
+/* The part of a title before its colon, on a line of its own at half the size of the rest, in the mono face like the
+   author line below. PT Mono has Regular only, so it is not bold (a bold title would fake one). */
 
 .title-lead {
     display: block;
+    font-family: var(--font-mono);
+    font-weight: normal;
     font-size: 0.5em;
     line-height: 1.4;
 }

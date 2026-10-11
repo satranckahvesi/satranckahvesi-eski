@@ -28,14 +28,15 @@
 /* Köşeler page: a small board. Each column is a square of a ruled grid, like the home page artwork: its name
    and how many posts it holds; hovering fills the square with the artwork's diagonal hatching. */
 
-/* The board is as wide as its widest square needs (max-content), and every column is as wide as that
-   square (1fr tracks in a max-content grid come out equal), so the squares fit their text and match.
-   It has no more tracks than squares (koseler/index.md sets --board-cols, at most 2, and --board-cols-wide,
-   at most 3): an empty track would stretch the top rule past the last square. */
+/* Every square is the size of one square of the home page artwork. That artwork is a third of the split's width
+   less its gap (see .split), and a square is a third of that; below 52em, where the artwork is hidden, a fixed size.
+   The board has no more tracks than squares (koseler/index.md sets --board-cols, at most 2, and --board-cols-wide, at
+   most 3): an empty track would stretch the top rule past the last square. */
 
 .section ul.board-list {
+    --board-cell: 7rem;
     display: grid;
-    grid-template-columns: repeat(var(--board-cols, 2), 1fr);
+    grid-template-columns: repeat(var(--board-cols, 2), var(--board-cell));
     width: max-content;
     max-width: 100%;
     gap: 0;
@@ -45,11 +46,21 @@
 
 @media (min-width: 40em) {
     .section ul.board-list {
-        grid-template-columns: repeat(var(--board-cols-wide, 3), 1fr);
+        grid-template-columns: repeat(var(--board-cols-wide, 3), var(--board-cell));
     }
 }
 
+@media (min-width: 52em) {
+    .section ul.board-list {
+        --board-cell: calc((min(var(--column), 100vw - 2rem) - 2rem) / 9);
+    }
+}
+
+/* A square is a size container: the name and the count are sized by its width (cqw), so they fit it at any size. */
+
 .board-list li {
+    aspect-ratio: 1;
+    container-type: inline-size;
     border-right: 1.5px solid var(--ink);
     border-bottom: 1.5px solid var(--ink);
 }
@@ -58,11 +69,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 0.5rem;
     height: 100%;
-    min-height: 6.5rem;
     box-sizing: border-box;
-    padding: 0.9rem 1rem;
+    padding: 8cqw;
     border-bottom: none;
 }
 
@@ -73,14 +83,16 @@
 
 .board-name {
     font-weight: bold;
-    font-size: 1.15rem;
-    line-height: 1.25;
+    font-size: clamp(0.62rem, 12cqw, 1.15rem);
+    line-height: 1.2;
+    hyphens: auto;
+    overflow-wrap: anywhere;
 }
 
 .board-count {
     color: var(--muted);
     font-family: var(--font-mono);
-    font-size: var(--nav-size);
+    font-size: clamp(0.65rem, 10cqw, var(--nav-size));
 }
 
 /* Yazarlar page: round initials above the name. */
