@@ -152,3 +152,22 @@
 }
 
 .post-list-meta a:hover { border-bottom: none; }
+
+/* From 52em the home page's post feed is the left, 3fr track of a 3fr / 2fr grid (the right track is
+   left empty), and the feed scrolls on its own so its scrollbar sits at that column's right edge. */
+
+@media (min-width: 52em) {
+    #yazilar {
+        display: grid;
+        grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+        column-gap: 2rem;
+    }
+
+    #yazilar .post-list {
+        max-height: 75vh;
+        overflow-y: auto;
+        padding-right: 1.5rem;
+        scrollbar-width: thin;
+        scrollbar-color: var(--muted) transparent;
+    }
+}
