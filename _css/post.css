@@ -44,6 +44,18 @@
     line-height: 1.4;
 }
 
+/* The colon ends the first line of a title in the text but is not drawn: visually hidden, so it is still read out and
+   still copied with the title. */
+
+.title-colon {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
 .post-meta {
     text-align: left;
     color: var(--muted);

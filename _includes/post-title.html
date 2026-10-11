@@ -1,11 +1,12 @@
 {%- comment -%}
   A post title, broken into two lines after its first ": " (colon and space): the part up to and including the colon is
-  a block-level .title-lead set at half the size of the rest. The space after the colon stays in the text for readers.
+  a block-level .title-lead set at half the size of the rest. The colon and the space after it stay in the text (copying,
+  screen readers) but are not shown (.title-colon).
     title: the title
 {%- endcomment -%}
 {%- assign title_parts = include.title | split: ": " -%}
 {%- if title_parts.size > 1 -%}
-  <span class="title-lead">{{ title_parts[0] }}: </span>{{ include.title | remove_first: title_parts[0] | remove_first: ": " -}}
+  <span class="title-lead">{{ title_parts[0] }}<span class="title-colon">: </span></span>{{ include.title | remove_first: title_parts[0] | remove_first: ": " -}}
 {%- else -%}
   {{- include.title -}}
 {%- endif -%}

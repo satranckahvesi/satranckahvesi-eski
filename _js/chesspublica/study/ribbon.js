@@ -1,11 +1,12 @@
 import { stepStudy } from './keyboard.js';
 
-const chevron = (points) =>
-  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="${points}"/></svg>`;
+// Lucide's circle-arrow-left / circle-arrow-right, like the ribbon's other icons.
+const circleArrow = (paths) =>
+  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/>${paths}</svg>`;
 
 const NAV_BUTTONS = [
-  { dir: 'prev', label: 'Bir hamle geri', icon: chevron('15 6 9 12 15 18') },
-  { dir: 'next', label: 'Bir hamle ileri', icon: chevron('9 6 15 12 9 18') }
+  { dir: 'prev', label: 'Bir hamle geri', icon: circleArrow('<path d="m12 8-4 4 4 4"/><path d="M16 12H8"/>') },
+  { dir: 'next', label: 'Bir hamle ileri', icon: circleArrow('<path d="M8 12h8"/><path d="m12 16 4-4-4-4"/>') }
 ];
 
 // ChessPublica exposes no stable hook for individual ribbon buttons, so they
