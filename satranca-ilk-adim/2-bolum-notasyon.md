@@ -3,7 +3,7 @@ layout: post
 date: 2026-10-10
 title: "Notasyon"
 author: "Görkem Sivri"
-column: "Başlangıç Düzeyi"
+column: "Başlangıç düzeyi"
 standalone: true
 permalink: /satranca-ilk-adim/2-bolum-notasyon/
 ---

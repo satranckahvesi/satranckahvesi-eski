@@ -3,7 +3,7 @@ layout: post
 date: 2026-10-10
 title: "Taşlar hakkında"
 author: "Görkem Sivri"
-column: "Başlangıç Düzeyi"
+column: "Başlangıç düzeyi"
 standalone: true
 permalink: /satranca-ilk-adim/5-bolum-taslar-hakkinda/
 ---
