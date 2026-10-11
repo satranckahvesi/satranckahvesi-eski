@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aronian'dan Değişmeli Caro-Kann dersi"
-date: 2022-02-26
+date: 2042-02-26
 author: "FM Nazmi Can Doğan"
 column: "Analizli oyunlar"
 redirect_from: /posts/aronian-dan-degismeli-caro-kann-dersi/
