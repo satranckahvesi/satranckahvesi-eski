@@ -101,11 +101,9 @@
 
 /* The title is the brand mark, not prose: no hover underline. */
 
-/* The logo is not tied to the 42rem content column: it sits flush left in the full-bleed header,
-   so only the header's 1rem side padding separates it from the viewport edge. */
-
 .masthead {
-    margin: 3.5rem 0 0;
+    max-width: 42rem;
+    margin: 3.5rem auto 0;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -149,7 +147,7 @@
 
 .masthead-name {
     font-family: var(--font-logo-serif);
-    font-weight: 600;
+    font-weight: 900;
     font-size: 1.85rem;
     line-height: 1.2;
     white-space: nowrap;
