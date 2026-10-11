@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{%- comment -%}
+  A menu page in two columns (see .split in _css/archive.css): the page's content on the left, the home page
+  artwork on the right with the page's title set on it.
+{%- endcomment -%}
+<div class="section split">
+  <div class="split-main">
+    {{ content }}
+  </div>
+  {% include home-art.html title=page.title %}
+</div>
