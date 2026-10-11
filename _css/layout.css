@@ -143,6 +143,39 @@
     }
 }
 
+/* Below 52em the header is one row: the logo and name at the left, the icon buttons at the right (the nav wrapper
+   dissolves, as from 64em, so its buttons and links become items of the header). The buttons drop to a row of their
+   own, still at the right, only when the row is too narrow for them; the links of the open menu are a column under
+   them. The header's side padding follows the content column, like from 64em. */
+
+@media (max-width: 51.99em) {
+    .site-header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem 0.85rem;
+        padding-inline: max(1rem, calc((100vw - var(--column)) / 2));
+        padding-top: 1rem;
+    }
+
+    .site-nav { display: contents; }
+
+    .site-header .masthead {
+        order: 1;
+        margin: 0;
+    }
+
+    .nav-tools {
+        order: 2;
+        margin-left: auto;
+    }
+
+    .nav-links {
+        order: 4;
+        flex-basis: 100%;
+    }
+}
+
 /* The app's refresh button (shown only in the installed app) sits left of the theme button. */
 
 .nav-tools {
