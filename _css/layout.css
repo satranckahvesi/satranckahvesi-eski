@@ -93,6 +93,9 @@
         display: flex;
         align-items: flex-end;
         padding-inline: max(1rem, calc((100vw - var(--column)) / 2));
+        /* 1rem from the top of the page to the top of the drawing: the icon's box has 63 of its 620
+           units (0.4573rem at 4.5rem) of empty space above the steam. */
+        padding-top: calc(1rem - 0.4573rem);
     }
 
     .site-nav { display: contents; }
@@ -100,7 +103,7 @@
     /* .masthead is defined further down, so this needs the extra specificity to win. */
     .site-header .masthead {
         order: 1;
-        margin: 2rem 0 0;
+        margin: 0;
     }
 
     .nav-links {
@@ -116,7 +119,7 @@
 
     .nav-tools {
         position: absolute;
-        top: 1.5rem;
+        top: 1rem;
         right: 1rem;
     }
 }
@@ -218,7 +221,7 @@
 .masthead-name {
     font-family: var(--font-logo-serif);
     font-weight: 900;
-    font-size: 1.85rem;
+    font-size: var(--brand-size);
     line-height: 1.2;
     white-space: nowrap;
     margin-bottom: calc(0.4536rem - 0.2088em);
