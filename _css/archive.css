@@ -146,6 +146,12 @@
     line-height: 1.2;
 }
 
+/* The column name above each title is as large as the menu text. */
+
+#yazilar .post-list li > .post-list-meta:first-child {
+    font-size: var(--nav-size);
+}
+
 .post-list-meta {
     color: var(--muted);
     font-family: var(--font-mono);
