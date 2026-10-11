@@ -283,6 +283,14 @@
    margin inside its box, so the copyright line needs more than the plain gap to look as far away. */
 .footer-copy { margin-top: 0.825rem; }
 
+/* The logo and the name are the brand mark, like the masthead's: no underline, not even on hover (a:hover would
+   bring it back over .no-underline). */
+
+.footer-brand-link,
+.footer-brand-link:hover {
+    border-bottom: none;
+}
+
 .footer-brand-link {
     display: inline-flex;
     align-items: center;
