@@ -214,7 +214,7 @@
    measurement, not by browser baseline alignment: browsers disagree on where a replaced element's
    baseline is, but a text box's baseline offset is fixed by its font. The drawing ends 62.5 of
    the icon's 620 units above the bottom of its box (0.4536rem at 4.5rem); in the name's line box
-   (line-height 1.2) the baseline is 0.2088em above the bottom. Anything else on the header's
+   (line-height 1.2) the baseline is 0.2689em above the bottom. Anything else on the header's
    row is lifted the same way. */
 
 .masthead-name {
@@ -223,7 +223,7 @@
     font-size: var(--brand-size);
     line-height: 1.2;
     white-space: nowrap;
-    margin-bottom: calc(0.4536rem - 0.2088em);
+    margin-bottom: calc(0.4536rem - 0.2689em);
 }
 
 .section {
@@ -302,6 +302,7 @@
 
 .footer-brand-name {
     font-family: var(--font-logo-serif);
+    font-weight: 900;
     font-size: 1.5rem;
     line-height: 1.3;
 }

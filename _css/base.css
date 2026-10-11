@@ -15,8 +15,8 @@ html {
     --font-serif: 'Merriweather', Georgia, 'Times New Roman', serif;
     /* PT Mono ships Regular only: use it where text is neither bold nor italic. */
     --font-mono: 'PT Mono', ui-monospace, Menlo, Consolas, monospace;
-    /* Display face for the masthead logo only. */
-    --font-logo-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    /* Face of the logo name: Merriweather, set in Black (900) where it is used. */
+    --font-logo-serif: 'Merriweather', Georgia, 'Times New Roman', serif;
     /* Menu text size; the column names above the home page titles match it. */
     --nav-size: 0.85rem;
     /* Size of the masthead name; the home page's post titles match it. */
