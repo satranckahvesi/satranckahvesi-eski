@@ -3,7 +3,7 @@ layout: post
 date: 2026-10-10
 title: "Satranca ilk adım"
 author: "Görkem Sivri"
-column: "Satranca İlk Adım"
+column: "Başlangıç Düzeyi"
 redirect_from:
   - /posts/onsoz-ve-giris/
   - /posts/satranca-ilk-adim-onsoz-ve-giris/

@@ -3,7 +3,7 @@ layout: post
 date: 2026-10-10
 title: "Oyunsonları"
 author: "Görkem Sivri"
-column: "Satranca İlk Adım"
+column: "Başlangıç Düzeyi"
 standalone: true
 permalink: /satranca-ilk-adim/8-bolum-oyunsonlari/
 ---
