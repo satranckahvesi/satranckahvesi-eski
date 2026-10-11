@@ -10,7 +10,7 @@
     <span class="post-list-meta"><a href="{% include column-url.html name=post.column %}">{{ post.column }}</a></span>
     {%- endif %}
     <div class="post-list-body">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}">{% include post-title.html title=post.title %}</a>
         <span class="post-list-meta">
             {%- case include.meta %}
             {%- when "author_column" %}
