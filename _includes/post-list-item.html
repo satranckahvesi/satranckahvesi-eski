@@ -2,13 +2,9 @@
   One <li> of a post list.
     post:        the post
     meta:        what follows the title: "author_column", "author" or "column"
-    lead_column: true to print the column name before the title
 {%- endcomment -%}
 {%- assign post = include.post -%}
 <li>
-    {%- if include.lead_column %}
-    <span class="post-list-meta"><a href="{% include column-url.html name=post.column %}">{{ post.column }}</a></span>
-    {%- endif %}
     <div class="post-list-body">
         <a href="{{ post.url | relative_url }}">{% include post-title.html title=post.title %}</a>
         <span class="post-list-meta">

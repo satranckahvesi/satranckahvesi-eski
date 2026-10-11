@@ -6,7 +6,7 @@ layout: default
   <ul class="post-list">
     {% assign all_posts = site.posts | sort: "date" | reverse %}
     {% for post in all_posts %}
-    {% include post-list-item.html post=post meta="author" lead_column=true %}
+    {% include post-list-item.html post=post meta="author_column" %}
     {% endfor %}
   </ul>
   {% include home-art.html %}
