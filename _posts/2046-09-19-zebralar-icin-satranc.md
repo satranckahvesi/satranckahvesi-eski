@@ -91,11 +91,11 @@ umduğum-- türden bir "sihirli formülü" yok. Tam tersine her şeyin kesin old
 ilerleme sayıyor. Bunu ise her bölüm için iyi seçilmiş, bazıları yazarın kendisi tarafından
 oynanmış partilerle örnekliyor.
 
-"Oyuncunun gücü arttıkça, kendisine bir konumda ne olduğu sorulduğunda daha büyük
-ihtimalle 'bilmiyorum' diyerek başlayacaktır."
+> "Oyuncunun gücü arttıkça, kendisine bir konumda ne olduğu sorulduğunda daha büyük
+> ihtimalle 'bilmiyorum' diyerek başlayacaktır."
 
-"Satranca, 'bilmiyorum, düşünelim' zihniyeti ile yaklaşmak, 'bu böyle ve bunu
-kanıtlayacağım' şeklinde yaklaşmaktan çok daha akıllıcadır."
+> "Satranca, 'bilmiyorum, düşünelim' zihniyeti ile yaklaşmak, 'bu böyle ve bunu
+> kanıtlayacağım' şeklinde yaklaşmaktan çok daha akıllıcadır."
 
 Aynı yaklaşımla, "atak bir oyuncuyum", "konumsal oynamayı severim", "hesap yapmam, sezgilerimle oynarım" gibi yaklaşımlarla oyuncunun kendi tarzına ve hamlelerine sınırlar çizmesini, onun satrancının gelişimi önündeki en büyük engellerden biri olarak
 görüyor ve kitabın her bölümüne özenle seçilerek konmuş epigraflarından Karpov'a ait olan sözüyle bunu açıklıyor. "Tarz mı? Benim bir tarzım yok." Burada söylenmek istenen "oyuncunun bir tarzı olmamalı" değil, bu yaklaşımın oyuncunun oynadığı oyuna damga vurması, hamleleri üzerinde etkiye sahip olmasıdır elbette. Karpov'un kendi stili üzerine böyle düşünmesi onun bir tarza sahip olmadığını gösterir mi? Kitap boyunca konuya eşlik eden örneklerde kendi partilerini, oynarkenki düşüncelerini ve hissettiklerini içten (belki de aşırı içten!) bir şekilde paylaşması kitabın en büyük artılarından. Şimdi ilk bölümün kaba bir özeti sayılabilecek bir kısmını paylaşmak istiyorum. Bir satranç kitabında içtenliğiyle böylesine beni yakalayan ve söyledikleriyle bana ayna tutan başka bir bölüm hatırlamıyorum. Sözünü ettiğim, Hikâye Uydurma (Fabulation) alt başlığında Rowson'ın yakın zamanda hayata gözlerini yuman Viktor Korchnoi ile karşılaşmasıdır.
@@ -155,41 +155,43 @@ kontrolüm bulunmuyor. Oldukça iyi direndim, tam sorunlarımı çözmeye
 başlar gibiyken, derince düşündü ve yıkıcı taktiklerin pimini çekti. } 19. e3 O-O-O 20. Be2 Nc5 21. O-O Ne4 22. Qc2 Rd6 23. Bd4 Re8 24. Ne5 f6 25. Nd3 Rc6 26. Qd1 Qa5 27. b4 Qa2 28. Nc5 a6 29. Nxe4 dxe4 30. b5 Rc2 31. bxa6 c5 (31... Rxe2 32. a7 Kd7 33. Bb2+ { varyantı Korchnoi'un dehasının hoş bir
 örneğidir. }) 32. axb7+ Kb8 33. Bxf6 Rd2 34. Bc4 Rxd1 35. Bxa2 Rxf1+ 36. Kxf1 Kxb7 37. Bf7 Rf8 38. Bd5+ Kb6 39. Bc3 Kb5 40. Bxe4 Kc4 41. Be5 Re8 42. f4 Kb3 43. Ke2 Rd8 44. g4 c4 45. f5 gxf5 46. gxf5 c3 47. Bd4 Rc8 48. Bd5+ Kb4 49. Kd1 1-0
 
-"Korchnoi ile oynamak çok özel bir durum, hele onunla daha önce hiç
-oynamadıysanız. Böylesine sıra dışı bir oyundan ve oyun sonrası analizinden sonra, pek çok
-insan bana bu tecrübeyi sormak istedi. Benim açıklamam şu şekildeydi: Düzensiz bir açılış
-oynadı, yanıt olarak biraz fazla yaratıcı oynadım ve sonradan gaf olduğu ortaya çıkan zekice
-bir hamle yaptım... Bu açıklamayı birkaç kez yaptığımı ve 11... Qf6 hamlesinden söz ettiğimi
-hatırlıyorum. Daha sonra dinleyenlerden "Ya! Demek 12.d5 hamlesini kaçırdın!" diyerek araya
-girenlere çabucak "Hayır, 12. d5'i gördüm fakat d5'i iki kez alabildiğini görmedim" yanıtını
-verdim. **Bu kulağa makul geliyor, fakat aslında, tamamen yalan.**
+> "Korchnoi ile oynamak çok özel bir durum, hele onunla daha önce hiç
+> oynamadıysanız. Böylesine sıra dışı bir oyundan ve oyun sonrası analizinden sonra, pek çok
+> insan bana bu tecrübeyi sormak istedi. Benim açıklamam şu şekildeydi: Düzensiz bir açılış
+> oynadı, yanıt olarak biraz fazla yaratıcı oynadım ve sonradan gaf olduğu ortaya çıkan zekice
+> bir hamle yaptım... Bu açıklamayı birkaç kez yaptığımı ve 11... Qf6 hamlesinden söz ettiğimi
+> hatırlıyorum. Daha sonra dinleyenlerden "Ya! Demek 12.d5 hamlesini kaçırdın!" diyerek araya
+> girenlere çabucak "Hayır, 12. d5'i gördüm fakat d5'i iki kez alabildiğini görmedim" yanıtını
+> verdim. **Bu kulağa makul geliyor, fakat aslında, tamamen yalan.**
+>
+> Belki de kendime karşı fazla acımasızım ve belki buna kendini kandırma demek daha adildir.
+> Sanıyorum bu hikâyeyi ilk söylediğimde egomu korumak ve bu oyunun özel durumunu
+> muhafaza etmek istiyordum. Yaşayan efsaneye karşı oyunun böylesine erken bölümünde
+> acemice bir gafla kaybettiğim fikrine isyan ediyordum. Bunun yerine, oyun hakkında kulağa
+> daha anlamlı gelen bir hikâye anlattım.
+>
+> Bu hikâye şunu demek istiyordu: O yaratıcıydı ve ben de yaratıcıydım. Ama ben o kadar
+> yaratıcıydım ki kendimi kaptırdım ve onun anahtar hamlesini görmeme rağmen (çünkü, hey,
+> ben bir Büyükustayım), devamını kaçırdım (çünkü, hey, kimse mükemmel değil).
+> Bu hikâye uydurmada (_fabulation_) beni en çok vuran şey, üçüncü ya da dördüncü kez
+> olayların bu versiyonunu anlattığımda **artık kendim de böyle olduğuna inanmaya başladım**!
+> O akşam kız arkadaşımla konuştuğumda dahi benzer şeyler söyledim. Ama oyunu
+> bilgisayara verdiğimde basitçe 12. d5 hamlesini kaçırdığım gerçeğiyle yüzleştim. Hamleyi
+> görmüştüm fakat yalnızca 11... Qf6 hamlesini oynadıktan *sonra*. 11... Qf6 hamlesini
+> oynadıktan hemen sonra 12. d5 hamlesinin o kadar ciddi olmadığını (rahatlama) hissettim fakat sonra 14. Rxd5 (of!) hamlesini gördüm, muhtemelen oyunun kalanında özgüvenimi sağlam tutmak için kendime kaçırdığım şeyin bu olduğunu söyledim.
+>
+> Şimdi bu itirafı okuyucuların kendilerine karşı daha dürüst olmaları için cesaretlenmeleri
+> amacıyla paylaşıyorum. Kendini kandırma, neredeyse tanımı gereği, çok aldatıcı bir olgudur
+> fakat inanıyorum ki bu bizim tecrübelerimizi hikâyeleştirme eğilimimizle yakından ilişkilidir.
+> Tecrübelerimiz çoğu defa tutarsız ve benlik algımızı tehdit edici olduğunda, tutarlı ya da ilgi
+> çeken hikâyeler yaratacak şekilde evrimleşmemiz anlamlı görünüyor."
 
-Belki de kendime karşı fazla acımasızım ve belki buna kendini kandırma demek daha adildir.
-Sanıyorum bu hikâyeyi ilk söylediğimde egomu korumak ve bu oyunun özel durumunu
-muhafaza etmek istiyordum. Yaşayan efsaneye karşı oyunun böylesine erken bölümünde
-acemice bir gafla kaybettiğim fikrine isyan ediyordum. Bunun yerine, oyun hakkında kulağa
-daha anlamlı gelen bir hikâye anlattım.
+Uzunca bir bölümünü alıntıladığım yazımı kitabın en güzel tavsiyelerinden birisiyle bitiriyorum:
 
-Bu hikâye şunu demek istiyordu: O yaratıcıydı ve ben de yaratıcıydım. Ama ben o kadar
-yaratıcıydım ki kendimi kaptırdım ve onun anahtar hamlesini görmeme rağmen (çünkü, hey,
-ben bir Büyükustayım), devamını kaçırdım (çünkü, hey, kimse mükemmel değil).
-Bu hikâye uydurmada (_fabulation_) beni en çok vuran şey, üçüncü ya da dördüncü kez
-olayların bu versiyonunu anlattığımda **artık kendim de böyle olduğuna inanmaya başladım**!
-O akşam kız arkadaşımla konuştuğumda dahi benzer şeyler söyledim. Ama oyunu
-bilgisayara verdiğimde basitçe 12. d5 hamlesini kaçırdığım gerçeğiyle yüzleştim. Hamleyi
-görmüştüm fakat yalnızca 11... Qf6 hamlesini oynadıktan *sonra*. 11... Qf6 hamlesini
-oynadıktan hemen sonra 12. d5 hamlesinin o kadar ciddi olmadığını (rahatlama) hissettim fakat sonra 14. Rxd5 (of!) hamlesini gördüm, muhtemelen oyunun kalanında özgüvenimi sağlam tutmak için kendime kaçırdığım şeyin bu olduğunu söyledim.
-
-Şimdi bu itirafı okuyucuların kendilerine karşı daha dürüst olmaları için cesaretlenmeleri
-amacıyla paylaşıyorum. Kendini kandırma, neredeyse tanımı gereği, çok aldatıcı bir olgudur
-fakat inanıyorum ki bu bizim tecrübelerimizi hikâyeleştirme eğilimimizle yakından ilişkilidir.
-Tecrübelerimiz çoğu defa tutarsız ve benlik algımızı tehdit edici olduğunda, tutarlı ya da ilgi
-çeken hikâyeler yaratacak şekilde evrimleşmemiz anlamlı görünüyor."
-
-Uzunca bir bölümünü alıntıladığım yazımı kitabın en güzel tavsiyelerinden birisiyle bitiriyorum: "Daha iyi oyuncu olmak istiyorsanız daha iyi alışkanlıklara sahip olmak gerekir ve daha iyi alışkanlıklar antrenman ile gelişir. En iyi antrenman, güç kararlar için
-kendinizi sorumluluk almaya zorladığınızda, sizi konfor alanınızın dışına çıkmaya itendir. (...)
-Sonuçlarımızı geliştirmenin en kesin yolunun evde kompleks örnekler çözmekten geçtiğini
-düşünüyorum. Bunu olabildiğince sık, uzun vadeli ve disiplinli bir şekilde yapmalı. Bu konsantre olmayı alışkanlığa çevirmede yardımcı olacak ve oyunlarımızın kritik konumlarında konsantre olmayı kolaylaştıracaktır."
+> "Daha iyi oyuncu olmak istiyorsanız daha iyi alışkanlıklara sahip olmak gerekir ve daha iyi alışkanlıklar antrenman ile gelişir. En iyi antrenman, güç kararlar için
+> kendinizi sorumluluk almaya zorladığınızda, sizi konfor alanınızın dışına çıkmaya itendir. (...)
+> Sonuçlarımızı geliştirmenin en kesin yolunun evde kompleks örnekler çözmekten geçtiğini
+> düşünüyorum. Bunu olabildiğince sık, uzun vadeli ve disiplinli bir şekilde yapmalı. Bu konsantre olmayı alışkanlığa çevirmede yardımcı olacak ve oyunlarımızın kritik konumlarında konsantre olmayı kolaylaştıracaktır."
 
 Şimdiye kadar sadece üç kitabı bulunan Büyükusta Jonathan Rowson'ın sıradaki
 eserinin konusunu bilemiyorum, fakat düşünmeyi teşvik eden her cümlesi okunmaya değer
