@@ -11,8 +11,8 @@
 
 /* Nav: below 52em a right-aligned row of icon buttons above the title, with the
    links in a column folded behind the menu button (they stay visible when
-   JavaScript is off); from 52em up a column of links pinned to the header's
-   top-right corner. */
+   JavaScript is off); from 52em up a column of links pinned to the header's top-right corner, which
+   turns into a row from 64em, where there is room beside the logo. */
 
 .site-nav {
     display: flex;
@@ -55,6 +55,13 @@
         max-width: none;
         margin: 0;
         font-size: 0.86rem;
+    }
+}
+
+@media (min-width: 64em) {
+    .nav-links {
+        flex-direction: row;
+        gap: 1.25rem;
     }
 }
 
