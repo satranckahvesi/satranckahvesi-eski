@@ -296,9 +296,5 @@ Beyazın çeşitli mat denemeleri hep "ufak" bir engelle karşılaşır: 1 ♕b5
 
 **12)** Carpenter, 1873. 1 ♕a6! ve şimdi 1...♔xd5 2 ♕c6#, 1...♔xf5 2 ♕g6# ya da 1...♔f3 2 ♕e2#
 
----
-
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının "Etütler ve problemler" bölümünün yazarın izniyle web sayfasına uyarlanmış hâlidir.*
-
 Önceki bölüm: [Analizli oyunlar](/satranca-ilk-adim/9-bolum-analizli-oyunlar/)<br>
 Sonraki bölüm: [Sonsöz](/satranca-ilk-adim/sonsoz/)

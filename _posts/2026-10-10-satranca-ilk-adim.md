@@ -9,6 +9,8 @@ redirect_from:
   - /posts/satranca-ilk-adim-onsoz-ve-giris/
 ---
 
+###### Bu yazı dizisi, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının yazarın izniyle web sayfasına uyarlanmış hâlidir. Kitabın tamamı [Analiz Satranç](https://www.analizsatranc.com/) sitesinde PDF olarak bulunabilir.
+
 ## Önsöz
 
 Ülkemizde satranç yazını son on-on beş yıl içerisinde eskiye göre anlamlı ölçüde zenginleşmiş olmakla birlikte hala emekleme döneminde olduğumuzu söylemek yanlış olmaz. Oyunsonu kuramından açılış monograflarına, turnuva kitaplarından oyun derlemelerine kadar birçok konuda elimizdeki kaynaklar iki-üç kitapla sınırlıdır.
@@ -51,9 +53,5 @@ Turnuvalarda kullanılan standart takımlar "Staunton" denen tasarımda üretili
 Ahşap takımlar en iyileridir ancak taşınmalarının pek pratik olmadığını da belirtmek gerekir. Taşınabilir plastik takımların ise kalitesiz olmamalarına dikkat edilmelidir, özellikle de taşların içlerine ağırlık konmadığında fazlaca hafif ve dengesiz olma (uçma) eğilimleri vardır. Cep takımları söz konusu olduğunda ise boyutlar iyice küçülür ve taşlar kolayca devrilir, bu nedenle mıknatıslı taşlar işinizi çok kolaylaştıracaktır.
 
 Satranç takımı meselesini çözmenizin ardından kendinize sessiz bir köşe bulduysanız, başlamaya hazırsınız demektir.
-
----
-
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının Önsöz ve Giriş bölümleridir. Kitabın tamamı [Analiz Satranç](https://www.analizsatranc.com/) sitesinde PDF olarak bulunabilir.*
 
 Sonraki bölüm: [Satranç kuralları](/satranca-ilk-adim/1-bolum-satranc-kurallari/)

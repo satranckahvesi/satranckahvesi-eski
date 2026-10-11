@@ -159,9 +159,5 @@ Satranç yazınını takip edebilmek için notasyonun *çok iyi bir biçimde* ö
 
 21 e4-e5 d6xe5 22 ♘c3-e4 ♘f6-h5 23 ♕g2-g6 e5xd4 24 ♘e4-g5 1-0
 
----
-
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının "Notasyon" bölümünün yazarın izniyle web sayfasına uyarlanmış hâlidir.*
-
 Önceki bölüm: [Satranç kuralları](/satranca-ilk-adim/1-bolum-satranc-kurallari/)<br>
 Sonraki bölüm: [Basit matlar](/satranca-ilk-adim/3-bolum-basit-matlar/)

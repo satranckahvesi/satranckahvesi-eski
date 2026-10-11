@@ -401,9 +401,5 @@ Oyuncular oyundan önce ve sonra el sıkışır. Rakibiyle el sıkışmayı redd
 
 Oyuncu oyun süresince üçüncü bir kişiden, bilgisayardan, basılı ve yazılı materyalden veya analiz tahtasından yardım alamaz. Üçüncü kişilerle oyun hakkında konuşamaz.
 
----
-
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının 1. bölümünün (Satranç kuralları) yazarın izniyle web sayfasına uyarlanmış hâlidir.*
-
 Önceki bölüm: [Satranca ilk adım](/posts/satranca-ilk-adim/)<br>
 Sonraki bölüm: [Notasyon](/satranca-ilk-adim/2-bolum-notasyon/)
