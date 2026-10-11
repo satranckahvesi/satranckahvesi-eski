@@ -1,4 +1,4 @@
-/* Lists: archive pages, the home page sections, and post lists. */
+/* Lists: archive pages, the Köşeler and Yazarlar pages, and post lists. */
 
 /* Archive page title, and the headings of a post's related lists. */
 
@@ -11,38 +11,6 @@
     color: var(--ink);
     margin: 0 0 1.5rem;
 }
-
-/* Home, Köşeler and Yazarlar index entries: name, latest post, meta. */
-
-.index-list li {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-}
-
-.index-list h3 {
-    margin: 0;
-    font-size: 1.5rem;
-    line-height: 1.25;
-}
-
-.index-latest {
-    font-size: 1.1rem;
-}
-
-/* Yazarlar: each entry is a single name, so the entries sit close together. */
-
-.section ul.index-list-names {
-    gap: 0.5rem;
-}
-
-.index-meta {
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    color: var(--muted);
-}
-
-.index-meta a { color: inherit; }
 
 /* Name lists flow side by side. Same specificity as `.section ul`, so source
    order decides: this file loads after layout.css. */
@@ -57,7 +25,7 @@
     font-size: 1.15rem;
 }
 
-/* Köşeler: a small board. Each column is a square of a ruled grid, like the home page artwork: its name
+/* Köşeler page: a small board. Each column is a square of a ruled grid, like the home page artwork: its name
    and how many posts it holds; hovering fills the square with the artwork's diagonal hatching. */
 
 /* The board is as wide as its widest square needs (max-content), and every column is as wide as that
@@ -113,7 +81,7 @@
     font-size: var(--nav-size);
 }
 
-/* Yazarlar: round initials above the name. */
+/* Yazarlar page: round initials above the name. */
 
 .avatar-list a {
     display: flex;
