@@ -1,0 +1,10 @@
+{%- comment -%}
+  A post title, broken into two lines after its first ": " (colon and space), the colon staying on the first line.
+    title: the title
+{%- endcomment -%}
+{%- assign title_parts = include.title | split: ": " -%}
+{%- if title_parts.size > 1 -%}
+  {{- title_parts[0] }}:<br>{{ include.title | remove_first: title_parts[0] | remove_first: ": " -}}
+{%- else -%}
+  {{- include.title -}}
+{%- endif -%}
