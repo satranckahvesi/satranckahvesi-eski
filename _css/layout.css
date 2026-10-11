@@ -21,7 +21,7 @@
     flex-direction: row-reverse;
     flex-wrap: wrap;
     gap: 0.5rem 0.85rem;
-    max-width: 42rem;
+    max-width: var(--column);
     margin: 0 auto 1rem;
     font-family: var(--font-mono);
     font-size: 0.85rem;
@@ -109,7 +109,7 @@
 /* The title is the brand mark, not prose: no hover underline. */
 
 .masthead {
-    max-width: 42rem;
+    max-width: var(--column);
     margin: 3.5rem auto 0;
     display: flex;
     flex-direction: column;
@@ -167,7 +167,7 @@
 }
 
 .section {
-    max-width: 42rem;
+    max-width: var(--column);
     margin: 3.5rem auto 0;
     padding: 0;
     text-align: left;
@@ -195,7 +195,7 @@
 
 .site-footer {
     --footer-gap: 0.75rem;
-    max-width: 42rem;
+    max-width: var(--column);
     margin: 4.5rem auto 0;
     padding: 1.5rem 0 2.5rem;
     border-top: 2px solid var(--ink);
@@ -247,7 +247,7 @@
 }
 
 .section-divider {
-    max-width: 42rem;
+    max-width: var(--column);
     margin: 3rem auto 0;
     padding: 0;
     border-top: 2px solid var(--ink);

@@ -17,7 +17,13 @@ html {
     --font-mono: 'PT Mono', ui-monospace, Menlo, Consolas, monospace;
     /* Display face for the masthead logo only. */
     --font-logo-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    /* Width of the content column; wider on big screens. */
+    --column: 42rem;
     color-scheme: light;
+}
+
+@media (min-width: 64em) {
+    :root { --column: 50rem; }
 }
 
 /* Dark palette: the head script (_includes/head.html) always sets data-theme
