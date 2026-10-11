@@ -36,13 +36,15 @@
 }
 
 /* A thin vertical rule to the left of every menu link. It is a pseudo-element rather than a border
-   so it can stand on the text's baseline instead of filling the line box: at line-height 1 the
-   baseline is 0.2251em above the box bottom. The 1px bottom border is transparent until hover, so the
-   box does not grow when the hover underline appears. */
+   so it can stand on the text's baseline instead of filling the line box. The room for it is a margin,
+   not padding, so the hover underline (the bottom border) spans only the text. At line-height 1 the
+   baseline is 0.2251em above the box bottom; the border is transparent until hover, so the box does
+   not grow when the underline appears. */
 
 .nav-links a {
     position: relative;
-    padding: 0 0 0 0.6rem;
+    margin-left: 0.6rem;
+    padding: 0;
     line-height: 1;
     white-space: nowrap;
     border-bottom: 1px dotted transparent;
@@ -53,7 +55,7 @@
 .nav-links a::before {
     content: "";
     position: absolute;
-    left: 0;
+    left: -0.6rem;
     bottom: 0.2251em;
     height: 0.85em;
     border-left: 1px solid var(--ink);
