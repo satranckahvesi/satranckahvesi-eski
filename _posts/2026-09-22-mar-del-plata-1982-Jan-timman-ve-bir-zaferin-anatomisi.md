@@ -4,9 +4,6 @@ date: 2026-09-22
 title: "Mar del Plata 1982: Jan Timman ve bir zaferin anatomisi"
 author: "FM Nazmi Can Doğan"
 column: "Satranç tarihi"
-redirect_from:
-  - /posts/clarin-1982-ve-jan-timman/
-  - /posts/mar-del-plata-clarin-1982-ve-jan-timman/
 ---
 
 Satranç efsanesi Jan Timman'ın kariyerinin en önemli zaferlerinden biri 1982 Mar del Plata'ydı. Turnuvaya kötü bir başlangıç yapan Timman, hızla toparlanıp Karpov, Portisch ve Polugaevsky gibi devlerin önünde zirveye nasıl ulaştı? Timman'ın zaferinin öğretici anlarını izleyecek ve yer yer hamleleri birlikte arayacağız.
