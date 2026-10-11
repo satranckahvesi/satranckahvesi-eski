@@ -1,7 +1,7 @@
-{%- comment %} Home page artwork: a 3 x 3 board with four hatched squares in a checkerboard pattern. The two bottom-left squares
-    sit under a veil in the page colour, with the name over it (live text, Merriweather Black); the logo icon is centred on the
-    two middle-row squares on the left. Pure
-    vector, drawn in currentColor so it follows the light/dark theme. {% endcomment %}
+{%- comment %} Home page artwork: a 3 x 3 board with four hatched squares in a checkerboard pattern. The two left squares of the
+    middle row and of the bottom row sit under a veil in the page colour: the logo icon is centred on the middle pair, the
+    name (live text, Merriweather Black) is over the bottom pair. Pure vector, drawn in currentColor so it follows the
+    light/dark theme. {% endcomment %}
 <svg class="home-art" viewBox="0 0 450 450" role="img" aria-label="Satranç Kahvesi" focusable="false">
     <defs>
         <pattern id="home-art-hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
@@ -14,7 +14,10 @@
         <rect x="300" y="150" width="150" height="150"/>
         <rect x="150" y="300" width="150" height="150"/>
     </g>
-    <rect x="0" y="300" width="300" height="150" style="fill: var(--bg)" fill-opacity="0.95"/>
+    <g style="fill: var(--bg)" fill-opacity="0.95">
+        <rect x="0" y="150" width="300" height="150"/>
+        <rect x="0" y="300" width="300" height="150"/>
+    </g>
     <g fill="none" stroke="currentColor" stroke-width="1.6">
         <rect x="0.8" y="0.8" width="448.4" height="448.4"/>
         <path d="M150 0V450M300 0V450M0 150H450M0 300H450"/>
