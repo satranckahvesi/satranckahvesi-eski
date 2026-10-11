@@ -298,10 +298,10 @@
     gap: var(--footer-gap);
 }
 
-/* The copyright is a section of its own under the footer: muted, and set apart by the gap between sections (3.5rem,
-   2.5rem on a narrow screen: the flex gap adds 0.75rem to the margin). */
+/* The copyright is a block of its own under the footer: muted, and set apart by a gap a little smaller than the one
+   between sections (the flex gap adds 0.75rem to the margin). */
 .site-footer .footer-copy {
-    margin-top: 1.75rem;
+    margin-top: 1.25rem;
     color: var(--muted);
 }
 
@@ -404,15 +404,15 @@
         border-bottom-color: currentColor;
     }
 
-    /* The copyright is a row of its own under the logo and the links, centered, 3.5rem below them like a section
-       (the row gap adds 0.5rem to the margin). */
+    /* The copyright is a row of its own under the logo and the links, centered, a little less than a section's gap
+       below them (the row gap adds 0.5rem to the margin). */
     .site-footer {
         flex-wrap: wrap;
     }
 
     .site-footer .footer-copy {
         flex: 0 0 100%;
-        margin-top: 3rem;
+        margin-top: 2.25rem;
         text-align: center;
     }
 }
