@@ -166,6 +166,8 @@
 
 .post-list-meta a:hover { border-bottom: none; }
 
+#yazilar .home-art { display: none; }
+
 /* From 52em the home page's post feed is the left, 2fr track of a 2fr / 1fr grid (the right track is
    left empty), and the feed scrolls on its own so its scrollbar sits at that column's right edge. */
 
@@ -174,6 +176,18 @@
         display: grid;
         grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
         column-gap: 2rem;
+    }
+
+    /* The artwork fills the right track and stays in view beside the scrolling feed; below 52em it is
+       hidden, since it would only land after the whole list. */
+    #yazilar .home-art {
+        display: block;
+        width: 100%;
+        height: auto;
+        align-self: start;
+        position: sticky;
+        top: 1rem;
+        color: var(--ink);
     }
 
     #yazilar .post-list {

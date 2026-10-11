@@ -9,6 +9,7 @@ layout: default
     {% include post-list-item.html post=post meta="author" lead_column=true %}
     {% endfor %}
   </ul>
+  {% include home-art.html %}
 </div>
 
 {% include ornament.html %}
