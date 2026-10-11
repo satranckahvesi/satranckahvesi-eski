@@ -1,7 +1,10 @@
 /* A single article: header, prose, tables, figures, embeds. */
 
+/* The article is narrower than the site column, so lines stay at a comfortable 65 to 70 characters (the site column
+   gives about 95 at 18px). It stays centered, which <pgn-study> relies on to break out to the viewport. */
+
 .post {
-    max-width: var(--column);
+    max-width: min(var(--column), 40rem);
     margin: 3.5rem auto 0;
     padding: 0;
     text-align: left;

@@ -10,7 +10,7 @@ html {
 :root {
     --ink: #2b2826;
     --bg: #fff;
-    --muted: rgba(43, 40, 38, 0.62);
+    --muted: rgba(43, 40, 38, 0.72);
     --hairline: #d7d5d1;
     --font-serif: 'Merriweather', Georgia, 'Times New Roman', serif;
     /* PT Mono ships Regular only: use it where text is neither bold nor italic. */
