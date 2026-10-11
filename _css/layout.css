@@ -133,7 +133,7 @@
 
 .masthead-logo {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: flex-start;
     gap: 0.4rem;
     color: var(--ink);
@@ -145,7 +145,13 @@
     flex: none;
 }
 
+/* Baseline-aligned: the icon's baseline is the bottom of its box, which lies 69 of its 620 units
+   (0.5rem at 4.5rem) below the drawing's lowest edge, so the name is raised by that much to sit
+   on the same line as the base of the roof. */
+
 .masthead-name {
+    position: relative;
+    top: -0.5rem;
     font-family: var(--font-logo-serif);
     font-weight: 900;
     font-size: 1.85rem;
