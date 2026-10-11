@@ -1,8 +1,10 @@
-layout	post
-date	2045-10-10
-title	AVRO 1938: Aronian'dan Özel Ders
-author	FM Nazmi Can Doğan
-column	Fragmanlar
+---
+layout: post
+date: 2045-10-10
+title: "AVRO 1938: Aronian'dan Özel Ders"
+author: "FM Nazmi Can Doğan"
+column: "Fragmanlar"
+---
 
 [Event "FIDE Worldchess Grand Prix Berlin 2022"]
 [Site "Berlin, Germany"]
