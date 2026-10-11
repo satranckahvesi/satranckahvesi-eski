@@ -211,18 +211,25 @@
     color: var(--muted);
 }
 
-/* A YouTube iframe has no intrinsic size; the box keeps it 16:9. */
+/* A YouTube iframe has no intrinsic size; the box keeps it 16:9. It is as wide as a diagram (400px, or the column
+   when that is narrower) and has the same frame as a figure image (see .post-figure img): content box, so the
+   width excludes the 8px border. */
 
 .video-embed {
     margin: 2rem auto;
     max-width: 100%;
+    text-align: center;
 }
 
 .video-embed iframe {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    box-sizing: content-box;
+    width: min(calc(100% - 16px), 400px);
     aspect-ratio: 16 / 9;
-    border: 0;
+    vertical-align: top;
+    border: 8px solid var(--bg);
+    outline: 1px solid var(--hairline);
+    box-shadow: 0 1px 3px rgba(43, 40, 38, 0.12);
 }
 
 .video-embed figcaption {
