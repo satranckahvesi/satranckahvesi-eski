@@ -130,9 +130,14 @@
         margin-bottom: calc(var(--logo-size) * 0.1008 - 0.2251em);
     }
 
+    /* The theme button's centre is on the middle of the menu links' row: the row's bottom is the drawing's base
+       less the margin above (see .nav-links), and its height is one line of --nav-size plus the 1px underline. */
     .nav-tools {
         position: absolute;
-        top: 1rem;
+        top: calc(
+            1rem - var(--logo-size) * 0.1016 + var(--logo-size) * 0.8992
+            + var(--nav-size) * 0.2251 - var(--nav-size) / 2 - 0.75rem + 0.5px
+        );
         right: 1rem;
     }
 }

@@ -202,7 +202,7 @@
     margin: 0.5rem 0 0;
     font-size: 0.95rem;
     line-height: 1.5;
-    color: var(--muted);
+    color: var(--ink);
 }
 
 .post-list-meta a {
