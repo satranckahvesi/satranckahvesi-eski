@@ -21,8 +21,8 @@ html {
     --nav-size: 0.85rem;
     /* The masthead logo: the icon's size and the size of the name beside it. The header's alignment maths
        (_css/layout.css) is written in terms of --logo-size. */
-    --logo-size: 4rem;
-    --brand-size: 1.65rem;
+    --logo-size: 3.5rem;
+    --brand-size: 1.45rem;
     /* Width of the content column; wider on big screens. */
     --column: 42rem;
     color-scheme: light;
