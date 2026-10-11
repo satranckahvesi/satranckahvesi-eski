@@ -30,7 +30,7 @@
 .nav-links {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     gap: 0.35rem;
     flex-basis: 100%;
 }
@@ -58,39 +58,37 @@
     }
 }
 
-/* From 64em the nav stops being a corner overlay and shares one grid cell with the masthead, so the
-   menu links sit on the same baseline as the name beside the icon: links first, then the buttons. */
+/* From 64em the header is one row on the content column's edges: logo, name, then the menu links
+   right beside it, all on one baseline. The nav wrapper dissolves (display: contents) so its
+   links and buttons become items of that row; the buttons stay in the top-right corner. */
 
 @media (min-width: 64em) {
     .site-header {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr);
+        display: flex;
         align-items: baseline;
+        padding-inline: max(1rem, calc((100vw - var(--column)) / 2));
     }
 
-    .site-header > * { grid-area: 1 / 1; }
+    .site-nav { display: contents; }
 
-    .masthead { width: min(100%, var(--column)); }
-
-    /* The masthead spans the same cell and comes later, so without a stacking level it would sit
-       over the links and swallow their clicks. */
-    .site-nav {
-        position: relative;
-        z-index: 1;
-        justify-self: end;
-        flex-direction: row;
-        align-items: baseline;
-        gap: 0.85rem;
+    /* .masthead is defined further down, so this needs the extra specificity to win. */
+    .site-header .masthead {
+        order: 1;
+        margin: 2rem 0 0;
     }
 
     .nav-links {
+        order: 2;
+        flex-basis: auto;
         flex-direction: row;
         gap: 1.25rem;
+        margin-left: 2rem;
     }
 
     .nav-tools {
-        order: 1;
-        align-self: center;
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
     }
 }
 
