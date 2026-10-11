@@ -17,9 +17,11 @@
         </div>
     </nav>
     <div class="masthead">
-        <h1 class="masthead-title"><a class="masthead-logo" href="{{ '/' | relative_url }}">
+        {%- comment %} The site name is the page's h1 unless the page has a title of its own: an article's title is its h1. {% endcomment %}
+        {%- if page.layout == "post" %}{% assign masthead_tag = "div" %}{% else %}{% assign masthead_tag = "h1" %}{% endif %}
+        <{{ masthead_tag }} class="masthead-title"><a class="masthead-logo" href="{{ '/' | relative_url }}">
             {%- include logo-icon.html halo="masthead-halo" class="masthead-icon" -%}
             <span class="masthead-name">Satranç Kahvesi</span>
-        </a></h1>
+        </a></{{ masthead_tag }}>
     </div>
 </header>
