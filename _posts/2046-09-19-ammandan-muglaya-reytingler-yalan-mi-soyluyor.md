@@ -1,11 +1,9 @@
 ---
 title: "Amman'dan Muğla'ya: Reytingler yalan mı söylüyor?"
-redirect_from:
-  - /posts/ammandan-muglaya-turkiyede-reytingler-yalan-mi-soyluyor/
 author: "GM Ahmad Al-Khatib"
 column: "Analizli oyunlar"
 layout: post
-date: 2026-09-19
+date: 2046-09-19
 ---
 
 Amman'daki evimden binlerce kilometre uzakta, Muğla'da oynadığım uluslararası bir turnuvanın yedinci turunda kendimden beş yüz puana yakın düşük reytingli bir rakiple karşı karşıyaydım. İtiraf etmeliyim ki masaya otururken aklımdan rahat bir galibiyet geçiyordu. Şah-Hint Savunması'nda küçük bir yan varyantla rakibimi şaşırtabileceğimi düşündüm, ama karşımdakinin hiç de kolay lokma olmadığını hemen fark ettim.
