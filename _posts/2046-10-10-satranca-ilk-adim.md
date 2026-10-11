@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-10-10
+date: 2046-10-10
 title: "Satranca ilk adım"
 author: "Görkem Sivri"
 column: "Başlangıç düzeyi"
