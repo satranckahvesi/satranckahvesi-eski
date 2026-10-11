@@ -4,7 +4,6 @@ title: "Köşeler"
 permalink: /koseler/
 ---
 
-<h2>Köşeler</h2>
 <ul class="index-list">
   {% assign columns = site.posts | map: "column" | uniq %}
   {% for col in columns %}

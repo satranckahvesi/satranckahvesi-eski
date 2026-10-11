@@ -93,8 +93,8 @@
         align-items: flex-end;
         padding-inline: max(1rem, calc((100vw - var(--column)) / 2));
         /* 1rem from the top of the page to the top of the drawing: the icon's box has 63 of its 620
-           units (0.4573rem at 4.5rem) of empty space above the steam. */
-        padding-top: calc(1rem - 0.4573rem);
+           units (0.1016 of the icon size) of empty space above the steam. */
+        padding-top: calc(1rem - var(--logo-size) * 0.1016);
     }
 
     .site-nav { display: contents; }
@@ -112,8 +112,8 @@
         gap: 0.75rem;
         margin-left: 2rem;
         /* Puts the link text's baseline on the same line as the name's (see .masthead-name):
-           0.4536rem up to the drawing's base, less the 0.2251em under the baseline. */
-        margin-bottom: calc(0.4536rem - 0.2251em);
+           the drawing's base (0.1008 of the icon size up), less the 0.2251em under the baseline. */
+        margin-bottom: calc(var(--logo-size) * 0.1008 - 0.2251em);
     }
 
     .nav-tools {
@@ -205,15 +205,15 @@
 }
 
 .masthead-icon {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: var(--logo-size);
+    height: var(--logo-size);
     flex: none;
 }
 
 /* The name's baseline sits on the lowest edge of the drawing (the roof's base). That is placed by
    measurement, not by browser baseline alignment: browsers disagree on where a replaced element's
    baseline is, but a text box's baseline offset is fixed by its font. The drawing ends 62.5 of
-   the icon's 620 units above the bottom of its box (0.4536rem at 4.5rem); in the name's line box
+   the icon's 620 units above the bottom of its box (0.1008 of the icon size); in the name's line box
    (line-height 1.2) the baseline is 0.2689em above the bottom. Anything else on the header's
    row is lifted the same way. */
 
@@ -223,7 +223,7 @@
     font-size: var(--brand-size);
     line-height: 1.2;
     white-space: nowrap;
-    margin-bottom: calc(0.4536rem - 0.2689em);
+    margin-bottom: calc(var(--logo-size) * 0.1008 - 0.2689em);
 }
 
 .section {

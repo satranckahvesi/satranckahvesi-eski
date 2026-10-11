@@ -19,8 +19,10 @@ html {
     --font-logo-serif: 'Merriweather', Georgia, 'Times New Roman', serif;
     /* Menu text size; the column names above the home page titles match it. */
     --nav-size: 0.85rem;
-    /* Size of the masthead name; the home page's post titles match it. */
-    --brand-size: 1.85rem;
+    /* The masthead logo: the icon's size and the size of the name beside it. The header's alignment maths
+       (_css/layout.css) is written in terms of --logo-size. */
+    --logo-size: 4rem;
+    --brand-size: 1.65rem;
     /* Width of the content column; wider on big screens. */
     --column: 42rem;
     color-scheme: light;
