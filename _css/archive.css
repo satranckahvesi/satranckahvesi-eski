@@ -167,7 +167,43 @@
         max-height: 75vh;
         overflow-y: auto;
         padding-right: 1.5rem;
-        scrollbar-width: thin;
-        scrollbar-color: var(--muted) transparent;
+    }
+
+    /* A scrollbar that is always there (WebKit and Blink draw it themselves, which also turns off the
+       overlay bars that fade out): a pill-shaped thumb in a rounded track, no arrow buttons. Firefox
+       only gets the colours and the thin width. */
+    #yazilar .post-list::-webkit-scrollbar {
+        width: 14px;
+    }
+
+    #yazilar .post-list::-webkit-scrollbar-button {
+        display: none;
+    }
+
+    #yazilar .post-list::-webkit-scrollbar-track {
+        background: var(--hairline);
+        background-clip: padding-box;
+        border: 4px solid transparent;
+        border-radius: 999px;
+    }
+
+    #yazilar .post-list::-webkit-scrollbar-thumb {
+        background: var(--muted);
+        background-clip: padding-box;
+        border: 3px solid transparent;
+        border-radius: 999px;
+    }
+
+    #yazilar .post-list::-webkit-scrollbar-thumb:hover,
+    #yazilar .post-list::-webkit-scrollbar-thumb:active {
+        background: var(--ink);
+        background-clip: padding-box;
+    }
+
+    @supports not selector(::-webkit-scrollbar) {
+        #yazilar .post-list {
+            scrollbar-width: thin;
+            scrollbar-color: var(--muted) var(--hairline);
+        }
     }
 }
