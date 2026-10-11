@@ -30,11 +30,11 @@ Oyunların önemli anlarında okuyucuyu Timman ile birlikte hamleleri bulmaya da
 
 {[P]} 31... Bxc5! { Siyahın güçlü seçeneklerinden yalnızca biri. } 32. Rxc5 Nxc5 33. Bxe5 { [P] [%csl Gh6][%cal Ge3h6] } (33. Qxc5 {[D]} 33... Rd2 $19 { Siyahın 31. hamlesinin ana fikri buydu. }) 33... Nd3! $19 { Bu hamle sayesinde şimdi 34.Qxh6 olmuyor. Kalite fazla olan Siyah, kolaylıkla olmasa da kazanmasını bildi. } 0-1
 
-Dünya satrancının ilk on isminden beşinin katıldığı (**Karpov, Timman, Polugaevsky, Portisch, Andersson**) 1982 Mar del Plata turnuvası, Timman'ın kariyerinin en önemli zaferlerinden biriydi. Oysa öğretici eserleriyle tanınan **Zenon Franco**'nun (1956-2024) aktardığına göre turnuvaya katılmadan önce Timman hastaydı. İlk turu kaybederek kötü bir başlangıç yapsa da Güney Amerika havasının kendisine yaradığını sonraki turlarda hissedecek ve Arjantin'de oynanan son Clarin turnuvasını kazanacaktı.
+Dünya satrancının ilk on isminden beşinin katıldığı (**Karpov, Timman, Polugaevsky, Portisch, Andersson**) 1982 Mar del Plata turnuvası, Timman'ın kariyerinin en önemli zaferlerinden biriydi. Oysa öğretici eserleriyle tanınan **Zenon Franco**'nun (1956-2024) aktardığına göre turnuvaya katılmadan önce Timman hastaydı. İlk turu kaybederek kötü bir başlangıç yapsa da Güney Amerika havasının kendisine yaradığını sonraki turlarda hissedecek ve Arjantin'de oynanan son Clarín turnuvasını kazanacaktı.
 
 Şampiyon şöyle diyordu: *"Acı bir öksürük ve çatlamış dudaklarla kıvranırken, Madrid'den Arjantin Pampas'ına giden, on saatlik direkt gece uçuşuna bindim. Córdoba'da uçaktan indiğimizde hava kararmıştı; güneş hâlâ parlıyordu ve çimenlerin taze kokusunu derin bir nefesle içime çektim. Daha sonra öğrendim ki, Arjantin'de bu bölge akciğer rahatsızlığı olan insanlar için favori bir yer."*
 
-Clarin turnuvasını 1979 senesinde Spassky ve Petrosian'ı da yenerek (!), 1980'de ise Karpov ve Timman önünde kazanan Bent Larsen, 1982'ye gelindiğinde harika bir sonuç elde edemese de ilk tura zaferle başlamıştı. Aynı yıl Buenos Aires'e taşınan Larsen ömrünün sonuna kadar orada ikamet etmiştir.
+Clarín turnuvasını 1979 senesinde Spassky ve Petrosian'ı da yenerek (!), 1980'de ise Karpov ve Timman önünde kazanan Bent Larsen, 1982'ye gelindiğinde harika bir sonuç elde edemese de ilk tura zaferle başlamıştı. Aynı yıl Buenos Aires'e taşınan Larsen ömrünün sonuna kadar orada ikamet etmiştir.
 
 [Event "Mar del Plata"]
 [Site "Mar del Plata ARG"]
@@ -61,7 +61,7 @@ Oyunun kendisi belki çok heyecan verici değil, ancak bu videoyu paylaşmama ve
 <figcaption>Belgeselin bu bölümünde Timman, Andersson ve Ree sohbet ederken görülebilir.</figcaption>
 </figure>
 
-Sade, teknik konumlara olan hâkimiyeti nedeniyle bir oyunsonu efsanesi olarak anılan Andersson, 1982 Clarin turnuvasını 1 galibiyet ve 12 beraberlikle bitirmişti.
+Sade, teknik konumlara olan hâkimiyeti nedeniyle bir oyunsonu efsanesi olarak anılan Andersson, 1982 Clarín turnuvasını 1 galibiyet ve 12 beraberlikle bitirmişti.
 
 Turnuva oynandığı sırada 71 yaşında olan **Miguel Najdorf**, yaşına rağmen bu devler arenasında yalnızca 3 oyun kaybetmişti. 30 yaşındaki rakibi ise belki de bu oyunun yarattığı ivmeyle turnuva zaferine imza atacaktı.
 
@@ -110,7 +110,7 @@ Beyaz taşlar bu denli etkinken böylesine pasif bir savunma hamlesinin sonuçla
 
 ### Dünya şampiyonu karşısında
 
-Reyting sıralamasında Karpov'dan sonra ikinci sırada yer alan Timman'ın, Merano'dan yorgun dönen dünya şampiyonu karşısında nasıl bir performans sergileyeceği belki de kendisi için turnuvanın kaderini belirleyecek ve olası bir maçta dünya şampiyonu karşısındaki şansını gösterecekti. Karpov ise bundan önceki Clarin turnuvasıyla beraber o yıllarda neredeyse önüne çıkan **her turnuvayı kazanmaktaydı**. Timman ve Polugaevsky'e göre, **Korchnoi**'ya karşı birkaç ay önce **ünvanını savunmuş** olması şampiyonun 1982 Clarin turnuvasındaki performansını olumsuz etkilemişti.
+Reyting sıralamasında Karpov'dan sonra ikinci sırada yer alan Timman'ın, Merano'dan yorgun dönen dünya şampiyonu karşısında nasıl bir performans sergileyeceği belki de kendisi için turnuvanın kaderini belirleyecek ve olası bir maçta dünya şampiyonu karşısındaki şansını gösterecekti. Karpov ise bundan önceki Clarín turnuvasıyla beraber o yıllarda neredeyse önüne çıkan **her turnuvayı kazanmaktaydı**. Timman ve Polugaevsky'e göre, **Korchnoi**'ya karşı birkaç ay önce **ünvanını savunmuş** olması şampiyonun 1982 Clarín turnuvasındaki performansını olumsuz etkilemişti.
 
 [Event "Mar del Plata"]
 [Site "Mar del Plata ARG"]
@@ -186,7 +186,7 @@ Timman'ın Macar Büyükusta **Lajos Portisch** ile olan partileri her zaman inc
 
 ![Chess the Adventurous Way kapağı]({{ '/assets/img/timman/book-cover.jpg' | relative_url }} "Timman'ın 1983-1993 arasında oynadığı 80 oyuna odaklanan _Chess the Adventurous Way_ kitabının kapağı.")
 
-Timman, turnuva hakkında kapsamlı yazılar yayınlayan turnuvanın sponsoru Clarin'e şöyle demişti: *"Beyaz taşlarla oynayan Portisch'in her zaman zaferi hedefleyeceğini biliyordum. Dahası, sıralamada yarım puan geride olduğu için beni yakalamasının tek yolu kazanmaktı. Bu yüzden bu oyun önemliydi ve dikkatlice hazırlandım."*
+Timman, turnuva hakkında kapsamlı yazılar yayınlayan turnuvanın sponsoru Clarín'e şöyle demişti: *"Beyaz taşlarla oynayan Portisch'in her zaman zaferi hedefleyeceğini biliyordum. Dahası, sıralamada yarım puan geride olduğu için beni yakalamasının tek yolu kazanmaktı. Bu yüzden bu oyun önemliydi ve dikkatlice hazırlandım."*
 
 [Event "Mar del Plata"]
 [Site "Mar del Plata ARG"]
