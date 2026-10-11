@@ -1,5 +1,7 @@
 ---
-title: "Amman'dan Muğla'ya: Türkiye'de reytingler yalan mı söylüyor?"
+title: "Amman'dan Muğla'ya: Reytingler yalan mı söylüyor?"
+redirect_from:
+  - /posts/ammandan-muglaya-turkiyede-reytingler-yalan-mi-soyluyor/
 author: "GM Ahmad Al-Khatib"
 column: "Analizli oyunlar"
 layout: post
