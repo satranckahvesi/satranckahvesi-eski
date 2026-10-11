@@ -60,9 +60,14 @@
 /* Köşeler: a small board. Each column is a square of a ruled grid, like the home page artwork: its name
    and how many posts it holds; hovering fills the square with the artwork's diagonal hatching. */
 
+/* The board is as wide as its widest square needs (max-content), and every column is as wide as that
+   square (1fr tracks in a max-content grid come out equal), so the squares fit their text and match. */
+
 .section ul.board-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    width: max-content;
+    max-width: 100%;
     gap: 0;
     border-top: 1.5px solid var(--ink);
     border-left: 1.5px solid var(--ink);
@@ -70,7 +75,7 @@
 
 @media (min-width: 40em) {
     .section ul.board-list {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
