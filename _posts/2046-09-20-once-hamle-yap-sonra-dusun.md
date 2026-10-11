@@ -40,40 +40,42 @@ dayanması gerektiğini nasıl açıklayabiliriz?
 
 *
 
-"**Antrenör**: Konuma bakma şansın oldu. Neler oluyor? Konumun en önemli özellikleri
-nelerdir? Fikrin var mı, Paul?
+> "**Antrenör**: Konuma bakma şansın oldu. Neler oluyor? Konumun en önemli özellikleri
+> nelerdir? Fikrin var mı, Paul?
+>
+> **Paul**: Ah, evet, Rc6 oynardım ve alırsa Nd5'im var.
+>
+> **Antrenör**: Evet, doğru hamleleri hemen buldun. Fakat konumun özelliklerine geri dönelim,
+> bunlar hakkında bir şey söyleyebilir misin?
+>
+> **Paul**: Pekala, Rc6 hamlesi d6'yı tehdit ediyor ve siyahın buna karşı ne yapabileceğini
+> göremiyorum, alırsa ben de alacağım ve Nd5 geliyor, peki ne yapabilir?
+>
+> Pek çok satranç kitabı buradaki antrenörünkiyle aynı sıkıcı tonda yazılmıştır. Bu kitaplar
+> hamlelerinizi rastgele denememeniz gerektiği fikri üzerine kuruludur; ilk önce konumun
+> özelliklerine bakmalı, genel bir plan kurmaya çalışmalı ve ancak ondan sonra gerçek bir
+> hamle düzeyinde kesin bir 'sonuç' aramalısınız. **Bu tam bir saçmalık**! Hiçbir satranç
+> oyuncusu böyle düşünmez, kimse satranç oynamayı bu şekilde düşünerek öğrenmez ve
+> hatta antrenörler ve satranç kitaplarının yazarları da böyle düşünmezler.
+> Ancak, pek çok kitapta bu görüş bize gösterilir: eğer konumun özelliklerine bakarsak, iyi
+> hamle otomatik olarak gelip bizi bulacaktır.
+>
+> Bu yazarlar çoğunlukla kendilerinin de aslında diğer türlü yaptıklarını unuturlar: konuyu
+> anlatmak için seçtikleri örnekte en kuvvetli hamleyi bilirler. Sonra bu hamle konumun
+> özelliklerine dair açıklamalarının mantıklı bir sonucuymuş gibi davranırlar, halbuki bu
+> açıklamaları sadece güçlü olduğunu zaten bildikleri hamle üzerine uygularlar."
 
-**Paul**: Ah, evet, Rc6 oynardım ve alırsa Nd5'im var.
-
-**Antrenör**: Evet, doğru hamleleri hemen buldun. Fakat konumun özelliklerine geri dönelim,
-bunlar hakkında bir şey söyleyebilir misin?
-
-**Paul**: Pekala, Rc6 hamlesi d6'yı tehdit ediyor ve siyahın buna karşı ne yapabileceğini
-göremiyorum, alırsa ben de alacağım ve Nd5 geliyor, peki ne yapabilir?
-
-Pek çok satranç kitabı buradaki antrenörünkiyle aynı sıkıcı tonda yazılmıştır. Bu kitaplar
-hamlelerinizi rastgele denememeniz gerektiği fikri üzerine kuruludur; ilk önce konumun
-özelliklerine bakmalı, genel bir plan kurmaya çalışmalı ve ancak ondan sonra gerçek bir
-hamle düzeyinde kesin bir 'sonuç' aramalısınız. **Bu tam bir saçmalık**! Hiçbir satranç
-oyuncusu böyle düşünmez, kimse satranç oynamayı bu şekilde düşünerek öğrenmez ve
-hatta antrenörler ve satranç kitaplarının yazarları da böyle düşünmezler.
-Ancak, pek çok kitapta bu görüş bize gösterilir: eğer konumun özelliklerine bakarsak, iyi
-hamle otomatik olarak gelip bizi bulacaktır.
-
-Bu yazarlar çoğunlukla kendilerinin de aslında diğer türlü yaptıklarını unuturlar: konuyu
-anlatmak için seçtikleri örnekte en kuvvetli hamleyi bilirler. Sonra bu hamle konumun
-özelliklerine dair açıklamalarının mantıklı bir sonucuymuş gibi davranırlar, halbuki bu
-açıklamaları sadece güçlü olduğunu zaten bildikleri hamle üzerine uygularlar."
 Kitabın ilk bölümü son derece sert görünen bu eleştiriyle açılıyor. Hendriks'in eleştirilerinin
 odağında Jeremy Silman, John Watson, Carsten Hansen, Andrew Soltis, Drazen Marovic ve
 hatta Kotov gibi bilinen yazarlar da var ve Hendriks'e göre:
-"Aslında belli bir sıralama yok! Önce konumu değerlendirip hamlelere bakmıyoruz. **Hepsi
-aynı anda oluyor**. Bunun açıklamasıysa şu şekilde: eğer (az ya da çok) etkili bir hamleyle
-bağlantılı değilse konumdan anlamlı bir özellik çıkaramazsınız.
 
-Konumun özelliklerini ve onlarla eşleşen hamleleri aynı anda görürüz, konumun etkili bir
-hamleyle bağlantılı olmayan bir özelliği basitçe ilgisizdir. Eğer Ng5 ya da Bxf7 gibi hamleler
-görmüyorsak (öncesinde veya aynı anda) f7 karesinde zayıflık görmeyiz."
+> "Aslında belli bir sıralama yok! Önce konumu değerlendirip hamlelere bakmıyoruz. **Hepsi
+> aynı anda oluyor**. Bunun açıklamasıysa şu şekilde: eğer (az ya da çok) etkili bir hamleyle
+> bağlantılı değilse konumdan anlamlı bir özellik çıkaramazsınız.
+>
+> Konumun özelliklerini ve onlarla eşleşen hamleleri aynı anda görürüz, konumun etkili bir
+> hamleyle bağlantılı olmayan bir özelliği basitçe ilgisizdir. Eğer Ng5 ya da Bxf7 gibi hamleler
+> görmüyorsak (öncesinde veya aynı anda) f7 karesinde zayıflık görmeyiz."
 
 Yazarın eleştirilerine maruz kalan **Carsten Hansen**'in, "Pozisyonel Satrancınızı İlerletin"
 (**_Improve Your Positional Chess_**) kitabıyla ilgili konumu analiz ederken şunları söylüyor:
@@ -120,22 +122,25 @@ resimleri yapabileceğinizi iddia edip bunun yanına da Monet'nin bir
 resmini örnek olarak koyuyorsunuz."} 0-1
 
 Sadece kitaplara değil, iyi bildiğimiz "atasözlerine" dair de eleştirilerde bulunuyor Hendriks:
-"Satranç bize öğretilirken, bir sürü atasözümsü tavsiyeler verilir. 'Kanattaki piyon sürüşünü
-merkezden hareketle cevapla' vecizesini ele alalım. Bir kitap yazarı bunu anlatan ilgi çekici
-örnekler verebilir. Bu konu hakkında istatistiksel bir araştırma yapmak zor olurdu fakat
-kanımca, 'eğer rakip kanattan piyon sürüşü yaparsa sakin ol ve çılgınca bir şey yapma'
-sözü de aynı şekilde geçerli ya da onun kadar anlamsızdır." Daha sonra Soltis'in Satranç
+
+> "Satranç bize öğretilirken, bir sürü atasözümsü tavsiyeler verilir. 'Kanattaki piyon sürüşünü
+> merkezden hareketle cevapla' vecizesini ele alalım. Bir kitap yazarı bunu anlatan ilgi çekici
+> örnekler verebilir. Bu konu hakkında istatistiksel bir araştırma yapmak zor olurdu fakat
+> kanımca, 'eğer rakip kanattan piyon sürüşü yaparsa sakin ol ve çılgınca bir şey yapma'
+> sözü de aynı şekilde geçerli ya da onun kadar anlamsızdır."
+
+Daha sonra Soltis'in Satranç
 Hakkında Söylenmiş En Akıllıca Sözler kitabının sonraki basımında görmeyi umduğu sözünü
 söylüyor: "**Hiçbir atasözü iyi bir hamleyi alt edemez**."
 
 Kitabın iddiasını yazarın sözleriyle kabaca özetleyecek olursak:
 
-"Belki oyunları, egzersizleri üst seviyelere geçiş için anahtar olacak sihirli bir sözcük
-arayışında incelemeden atlayan okurlar için çok hoş bir haber değil. Ama seviyesini artırmak
-isteyen okurlar, verilen materyal üzerinde çalışmaya başlamalı ve kelimelerin bulunduğu
-bölümden fazla bir şey beklememeliler. **Konumlar, daha genel prensipleri açıklamak için
-örnekler değil, asıl öğrenme materyalini oluştururlar! Bir antrenör buna karşı en büyük
-suçu pozisyonları bir genel kuralın içine sıkıştırma yoluyla işleyebilir**."
+> "Belki oyunları, egzersizleri üst seviyelere geçiş için anahtar olacak sihirli bir sözcük
+> arayışında incelemeden atlayan okurlar için çok hoş bir haber değil. Ama seviyesini artırmak
+> isteyen okurlar, verilen materyal üzerinde çalışmaya başlamalı ve kelimelerin bulunduğu
+> bölümden fazla bir şey beklememeliler. **Konumlar, daha genel prensipleri açıklamak için
+> örnekler değil, asıl öğrenme materyalini oluştururlar! Bir antrenör buna karşı en büyük
+> suçu pozisyonları bir genel kuralın içine sıkıştırma yoluyla işleyebilir**."
 
 <figure class="video-embed">
 <iframe src="https://www.youtube.com/embed/7CWvB5pz79k?si=Q1Ok9F010fB5WPLI" title="Willy Hendriks - Önce Hamle Yap Sonra Düşün" allowfullscreen loading="lazy"></iframe>
