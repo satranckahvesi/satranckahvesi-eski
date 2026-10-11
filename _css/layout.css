@@ -58,10 +58,36 @@
     }
 }
 
+/* From 64em the nav stops being a corner overlay and shares one grid cell with the masthead, so the
+   menu links sit on the same baseline as the name beside the icon: links first, then the buttons. */
+
 @media (min-width: 64em) {
+    .site-header {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        align-items: baseline;
+    }
+
+    .site-header > * { grid-area: 1 / 1; }
+
+    .masthead { width: min(100%, var(--column)); }
+
+    .site-nav {
+        position: static;
+        justify-self: end;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 0.85rem;
+    }
+
     .nav-links {
         flex-direction: row;
         gap: 1.25rem;
+    }
+
+    .nav-tools {
+        order: 1;
+        align-self: center;
     }
 }
 
@@ -143,22 +169,23 @@
     align-items: baseline;
     justify-content: flex-start;
     gap: 0.4rem;
+    padding-bottom: 0.5rem;
     color: var(--ink);
 }
 
 .masthead-icon {
     width: 4.5rem;
     height: 4.5rem;
+    margin-bottom: -0.5rem;
     flex: none;
 }
 
-/* Baseline-aligned: the icon's baseline is the bottom of its box, which lies 69 of its 620 units
-   (0.5rem at 4.5rem) below the drawing's lowest edge, so the name is raised by that much to sit
-   on the same line as the base of the roof. */
+/* Baseline-aligned: an icon's baseline is the bottom of its margin box, and the drawing's lowest
+   edge lies 69 of its 620 units (0.5rem at 4.5rem) above the bottom of the box. Pulling the
+   margin up by that much puts the name, and anything baseline-aligned to the logo, on the base of
+   the roof; the padding gives the space back. */
 
 .masthead-name {
-    position: relative;
-    top: -0.5rem;
     font-family: var(--font-logo-serif);
     font-weight: 900;
     font-size: 1.85rem;
