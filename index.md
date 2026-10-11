@@ -16,10 +16,16 @@ layout: default
 
 <div id="koseler" class="section">
   <h2>Köşeler</h2>
-  <ul class="tag-list pill-list">
+  <ul class="board-list">
     {% assign columns = site.posts | map: "column" | uniq %}
     {% for col in columns %}
-    <li><a href="{% include column-url.html name=col %}">{{ col }}</a></li>
+    {% assign count = site.posts | where: "column", col | size %}
+    <li>
+      <a href="{% include column-url.html name=col %}">
+        <span class="board-name">{{ col }}</span>
+        <span class="board-count">{{ count }} yazı</span>
+      </a>
+    </li>
     {% endfor %}
   </ul>
 </div>
