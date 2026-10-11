@@ -1,4 +1,4 @@
-{%- comment %} Home page artwork: a 3 x 3 board with two hatched squares. Pure vector, drawn in currentColor so it
+{%- comment %} Home page artwork: a 3 x 3 board with four hatched squares in a checkerboard pattern. Pure vector, drawn in currentColor so it
     follows the light/dark theme. Decorative, so hidden from assistive technology. {% endcomment %}
 <svg class="home-art" viewBox="0 0 450 450" aria-hidden="true" focusable="false">
     <defs>
@@ -6,8 +6,12 @@
             <line x1="0" y1="0" x2="0" y2="9" stroke="currentColor" stroke-width="1.6"/>
         </pattern>
     </defs>
-    <rect x="150" y="0" width="150" height="150" fill="url(#home-art-hatch)"/>
-    <rect x="300" y="150" width="150" height="150" fill="url(#home-art-hatch)"/>
+    <g fill="url(#home-art-hatch)">
+        <rect x="150" y="0" width="150" height="150"/>
+        <rect x="0" y="150" width="150" height="150"/>
+        <rect x="300" y="150" width="150" height="150"/>
+        <rect x="150" y="300" width="150" height="150"/>
+    </g>
     <g fill="none" stroke="currentColor" stroke-width="1.6">
         <rect x="0.8" y="0.8" width="448.4" height="448.4"/>
         <path d="M150 0V450M300 0V450M0 150H450M0 300H450"/>
