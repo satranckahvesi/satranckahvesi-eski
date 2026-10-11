@@ -35,15 +35,19 @@
     flex-basis: 100%;
 }
 
-/* A thin vertical rule to the left of every menu link. It is a pseudo-element rather than a border
+/* The menu links are as big as the footer's (0.9rem) in the folded menu; from 52em they are --nav-size, with a thin
+   vertical rule to the left of each. The rule is a pseudo-element rather than a border
    so it can stand on the text's baseline instead of filling the line box. The room for it is a margin,
    not padding, so the hover underline (the bottom border) spans only the text. At line-height 1 the
    baseline is 0.2251em above the box bottom; the border is transparent until hover, so the box does
    not grow when the underline appears. */
 
+.nav-links {
+    font-size: 0.9rem;
+}
+
 .nav-links a {
     position: relative;
-    margin-left: 0.6rem;
     padding: 0;
     line-height: 1;
     white-space: nowrap;
@@ -52,13 +56,23 @@
 
 .nav-links a:hover { border-bottom-color: currentColor; }
 
-.nav-links a::before {
-    content: "";
-    position: absolute;
-    left: -0.6rem;
-    bottom: 0.2251em;
-    height: 0.85em;
-    border-left: 1px solid var(--ink);
+@media (min-width: 52em) {
+    .nav-links {
+        font-size: var(--nav-size);
+    }
+
+    .nav-links a {
+        margin-left: 0.6rem;
+    }
+
+    .nav-links a::before {
+        content: "";
+        position: absolute;
+        left: -0.6rem;
+        bottom: 0.2251em;
+        height: 0.85em;
+        border-left: 1px solid var(--ink);
+    }
 }
 
 .site-nav[data-menu]:not([data-open]) .nav-links { display: none; }
