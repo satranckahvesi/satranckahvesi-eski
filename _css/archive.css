@@ -222,18 +222,13 @@
     font-size: 0.8rem;
 }
 
-/* The post's first paragraph under its meta line on the home page, cut after three lines. */
+/* The post's first paragraph under its meta line on the home page, shown in full. */
 
 .post-list-excerpt {
     margin: 0.5rem 0 0;
     font-size: 0.95rem;
     line-height: 1.5;
     color: var(--muted);
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    overflow: hidden;
 }
 
 .post-list-meta a {
