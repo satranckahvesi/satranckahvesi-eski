@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2026-09-22
-title: "Mar del Plata, 1982: Bir zaferin anatomisi: Timman"
+title: "Bir Zaferin Anatomisi: Timman, Mar del Plata 1982"
 author: "FM Nazmi Can Doğan"
 column: "Satranç tarihi"
 redirect_from:
