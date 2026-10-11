@@ -1,5 +1,6 @@
 {%- comment %} Home page artwork: a 3 x 3 board with four hatched squares in a checkerboard pattern. The two bottom-left squares
-    sit under a semi-transparent veil in the page colour, with the name over it (live text, Merriweather Black). Pure
+    sit under a veil in the page colour, with the name over it (live text, Merriweather Black); the logo icon is centred on the
+    two middle-row squares on the left. Pure
     vector, drawn in currentColor so it follows the light/dark theme. {% endcomment %}
 <svg class="home-art" viewBox="0 0 450 450" role="img" aria-label="Satranç Kahvesi" focusable="false">
     <defs>
@@ -13,11 +14,12 @@
         <rect x="300" y="150" width="150" height="150"/>
         <rect x="150" y="300" width="150" height="150"/>
     </g>
-    <rect x="0" y="300" width="300" height="150" style="fill: var(--bg)" fill-opacity="0.8"/>
+    <rect x="0" y="300" width="300" height="150" style="fill: var(--bg)" fill-opacity="0.95"/>
     <g fill="none" stroke="currentColor" stroke-width="1.6">
         <rect x="0.8" y="0.8" width="448.4" height="448.4"/>
         <path d="M150 0V450M300 0V450M0 150H450M0 300H450"/>
     </g>
+    {%- include logo-icon.html class="home-art-logo" halo="home-art-halo" attrs='x="85" y="160" width="130" height="130"' %}
     <g fill="currentColor" font-size="60" style="font-family: var(--font-logo-serif); font-weight: 900">
         <text x="24" y="367">Satranç</text>
         <text x="24" y="427">Kahvesi</text>
