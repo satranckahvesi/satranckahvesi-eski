@@ -4,7 +4,7 @@ title: "Yazarlar"
 permalink: /yazarlar/
 ---
 
-<ul class="index-list">
+<ul class="index-list index-list-names">
   {% assign authors = site.posts | map: "author" | uniq %}
   {% for author in authors %}
   <li>

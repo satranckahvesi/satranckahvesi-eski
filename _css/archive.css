@@ -30,6 +30,12 @@
     font-size: 1.1rem;
 }
 
+/* Yazarlar: each entry is a single name, so the entries sit close together. */
+
+.section ul.index-list-names {
+    gap: 0.5rem;
+}
+
 .index-meta {
     font-family: var(--font-mono);
     font-size: 0.8rem;
@@ -54,9 +60,14 @@
 /* Köşeler: a small board. Each column is a square of a ruled grid, like the home page artwork: its name
    and how many posts it holds; hovering fills the square with the artwork's diagonal hatching. */
 
+/* The board is as wide as its widest square needs (max-content), and every column is as wide as that
+   square (1fr tracks in a max-content grid come out equal), so the squares fit their text and match. */
+
 .section ul.board-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    width: max-content;
+    max-width: 100%;
     gap: 0;
     border-top: 1.5px solid var(--ink);
     border-left: 1.5px solid var(--ink);
@@ -64,7 +75,7 @@
 
 @media (min-width: 40em) {
     .section ul.board-list {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -234,6 +245,14 @@
 
     /* The artwork fills the right track and stays in view beside the content; below 52em it is
        hidden, since it would only land after the whole content. */
+    /* The content starts at the top of the grid row (a paragraph would otherwise open with its default top
+       margin). The first line of text has some space above its letters (half its leading and the face's
+       ascender gap, 4 to 5px on these pages), so the artwork is lowered by about that much: the top of the
+       drawing and the top of the first line's letters are level. */
+    .split-main > :first-child {
+        margin-top: 0;
+    }
+
     .split > .home-art {
         display: block;
         width: 100%;
@@ -241,6 +260,7 @@
         align-self: start;
         position: sticky;
         top: 1rem;
+        margin-top: 0.25rem;
         color: var(--ink);
     }
 
