@@ -1,7 +1,7 @@
 /* A single article: header, prose, tables, figures, embeds. */
 
 .post {
-    max-width: 42rem;
+    max-width: var(--column);
     margin: 3.5rem auto 0;
     padding: 0;
     text-align: left;
