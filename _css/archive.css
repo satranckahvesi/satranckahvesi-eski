@@ -146,9 +146,9 @@
     line-height: 1.2;
 }
 
-/* The column name above each title is as large as the menu text. */
+/* The column name above each title and the author / date line below it are as large as the menu text. */
 
-#yazilar .post-list li > .post-list-meta:first-child {
+#yazilar .post-list li > .post-list-meta {
     font-size: var(--nav-size);
 }
 
