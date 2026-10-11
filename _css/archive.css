@@ -30,6 +30,12 @@
     font-size: 1.1rem;
 }
 
+/* Yazarlar: each entry is a single name, so the entries sit close together. */
+
+.section ul.index-list-names {
+    gap: 0.5rem;
+}
+
 .index-meta {
     font-family: var(--font-mono);
     font-size: 0.8rem;
