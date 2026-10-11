@@ -1,13 +1,26 @@
 /* A single article: header, prose, tables, figures, embeds. */
 
-/* The article is narrower than the site column, so lines stay at a comfortable 65 to 70 characters (the site column
-   gives about 95 at 18px). It stays centered, which <pgn-study> relies on to break out to the viewport. */
+/* The article keeps the site column, so its left edge lines up with the masthead. The title, the meta line and the
+   body are only 40rem wide and sit at the left, so lines stay at a comfortable 65 to 70 characters (the site column
+   gives about 95 at 18px). <pgn-study> breaks out of the body to the viewport (see study.css), which depends on
+   where the body sits in the site column. */
 
 .post {
-    max-width: min(var(--column), 40rem);
+    max-width: var(--column);
     margin: 3.5rem auto 0;
     padding: 0;
     text-align: left;
+}
+
+.post-title,
+.post-meta,
+.post-body {
+    max-width: 40rem;
+}
+
+.post-body {
+    /* The site column as the body sees it: --column, or the viewport less the body's 1rem side padding. */
+    --site-column: min(var(--column), 100vw - 2rem);
 }
 
 .post-title {

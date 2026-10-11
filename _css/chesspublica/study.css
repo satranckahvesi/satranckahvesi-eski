@@ -2,14 +2,16 @@
    on the right (stacked 50/50 below 900px). */
 
 /* Breaks out of the post column and centers on the viewport. 100% font-size
-   passes the post's ambient size through. */
+   passes the post's ambient size through. The body is at the left of the site column, so the margins cannot be
+   a symmetrical calc(50% - 45vw): the left one moves the panel's left edge to 5vw (the site column's left edge is
+   at 50vw - --site-column / 2), the right one leaves the width at 90vw. */
 
 .post-body pgn-study {
     width: auto;
     max-width: 90vw;
     height: auto;
     max-height: 90vh;
-    margin: 0 calc(50% - 45vw) 1.5rem;
+    margin: 0 calc(100% - var(--site-column) / 2 - 45vw) 1.5rem calc(var(--site-column) / 2 - 45vw);
     font-size: 100%;
     --frame-pad: 1rem;
     --frame-pad-bottom: 0.6rem;
@@ -23,7 +25,7 @@
     max-width: 90vw;
     height: auto;
     max-height: 90vh;
-    margin: 0 calc(50% - 45vw) 1.5rem;
+    margin: 0 calc(100% - var(--site-column) / 2 - 45vw) 1.5rem calc(var(--site-column) / 2 - 45vw);
     padding: 1rem 1rem 0.6rem;
 }
 
