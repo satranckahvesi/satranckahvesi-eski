@@ -14,8 +14,8 @@
         <div><button type="button" class="cookie-settings">Çerez tercihleri</button></div>
         {%- endif %}
         <a class="footer-privacy" href="{{ '/gizlilik/' | relative_url }}">Gizlilik ve çerezler</a>
-        <p class="footer-copy">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
     </div>
+    <p class="footer-copy">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
 </footer>
 {%- if site.push.endpoint.size > 0 and site.push.public_key.size > 0 %}
 <div class="push-banner" id="push-banner" role="region" aria-label="Bildirim tercihleri" hidden>

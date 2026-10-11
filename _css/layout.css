@@ -339,7 +339,10 @@
         margin-bottom: calc(var(--logo-size) * 0.1008 - 0.2597em);
     }
 
+    /* It takes the room the logo leaves, so it never moves to a row of its own: it wraps inside instead. */
     .footer-links {
+        flex: 1 1 0;
+        min-width: 0;
         align-items: flex-end;
         gap: 0.5rem;
     }
@@ -383,9 +386,15 @@
         border-bottom-color: currentColor;
     }
 
+    /* The copyright is a row of its own under the logo and the links, centered. */
+    .site-footer {
+        flex-wrap: wrap;
+    }
+
     .footer-copy {
-        margin-top: 0;
-        border-bottom: 1px dotted transparent;
+        flex: 0 0 100%;
+        margin-top: 0.75rem;
+        text-align: center;
     }
 }
 
