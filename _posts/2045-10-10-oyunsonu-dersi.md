@@ -7,7 +7,7 @@ column: "Fragmanlar"
 ---
 
 [Event "FIDE Worldchess Grand Prix Berlin 2022"]
-[Site "Berlin, Germany"]
+[Site "Berlin, Almanya"]
 [Date "2022.02.04"]
 [Round "1.5"]
 [White "Aronian, Levon"]
