@@ -174,16 +174,22 @@
     border-bottom: none;
 }
 
-/* Home page titles are as large as the masthead name. */
+/* Home page titles: --home-title-size is the size of the title proper (the second line of a title with a
+   colon). The first line is half of it (.title-lead) and the author / column / date line below
+   matches that first line. */
+
+#yazilar {
+    --home-title-size: 1.6rem;
+}
 
 #yazilar .post-list-body > a {
-    font-size: var(--brand-size);
-    line-height: 40px;
+    font-size: var(--home-title-size);
+    line-height: 34px;
 }
 
 /* On the home page the two lines (title, author / column / date) touch: no gap between their
    line boxes, so a text selection shows no whitespace between them. Line heights are whole pixels
-   (40 / 23) so that rounding cannot open a hairline between the boxes. */
+   (34 / 23) so that rounding cannot open a hairline between the boxes. */
 
 #yazilar .post-list li,
 #yazilar .post-list-body {
@@ -194,10 +200,8 @@
     line-height: 23px;
 }
 
-/* The column name above each title and the author / date line below it are as large as the menu text. */
-
 #yazilar .post-list-body > .post-list-meta {
-    font-size: var(--nav-size);
+    font-size: calc(var(--home-title-size) / 2);
     line-height: 23px;
 }
 
