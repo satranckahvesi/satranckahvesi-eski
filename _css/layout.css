@@ -30,7 +30,7 @@
 .nav-links {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 0.35rem;
     flex-basis: 100%;
 }
@@ -72,8 +72,11 @@
 
     .masthead { width: min(100%, var(--column)); }
 
+    /* The masthead spans the same cell and comes later, so without a stacking level it would sit
+       over the links and swallow their clicks. */
     .site-nav {
-        position: static;
+        position: relative;
+        z-index: 1;
         justify-self: end;
         flex-direction: row;
         align-items: baseline;
