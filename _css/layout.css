@@ -85,10 +85,11 @@
         gap: 0.5rem;
     }
 
+    /* Inside the content column: the right edge is the column's (see .site-header's padding-inline), not the page's. */
     .site-nav {
         position: absolute;
         top: 1.5rem;
-        right: 1rem;
+        right: max(1rem, calc((100vw - var(--column)) / 2));
         flex-direction: column;
         align-items: flex-end;
         gap: 0.5rem;
@@ -138,7 +139,7 @@
             1rem - var(--logo-size) * 0.1016 + var(--logo-size) * 0.8992
             + var(--nav-size) * 0.2251 - var(--nav-size) / 2 - 0.75rem + 0.5px
         );
-        right: 1rem;
+        right: max(1rem, calc((100vw - var(--column)) / 2));
     }
 }
 
