@@ -140,15 +140,15 @@
 }
 
 .masthead-icon {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
     flex: none;
 }
 
 .masthead-name {
     font-family: var(--font-logo-serif);
     font-weight: 900;
-    font-size: 2.25rem;
+    font-size: 1.85rem;
     line-height: 1.2;
     white-space: nowrap;
 }
