@@ -26,8 +26,10 @@
     {%- include logo-icon.html class="home-art-logo" halo="home-art-halo" attrs='x="85" y="160" width="130" height="130"' %}
     <g fill="currentColor" font-size="60" style="font-family: var(--font-logo-serif); font-weight: 900">
         {%- if art_words.size > 1 %}
-        <text x="24" y="367">{{ art_words[0] }}</text>
-        <text x="24" y="427">{{ art_title | remove_first: art_words[0] | strip }}</text>
+        {%- comment %} Two lines, each centred on the two squares (x = 150) like a single word; the pair is centred on the middle of
+            the row (y = 375): the first baseline is 366 (cap height 42 above it), the second 60 below. {% endcomment %}
+        <text x="150" y="366" text-anchor="middle">{{ art_words[0] }}</text>
+        <text x="150" y="426" text-anchor="middle">{{ art_title | remove_first: art_words[0] | strip }}</text>
         {%- else %}
         {%- comment %} One word: centred on the two squares (x = 150) and middle of the row (y = 375 plus half the cap height).
             The size is chosen from a width of 37 units per letter at size 60 ("Hakkında", the widest, measures 298), so
