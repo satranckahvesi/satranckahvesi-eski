@@ -59,13 +59,13 @@
 }
 
 /* From 64em the header is one row on the content column's edges: logo, name, then the menu links
-   right beside it, all on one baseline. The nav wrapper dissolves (display: contents) so its
+   right beside it, all on one baseline (see .masthead-name). The nav wrapper dissolves (display: contents) so its
    links and buttons become items of that row; the buttons stay in the top-right corner. */
 
 @media (min-width: 64em) {
     .site-header {
         display: flex;
-        align-items: baseline;
+        align-items: flex-end;
         padding-inline: max(1rem, calc((100vw - var(--column)) / 2));
     }
 
@@ -83,6 +83,8 @@
         flex-direction: row;
         gap: 1.25rem;
         margin-left: 2rem;
+        /* Measured: the link text's baseline sits about 1px below the name's, so lift it. */
+        margin-bottom: 0.06rem;
     }
 
     .nav-tools {
@@ -167,24 +169,24 @@
 
 .masthead-logo {
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
     justify-content: flex-start;
     gap: 0.4rem;
-    padding-bottom: 0.5rem;
     color: var(--ink);
 }
 
 .masthead-icon {
     width: 4.5rem;
     height: 4.5rem;
-    margin-bottom: -0.5rem;
     flex: none;
 }
 
-/* Baseline-aligned: an icon's baseline is the bottom of its margin box, and the drawing's lowest
-   edge lies 69 of its 620 units (0.5rem at 4.5rem) above the bottom of the box. Pulling the
-   margin up by that much puts the name, and anything baseline-aligned to the logo, on the base of
-   the roof; the padding gives the space back. */
+/* The name's baseline sits on the lowest edge of the drawing (the roof's base). That is placed by
+   measurement, not by browser baseline alignment: browsers disagree on where a replaced element's
+   baseline is, but a text box's baseline offset is fixed by its font. The drawing ends 62.5 of
+   the icon's 620 units above the bottom of its box (0.4536rem at 4.5rem); in the name's line box
+   (line-height 1.2) the baseline is 0.2088em above the bottom. Anything else on the header's
+   row is lifted the same way. */
 
 .masthead-name {
     font-family: var(--font-logo-serif);
@@ -192,6 +194,7 @@
     font-size: 1.85rem;
     line-height: 1.2;
     white-space: nowrap;
+    margin-bottom: calc(0.4536rem - 0.2088em);
 }
 
 .section {
