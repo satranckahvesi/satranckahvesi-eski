@@ -281,7 +281,7 @@ Ocak 1982 reyting listesinde 2720 puanlı Dünya Şampiyonu Anatoly Karpov'un ar
 Mar del Plata 1982 Uluslararası Satranç Turnuvası çapraz tablosu:
 
 <pre>
-                      1 2 3 4 5 6 7 8 9 0 1 2 3 4   Puan
+                      1 2 3 4 5 6 7 8 9 0 1 2 3 4  Puan
   1 GM Timman         * 1 0 1 ½ ½ 0 1 1 ½ 1 1 1 1  9½
   2 GM Portisch       0 * 1 ½ 1 ½ 0 ½ ½ 1 ½ 1 1 ½  8
  =3 GM Seirawan       1 0 * ½ 1 ½ 0 ½ ½ 0 ½ 1 1 1  7½
