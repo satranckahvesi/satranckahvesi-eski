@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-09-21
+date: 2046-09-21
 title: "Capablanca mağlup edilebilir mi?"
 author: "FM Tarık Selbes"
 original_author: "Savielly Tartakower"
