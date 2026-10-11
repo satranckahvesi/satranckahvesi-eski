@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: split
 title: "Yazılar"
 permalink: /yazilar/
 ---
 
-<div id="yazilar" class="section">
+<div id="yazilar">
   <h2>Yazılar</h2>
   <ul class="post-list">
     {% assign all_posts = site.posts | sort: "date" | reverse %}
