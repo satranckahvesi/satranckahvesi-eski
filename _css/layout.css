@@ -35,11 +35,27 @@
     flex-basis: 100%;
 }
 
-/* A thin vertical rule to the left of every menu link. */
+/* A thin vertical rule to the left of every menu link. It is a pseudo-element rather than a border
+   so it can stand on the text's baseline instead of filling the line box: at line-height 1 the
+   baseline is 0.2251em above the box bottom. The 1px bottom border is transparent until hover, so the
+   box does not grow when the hover underline appears. */
 
 .nav-links a {
-    padding-left: 0.6rem;
+    position: relative;
+    padding: 0 0 0 0.6rem;
+    line-height: 1;
     white-space: nowrap;
+    border-bottom: 1px dotted transparent;
+}
+
+.nav-links a:hover { border-bottom-color: currentColor; }
+
+.nav-links a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0.2251em;
+    height: 0.85em;
     border-left: 1px solid var(--ink);
 }
 
@@ -91,8 +107,9 @@
         flex-direction: row;
         gap: 0.75rem;
         margin-left: 2rem;
-        /* Measured: the link text's baseline sits about 1px below the name's, so lift it. */
-        margin-bottom: 0.06rem;
+        /* Puts the link text's baseline on the same line as the name's (see .masthead-name):
+           0.4536rem up to the drawing's base, less the 0.2251em under the baseline. */
+        margin-bottom: calc(0.4536rem - 0.2251em);
     }
 
     .nav-tools {
