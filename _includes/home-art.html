@@ -32,7 +32,12 @@
         <text x="24" y="367">{{ art_words[0] }}</text>
         <text x="24" y="427">{{ art_title | remove_first: art_words[0] | strip }}</text>
         {%- else %}
-        <text x="24" y="397">{{ art_title }}</text>
+        {%- comment %} One word: centred on the two squares (x = 150) and middle of the row (y = 375 plus half the cap height).
+            The size is chosen from a width of 37 units per letter at size 60 ("Hakkında", the widest, measures 298), so
+            that the word stays inside the two squares with a margin (up to 250 of 300). {% endcomment %}
+        {%- assign art_size = 15000.0 | divided_by: art_title.size | divided_by: 37 | at_most: 60 | round: 1 -%}
+        {%- assign art_base = art_size | times: 0.37 | plus: 375 | round: 1 -%}
+        <text x="150" y="{{ art_base }}" text-anchor="middle" font-size="{{ art_size }}">{{ art_title }}</text>
         {%- endif %}
     </g>
 </svg>
