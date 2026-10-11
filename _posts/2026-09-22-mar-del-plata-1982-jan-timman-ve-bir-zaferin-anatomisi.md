@@ -188,9 +188,9 @@ Stockfish gerçek hatanın bu olduğunu söylüyor. Filin nereden geliştirildi�
 
 Timman'ın Macar Büyükusta **Lajos Portisch** ile olan partileri her zaman incelemeyi hak eder. Öyle ki, 1994 yılında yayınlanan ve kariyerinin 1983-1993 arasında oynadığı 80 oyuna odaklanan _"**Chess the Adventurous Way**"_ adlı eserinde aralarında oynadıkları 3 oyuna yer vermiştir. Portisch turnuvaya 6 oyunda 5,5 puanla inanılmaz bir başlangıç yapmış, fakat 7. turda Timman'ı da yenen Larsen'e kaybetmişti.
 
-![Chess the Adventurous Way kapağı]({{ '/assets/img/timman/book-cover.jpg' | relative_url }} "Timman'ın 1983-1993 arasında oynadığı 80 oyuna odaklanan _Chess the Adventurous Way_ kitabının kapağı.")
+![Chess the Adventurous Way kapağı]({{ '/assets/img/timman/book-cover.jpg' | relative_url }} "Timman'ın 1983-1993 arasında oynadığı 80 oyuna odaklanan "Chess the Adventurous Way" kitabının kapağı.")
 
-Timman, turnuva hakkında kapsamlı yazılar yayınlayan turnuvanın sponsoru Clarín'e şöyle demişti:
+Timman, turnuva hakkında kapsamlı yazılar yayınlayan turnuvanın sponsoru Clarín gazetesine şöyle demişti:
 
 > "Beyaz taşlarla oynayan Portisch'in her zaman zaferi hedefleyeceğini biliyordum. Dahası, sıralamada yarım puan geride olduğu için beni yakalamasının tek yolu kazanmaktı. Bu yüzden bu oyun önemliydi ve dikkatlice hazırlandım."
 
@@ -280,7 +280,7 @@ Son tura turnuva şampiyonluğunu garanti ederek giren Timman, bir başka efsane
 [ECO "E18"]
 [Opening "Queen's Indian Defense: Classical Variation, Traditional Variation"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 Ne4 8. Nxe4 Bxe4 9. Nh4 { Beyazla hızlı bir beraberlik yapmak için uygun seçim. } 9... Bxg2 10. Nxg2 d5 11. Qa4 Qd7 12. Qxd7 Nxd7 13. cxd5 exd5 14. Be3 c6 { Taraflar beraberlikte anlaştılar. Bu beraberlikle birlikte Timman 1982 Mar del Plata turnuvasını ikinci ile arasında 1,5 puan farkla kazanmış oldu. } 1/2-1/2
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 Ne4 8. Nxe4 Bxe4 9. Nh4 {[D] Beyazla hızlı bir beraberlik yapmak için uygun seçim. } 9... Bxg2 10. Nxg2 d5 11. Qa4 Qd7 12. Qxd7 Nxd7 13. cxd5 exd5 14. Be3 c6 { Taraflar beraberlikte anlaştılar. Bu beraberlikle birlikte Timman 1982 Mar del Plata turnuvasını ikinci ile arasında 1,5 puan farkla kazanmış oldu. } 1/2-1/2
 
 Ocak 1982 reyting listesinde 2720 puanlı Dünya Şampiyonu Anatoly Karpov'un ardından 2655 Elo ile ikinci sırada yer alan Jan Timman, bu turnuvayla sıralamadaki yerinin tesadüf olmadığını satranç dünyasına gösteriyordu. Ne var ki bu, onun kariyerinin zirvesiydi. Sonraki yıllarda Kasparov'un yükselişiyle birlikte Elo sıralamasında ancak üçüncü sıraya kadar çıkabilmişti.
 
