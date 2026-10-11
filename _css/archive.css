@@ -29,11 +29,13 @@
    and how many posts it holds; hovering fills the square with the artwork's diagonal hatching. */
 
 /* The board is as wide as its widest square needs (max-content), and every column is as wide as that
-   square (1fr tracks in a max-content grid come out equal), so the squares fit their text and match. */
+   square (1fr tracks in a max-content grid come out equal), so the squares fit their text and match.
+   It has no more tracks than squares (koseler/index.md sets --board-cols, at most 2, and --board-cols-wide,
+   at most 3): an empty track would stretch the top rule past the last square. */
 
 .section ul.board-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(var(--board-cols, 2), 1fr);
     width: max-content;
     max-width: 100%;
     gap: 0;
@@ -43,7 +45,7 @@
 
 @media (min-width: 40em) {
     .section ul.board-list {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(var(--board-cols-wide, 3), 1fr);
     }
 }
 
