@@ -2,6 +2,7 @@
   One <li> of a post list.
     post:        the post
     meta:        what follows the title: "author_column", "author" or "column"
+    excerpt:     "true" to show the post's first paragraph under the meta line
 {%- endcomment -%}
 {%- assign post = include.post -%}
 <li>
@@ -19,5 +20,11 @@
             {%- endcase %}
             · {% include turkish-date.html date=post.date %}
         </span>
+        {%- if include.excerpt %}
+        {%- assign first_paragraph = post.content | split: "<p>" | slice: 1 | first | split: "</p>" | first | strip_html | strip_newlines | replace: "[^*]", "" | strip %}
+        {%- if first_paragraph != "" %}
+        <p class="post-list-excerpt">{{ first_paragraph }}</p>
+        {%- endif %}
+        {%- endif %}
     </div>
 </li>
