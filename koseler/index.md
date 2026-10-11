@@ -4,8 +4,8 @@ title: "Köşeler"
 permalink: /koseler/
 ---
 
-<ul class="board-list">
-  {% assign columns = site.posts | map: "column" | uniq %}
+{% assign columns = site.posts | map: "column" | uniq %}
+<ul class="board-list" style="--board-cols: {{ columns.size | at_most: 2 }}; --board-cols-wide: {{ columns.size | at_most: 3 }}">
   {% for col in columns %}
   {% assign count = site.posts | where: "column", col | size %}
   <li>
