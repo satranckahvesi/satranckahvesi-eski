@@ -3,7 +3,7 @@ layout: post
 date: 2026-10-10
 title: "Kısa bir ara"
 author: "Görkem Sivri"
-column: "Başlangıç Düzeyi"
+column: "Başlangıç düzeyi"
 standalone: true
 permalink: /satranca-ilk-adim/kisa-bir-ara/
 ---
