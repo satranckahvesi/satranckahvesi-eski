@@ -30,7 +30,9 @@ Oyunların önemli anlarında okuyucuyu Timman ile birlikte hamleleri bulmaya da
 
 {[P]} 31... Bxc5! { Siyahın güçlü seçeneklerinden yalnızca biri. } 32. Rxc5 Nxc5 33. Bxe5 { [P] [%csl Gh6][%cal Ge3h6] } (33. Qxc5 {[D]} 33... Rd2 $19 { Siyahın 31. hamlesinin ana fikri buydu. }) 33... Nd3! $19 { Bu hamle sayesinde şimdi 34.Qxh6 olmuyor. Kalite fazla olan Siyah, kolaylıkla olmasa da kazanmasını bildi. } 0-1
 
-Dünya satrancının ilk on isminden beşinin katıldığı (**Karpov, Timman, Polugaevsky, Portisch, Andersson**) 1982 Mar del Plata turnuvası, Timman'ın kariyerinin en önemli zaferlerinden biriydi. Oysa öğretici eserleriyle tanınan **Zenon Franco**'nun (1956-2024) aktardığına göre turnuvaya katılmadan önce Timman hastaydı. İlk turu kaybederek kötü bir başlangıç yapsa da Güney Amerika havasının kendisine yaradığını sonraki turlarda hissedecek ve Arjantin'de oynanan son Clarín turnuvasını kazanacaktı.
+Dünya satrancının ilk on isminden beşinin katıldığı (**Karpov, Timman, Polugaevsky, Portisch, Andersson**) 1982 Mar del Plata turnuvası, Timman'ın kariyerinin en önemli zaferlerinden biriydi.
+
+Öğretici eserleriyle tanınan **Zenon Franco**'nun (1956-2024) aktardığına göre turnuvanın hemen öncesinde Timman hastaydı. İlk turu kaybederek kötü bir başlangıç yapan Timman, Güney Amerika havasının kendisine yaradığını sonraki turlarda hissedecek ve Arjantin'de oynanan son Clarín turnuvasını kazanacaktı.
 
 Şampiyon şöyle diyordu:
 
@@ -90,9 +92,9 @@ Beyaz atların gazabından kurtulmanın olanaksızlığını gösteren bir egzer
 
 Arjantin satrancına damga vuran 1935 doğumlu Büyükusta **Oscar Panno**, 1953'te Dünya Gençler Şampiyonu ve yine aynı sene Arjantin şampiyonu olmuştu. Oyunlarını incelediğimiz geleneksel Mar del Plata turnuvasını farklı yıllarda kazanmıştı.
 
-1950'li yıllarda yıldızı parlayan Oscar Panno, satranç gelişimi için pek kaynağın bulunmadığı bir coğrafyada yaşıyordu. Arjantin'de <i>Shakhmaty</i> dergisinin sayılarını "1 yıl geriden" takip ediyorlar ve bu eksikliği kapatmak için yoğun çaba harcamak zorunda kalıyorlardı. 1956 yılında Adaylar Turnuvası'nda oynamaya hak kazanacak, fakat turnuva zamanına kadar askerlik görevini sürdürdüğü için turnuvaya hazırlanma şansı olmayacaktı. Belki de bu nedenle, Smyslov'un rahatça birinci olarak Botvinnik ile oynama hakkı elde ettiği turnuvada, sonuncu olan hemşerisi **Pilnik**'in önünde dokuzuncu olacaktı. Yıldızının parladığı yıllarda profesyonel satranç oynamak yerine mühendislik yapmayı tercih eden Panno, bu satırların yazarının da sevdiği Şah-Hint Savunması'nda günümüzde hâlâ sevilen bir varyanta adını vermiştir.
+1950'li yıllarda yıldızı parlayan Oscar Panno, satranç gelişimi için pek kaynağın bulunmadığı bir coğrafyada yaşıyordu. Arjantin'de _Shakhmaty v SSSR_ dergisinin sayılarını "1 yıl geriden" takip ediyorlar ve bu eksikliği kapatmak için yoğun çaba harcamak zorunda kalıyorlardı. 1956 yılında Adaylar Turnuvası'nda oynamaya hak kazanacak, fakat turnuva zamanına kadar askerlik görevini sürdürdüğü için turnuvaya hazırlanma şansı olmayacaktı. Belki de bu nedenle, Smyslov'un rahatça birinci olarak Botvinnik ile oynama hakkı elde ettiği turnuvada, sonuncu olan hemşerisi **Pilnik**'in önünde dokuzuncu olacaktı. 
 
-Şu an aktif olmasa da kısa bir süre aktif kalan bir [YouTube kanalı](https://www.youtube.com/@GMOscarPanno) da bulunan Büyükusta Oscar Panno, İspanyolca içerikler üretmiş, **Aronian ve Anand** gibi isimlerle analizler yapmıştı.
+Yıldızının parladığı yıllarda profesyonel satranç oynamak yerine mühendislik yapmayı tercih eden Panno, bu satırların yazarının da sevdiği Şah-Hint Savunması'nda günümüzde hâlâ sevilen bir varyanta adını vermiştir. Şu an aktif olmasa da kısa bir süre aktif kalan bir [YouTube kanalı](https://www.youtube.com/@GMOscarPanno) da bulunan Büyükusta Oscar Panno, İspanyolca içerikler üretmiş, **Aronian** ve **Anand** gibi isimlerle analizler yapmıştı.
 
 [Event "Mar del Plata"]
 [Site "Mar del Plata ARG"]
@@ -114,7 +116,9 @@ Beyaz taşlar bu denli etkinken böylesine pasif bir savunma hamlesinin sonuçla
 
 ### Dünya şampiyonu karşısında
 
-Reyting sıralamasında Karpov'dan sonra ikinci sırada yer alan Timman'ın, Merano'dan yorgun dönen dünya şampiyonu karşısında nasıl bir performans sergileyeceği belki de kendisi için turnuvanın kaderini belirleyecek ve olası bir maçta dünya şampiyonu karşısındaki şansını gösterecekti. Karpov ise bundan önceki Clarín turnuvasıyla beraber o yıllarda neredeyse önüne çıkan **her turnuvayı kazanmaktaydı**. Timman ve Polugaevsky'e göre, **Korchnoi**'ya karşı birkaç ay önce **ünvanını savunmuş** olması şampiyonun 1982 Clarín turnuvasındaki performansını olumsuz etkilemişti.
+Reyting sıralamasında Karpov'dan sonra ikinci sırada yer alan Timman'ın, Merano'dan yorgun dönen dünya şampiyonu karşısında nasıl bir performans sergileyeceği belki de kendisi için turnuvanın kaderini belirleyecek ve olası bir maçta dünya şampiyonu karşısındaki şansını gösterecekti.
+
+Karpov ise bundan önceki Clarín turnuvasıyla beraber o yıllarda neredeyse önüne çıkan **her turnuvayı kazanmaktaydı**. Timman ve Polugaevsky'e göre, **Korchnoi**'ya karşı henüz birkaç ay önce **ünvanını savunmuş** olması şampiyonun 1982 Clarín turnuvasındaki performansını olumsuz etkilemişti.
 
 [Event "Mar del Plata"]
 [Site "Mar del Plata ARG"]
