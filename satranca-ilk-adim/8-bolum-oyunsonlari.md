@@ -356,9 +356,5 @@ Hamle sırasıyla Beyaz elbette kazanır, ancak hamle kendisinde ise Siyah 1...�
 
 **6)** Beyaz şah anahtar karelerden birini işgal etmiş olduğu için bu konum kazançtır; bununla birlikte aceleci 1 g6?? pata yol açarken 1 ♔f8 ♔h7 ise ilerleme sağlayamaz. Amaca ulaşmak için küçük bir yer değişikliği gereklidir: 1 ♔g6! ♔g8 2 ♔h6 ♔h8 3 g6 ♔g8 4 g7 ve kazanır.
 
----
-
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının "Oyunsonları" bölümünün yazarın izniyle web sayfasına uyarlanmış hâlidir.*
-
 Önceki bölüm: [Mat temaları](/satranca-ilk-adim/7-bolum-mat-temalari/)<br>
 Sonraki bölüm: [Analizli oyunlar](/satranca-ilk-adim/9-bolum-analizli-oyunlar/)

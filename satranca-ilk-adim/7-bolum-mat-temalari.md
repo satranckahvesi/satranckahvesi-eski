@@ -285,9 +285,5 @@ Ayrıca bu mat uzun rok atmamış şahların başını da ağrıtabilir:
 
 1 axb4! ♕xa1+ 2 ♔d2 ♕xh1 3 ♕xc6+ bxc6 4 ♗a6#
 
----
-
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının "Mat temaları" bölümünün yazarın izniyle web sayfasına uyarlanmış hâlidir.*
-
 Önceki bölüm: [Birkaç taktik eleman](/satranca-ilk-adim/6-bolum-birkac-taktik-eleman/)<br>
 Sonraki bölüm: [Oyunsonları](/satranca-ilk-adim/8-bolum-oyunsonlari/)

@@ -632,9 +632,5 @@ Sonraki sayfada taktik çalışma amaçlı soru örnekleri bulacaksınız. İşa
 
 **6)** Beyaz taş geride olduğu gibi veziri de tehdit altında. Şimdi 1 ♘xf5+ ve ardından 2 ♕h4 ile saldırıyı sürdürme fikri iyi görünmekle birlikte daha iyi bir olanak var: 1 ♗f6+! Çifte kış nedeniyle Siyah, şahıyla oynamak zorundadır. 1...♔xh6 2 ♕g5# ya da 1...♔xf6 2 ♘g8#
 
----
-
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının "Birkaç taktik eleman" bölümünün yazarın izniyle web sayfasına uyarlanmış hâlidir.*
-
 Önceki bölüm: [Kısa bir ara](/satranca-ilk-adim/kisa-bir-ara/)<br>
 Sonraki bölüm: [Mat temaları](/satranca-ilk-adim/7-bolum-mat-temalari/)

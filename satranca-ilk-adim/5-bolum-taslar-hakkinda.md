@@ -166,9 +166,5 @@ Bir vezir kaç ere denktir? İki fil vererek rakibin kalesini ve iki erini almak
 
 Ancak unutmamak gerekir ki bu rakamlar yalnızca yaklaşıktır ve *genellemelerden* ibarettir - bir taş her zaman aynı değeri taşımaz. Rakip şahın yakınına sağlamca yerleşmiş bir at herhalde üç erden daha kıymetlidir, oysa tahtanın kenarında sıkışıp kalmış bir at o kadar bile etmeyebilir. O anda tahtada dizili olan konumda neyin daha değerli olduğunun kararını oyuncu kendi başına, konumun özgül dinamiklerini göz önüne alarak vermek zorundadır.
 
----
-
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının "Taşlar hakkında" bölümünün yazarın izniyle web sayfasına uyarlanmış hâlidir.*
-
 Önceki bölüm: [Oyuna başlarken](/satranca-ilk-adim/4-bolum-oyuna-baslarken/)<br>
 Sonraki bölüm: [Kısa bir ara](/satranca-ilk-adim/kisa-bir-ara/)

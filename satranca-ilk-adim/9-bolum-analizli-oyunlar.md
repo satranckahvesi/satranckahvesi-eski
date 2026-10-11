@@ -314,9 +314,5 @@ Direnmek için son olanak 14...♕c5 biçimindeydi, 15 ♗xc6 ♗xc3 16 bxc3 ♕
 
 Gelmiş geçmiş en güçlü kadın oyuncu unvanının tartışmasız sahibi olan Macar usta Judit Polgar'ın bu oyunu, 1988 Selanik Olimpiyatı'nın güzellik ödülünü kazanmıştır.
 
----
-
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının "Analizli oyunlar" bölümünün yazarın izniyle web sayfasına uyarlanmış hâlidir.*
-
 Önceki bölüm: [Oyunsonları](/satranca-ilk-adim/8-bolum-oyunsonlari/)<br>
 Sonraki bölüm: [Etütler ve problemler](/satranca-ilk-adim/10-bolum-etutler-ve-problemler/)

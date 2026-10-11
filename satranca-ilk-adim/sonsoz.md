@@ -22,8 +22,4 @@ Bu satranç kitabının sonu sizin için yeni bir satranç kitabının başlang�
 
 *Gens una sumus.*
 
----
-
-*Bu yazı, Görkem Sivri'nin [Satranca İlk Adım](https://www.analizsatranc.com/files/satrancailkadim.pdf) kitabının "Sonsöz" bölümünün yazarın izniyle web sayfasına uyarlanmış hâlidir.*
-
 Önceki bölüm: [Etütler ve problemler](/satranca-ilk-adim/10-bolum-etutler-ve-problemler/)
