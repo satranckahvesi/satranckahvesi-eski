@@ -17,6 +17,14 @@
     text-align: left;
 }
 
+/* The part of a title before its colon, on a line of its own at half the size of the rest. */
+
+.title-lead {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.4;
+}
+
 .post-meta {
     text-align: left;
     color: var(--muted);
