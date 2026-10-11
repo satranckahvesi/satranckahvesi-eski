@@ -9,17 +9,19 @@
     {%- if include.lead_column %}
     <span class="post-list-meta"><a href="{% include column-url.html name=post.column %}">{{ post.column }}</a></span>
     {%- endif %}
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <span class="post-list-meta">
-        {%- case include.meta %}
-        {%- when "author_column" %}
-        {% include post-author.html post=post %}
-        · <a href="{% include column-url.html name=post.column %}">{{ post.column }}</a>
-        {%- when "column" %}
-        <a href="{% include column-url.html name=post.column %}">{{ post.column }}</a>
-        {%- else %}
-        {% include post-author.html post=post %}
-        {%- endcase %}
-        · {% include turkish-date.html date=post.date %}
-    </span>
+    <div class="post-list-body">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="post-list-meta">
+            {%- case include.meta %}
+            {%- when "author_column" %}
+            {% include post-author.html post=post %}
+            · <a href="{% include column-url.html name=post.column %}">{{ post.column }}</a>
+            {%- when "column" %}
+            <a href="{% include column-url.html name=post.column %}">{{ post.column }}</a>
+            {%- else %}
+            {% include post-author.html post=post %}
+            {%- endcase %}
+            · {% include turkish-date.html date=post.date %}
+        </span>
+    </div>
 </li>

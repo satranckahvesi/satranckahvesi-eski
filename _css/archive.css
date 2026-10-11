@@ -117,38 +117,48 @@
     gap: 1.5rem;
 }
 
-.post-list li {
+.post-list li,
+.post-list-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 0.2rem;
 }
 
-.post-list li > a {
+.post-list-body > a {
     font-weight: bold;
     font-size: 1.25rem;
     border-bottom: 2px solid currentColor;
 }
 
-.post-related .post-list li > a,
-.post-related .post-list li > a:hover,
-#yazilar .post-list li > a,
-#yazilar .post-list li > a:hover,
-.archive .post-list li > a,
-.archive .post-list li > a:hover {
+.post-related .post-list-body > a,
+.post-related .post-list-body > a:hover,
+#yazilar .post-list-body > a,
+#yazilar .post-list-body > a:hover,
+.archive .post-list-body > a,
+.archive .post-list-body > a:hover {
     border-bottom: none;
 }
 
 /* Home page titles are as large as the masthead name. */
 
-#yazilar .post-list li > a {
+#yazilar .post-list-body > a {
     font-size: var(--brand-size);
     line-height: 1.2;
 }
 
+/* The gap under the column name is wider than the one between the title and its author line (the
+   .post-list-body gap): the column name's descenders (ç, y) and the capitals of the line below eat
+   into the visible space, and these two values make the two visible gaps equal (about 17.5px). */
+
+#yazilar .post-list li {
+    gap: 0.55rem;
+}
+
 /* The column name above each title and the author / date line below it are as large as the menu text. */
 
-#yazilar .post-list li > .post-list-meta {
+#yazilar .post-list li > .post-list-meta,
+#yazilar .post-list-body > .post-list-meta {
     font-size: var(--nav-size);
 }
 
