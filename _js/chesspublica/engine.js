@@ -10,6 +10,11 @@ export const studyEngine = (study) => engineOf(innerPlayer(study));
 /** The variation the reader is currently inside, if any. */
 export const variationOf = (engine) => engine?._variation ?? null;
 
+/** Steps out of the current variation without touching the stack of parents above it. */
+export const detachVariation = (engine) => {
+  engine._variation = null;
+};
+
 /** Starts no continuous playback loop (play() still performs its single step). */
 export const disableAutoplayLoop = (engine) => {
   engine._loopRAF = () => {};
