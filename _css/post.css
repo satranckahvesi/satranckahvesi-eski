@@ -110,21 +110,7 @@
 
 .aside-card:hover .aside-title { text-decoration: underline; }
 
-.aside-about .aside-text {
-    align-self: stretch;
-    text-align: left;
-}
 
-.aside-about .aside-text p { margin: 0 0 0.75em; }
-
-.aside-about .aside-text p:last-child { margin-bottom: 0; }
-
-.aside-about .aside-text a { color: inherit; text-decoration: underline; }
-
-.aside-text {
-    font-size: 0.85rem;
-    line-height: 1.45;
-}
 
 .post-title,
 .post-meta,
