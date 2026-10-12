@@ -13,39 +13,26 @@
 }
 
 /* The panel in the part of the article's column to the right of its 40rem text (1rem clear of it); only where that part
-   is wide enough (64em: the column is 56rem). Its items are shown from the top while they fit (_js/post-aside.js). */
+   is wide enough (64em: the column is 56rem). As tall as what it holds. */
 .post { position: relative; }
 
 .post-aside { display: none; }
 
 @media (min-width: 64em) {
     .post-aside {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 1.75rem;
         position: absolute;
         top: 0;
-        bottom: 0;
         left: 41rem;
         right: 0;
         padding: 1rem;
-        /* clip, not hidden: the inner box has to stay sticky against the viewport. */
-        overflow: clip;
         box-sizing: border-box;
         border: 1px solid var(--hairline);
         text-align: center;
         color: var(--muted);
     }
-
-    /* The content stays in view while the page scrolls, unless it is taller than the viewport: then it would be cut off,
-       so it scrolls with the page (_js/post-aside.js sets .is-tall). */
-    .aside-inner {
-        position: sticky;
-        top: 1rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1.75rem;
-    }
-
-    .aside-inner.is-tall { position: static; }
 }
 
 .aside-item {
@@ -56,8 +43,6 @@
     flex: none;
     color: inherit;
 }
-
-.aside-item[hidden] { display: none; }
 
 .post-aside a,
 .post-aside a:hover { border-bottom: none; }
@@ -81,6 +66,11 @@
 .aside-label {
     font-family: var(--font-mono);
     font-size: var(--nav-size);
+}
+
+.aside-copy {
+    margin: 0;
+    font-size: 0.85rem;
 }
 
 .aside-neighbors { gap: 1.25rem; }
