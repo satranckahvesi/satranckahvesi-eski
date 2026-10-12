@@ -1,8 +1,9 @@
-{%- comment %} The panel to the right of an article's text: the site, the author's page, the column's page and the about page, in that
+{%- comment %} The panel to the right of an article's text: the site, the author's page, the column's page, the neighbouring posts and the about page, in that
     order. _js/post-aside.js shows as many of them, from the top, as the article is tall enough to hold. {% endcomment -%}
 {%- assign about_page = site.pages | where: "url", "/hakkinda/" | first -%}
 {%- assign about_html = about_page.content | markdownify -%}
 <aside class="post-aside" aria-label="Satranç Kahvesi">
+<div class="aside-inner">
     <a class="aside-item aside-brand" href="{{ '/' | relative_url }}">
         {%- include logo-icon.html halo="aside-logo-halo" class="aside-logo" -%}
         <span class="aside-brand-name">Satranç Kahvesi</span>
@@ -20,9 +21,26 @@
         <span class="aside-title">{{ page.column }}</span>
     </a>
     {%- endif %}
+    {%- if page.previous or page.next %}
+    <nav class="aside-item aside-card aside-neighbors" aria-label="Önceki ve sonraki yazı">
+        {%- if page.previous %}
+        <a class="aside-neighbor" href="{{ page.previous.url | relative_url }}" rel="prev">
+            <span class="aside-label">Önceki yazı</span>
+            <span class="aside-title">{{ page.previous.title }}</span>
+        </a>
+        {%- endif %}
+        {%- if page.next %}
+        <a class="aside-neighbor" href="{{ page.next.url | relative_url }}" rel="next">
+            <span class="aside-label">Sonraki yazı</span>
+            <span class="aside-title">{{ page.next.title }}</span>
+        </a>
+        {%- endif %}
+    </nav>
+    {%- endif %}
     {%- comment %} A div, not a link: the page's text has links of its own. {% endcomment %}
     <div class="aside-item aside-card aside-about">
         <a class="aside-label" href="{{ '/hakkinda/' | relative_url }}">Hakkında</a>
         <div class="aside-text">{{ about_html }}</div>
     </div>
+</div>
 </aside>

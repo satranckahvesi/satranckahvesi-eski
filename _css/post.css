@@ -20,19 +20,32 @@
 
 @media (min-width: 64em) {
     .post-aside {
-        display: flex;
-        flex-direction: column;
-        gap: 1.75rem;
+        display: block;
         position: absolute;
         top: 0;
         bottom: 0;
         left: 41rem;
         right: 0;
         padding: 1rem;
-        overflow: hidden;
+        /* clip, not hidden: the inner box has to stay sticky against the viewport. */
+        overflow: clip;
         box-sizing: border-box;
         border: 1px solid var(--hairline);
         text-align: center;
+        color: var(--muted);
+    }
+
+    /* The content stays in view while the page scrolls, within the viewport's height (_js/post-aside.js shows the items
+       that fit in it). */
+    .aside-inner {
+        position: sticky;
+        top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.75rem;
+        height: 100%;
+        max-height: calc(100vh - 2rem);
+        overflow: hidden;
     }
 }
 
@@ -42,7 +55,7 @@
     align-items: center;
     gap: 0.5rem;
     flex: none;
-    color: var(--ink);
+    color: inherit;
 }
 
 .aside-item[hidden] { display: none; }
@@ -53,6 +66,10 @@
 .aside-logo {
     width: 6.5rem;
     height: 6.5rem;
+    /* --muted is the ink at 62% alpha; the drawing's overlapping parts would show through a translucent colour, so
+       the whole drawing is dimmed instead. */
+    color: var(--ink);
+    opacity: 0.62;
 }
 
 .aside-brand-name {
@@ -65,8 +82,21 @@
 .aside-label {
     font-family: var(--font-mono);
     font-size: var(--nav-size);
-    color: var(--muted);
 }
+
+.aside-neighbors { gap: 1.25rem; }
+
+.aside-neighbor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    color: inherit;
+}
+
+.aside-neighbor:hover .aside-title { text-decoration: underline; }
+
+.post-aside .avatar-circle { border-color: currentColor; }
 
 .aside-title {
     font-weight: bold;
@@ -75,7 +105,7 @@
 }
 
 .aside-card:hover .avatar-circle {
-    background: var(--ink);
+    background: var(--muted);
     color: var(--bg);
 }
 
@@ -95,7 +125,6 @@
 .aside-text {
     font-size: 0.85rem;
     line-height: 1.45;
-    color: var(--muted);
 }
 
 .post-title,
