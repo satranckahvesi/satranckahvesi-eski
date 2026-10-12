@@ -114,13 +114,17 @@ function cropWrapper(el, crop) {
   return wrap;
 }
 
-// Every game is followed by a short rule, whatever comes next.
+// Every game is set off by a short rule on each side, whatever comes next; two games in a row share the one between them.
 function separateBlocks(switcherBlocks) {
-  for (const wrap of switcherBlocks) {
+  const makeDivider = () => {
     const divider = document.createElement('div');
     divider.className = 'pgn-divider';
     divider.setAttribute('aria-hidden', 'true');
-    wrap.after(divider);
+    return divider;
+  };
+  for (const wrap of switcherBlocks) {
+    if (!wrap.previousElementSibling?.classList.contains('pgn-divider')) wrap.before(makeDivider());
+    wrap.after(makeDivider());
   }
 }
 
