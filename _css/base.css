@@ -19,10 +19,10 @@ html {
     --font-logo-serif: 'Merriweather', Georgia, 'Times New Roman', serif;
     /* Menu text size; the column names above the home page titles match it. */
     --nav-size: 0.85rem;
-    /* The masthead logo: the icon's size and the size of the name beside it. The header's alignment maths
-       (_css/layout.css) is written in terms of --logo-size. */
-    --logo-size: 3.1rem;
-    --brand-size: 1.3rem;
+    /* The masthead logo: the icon's size and the size of the name beside it; 10% smaller below 52em. The header's
+       alignment maths (_css/layout.css) is written in terms of --logo-size. */
+    --logo-size: 2.79rem;
+    --brand-size: 1.17rem;
     /* Size of a title on the home page (its first line, the author line and the excerpt are half of it); below 52em the
        footer and the menu are that size too. */
     --home-title-size: 1.6rem;
@@ -32,7 +32,7 @@ html {
 }
 
 @media (min-width: 52em) {
-    :root { --nav-size: 0.86rem; --column: 56rem; }
+    :root { --nav-size: 0.86rem; --column: 56rem; --logo-size: 3.1rem; --brand-size: 1.3rem; }
 }
 
 
