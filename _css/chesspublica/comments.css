@@ -35,3 +35,9 @@
 .post-body pgn-study .pgn-title .video-title-text {
     font-size: 1em;
 }
+
+/* The comment line that only repeats the active variation move's inline comment (see variation-fix.js). */
+
+.post-body pgn-player .video-comment .comment-line.cp-duplicate {
+    display: none;
+}
