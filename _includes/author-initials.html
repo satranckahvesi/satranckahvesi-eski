@@ -1,0 +1,10 @@
+{%- comment %} The two initials of an author's name (first and last word, leaving out a chess title such as FM). name: the author. {% endcomment -%}
+{%- assign words = include.name | split: " " -%}
+{%- if site.chess_titles contains words[0] -%}
+  {%- assign name_words = words | slice: 1, 10 -%}
+{%- else -%}
+  {%- assign name_words = words -%}
+{%- endif -%}
+{%- assign first_initial = name_words | first | slice: 0, 1 -%}
+{%- assign last_initial = name_words | last | slice: 0, 1 -%}
+{{- first_initial | append: last_initial | upcase -}}

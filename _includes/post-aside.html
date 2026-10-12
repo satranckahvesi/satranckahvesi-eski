@@ -1,7 +1,5 @@
 {%- comment %} The panel to the right of an article's text: the site, the author's page, the column's page and the about page, in that
     order. _js/post-aside.js shows as many of them, from the top, as the article is tall enough to hold. {% endcomment -%}
-{%- assign author_posts = site.posts | where: "author", page.author -%}
-{%- assign column_posts = site.posts | where: "column", page.column -%}
 {%- assign about_page = site.pages | where: "url", "/hakkinda/" | first -%}
 {%- assign about_html = about_page.content | markdownify -%}
 {%- capture about_text %}{% include first-paragraph.html html=about_html %}{% endcapture -%}
@@ -13,19 +11,18 @@
     {%- if page.author %}
     <a class="aside-item aside-card" href="{% include author-url.html name=page.author %}">
         <span class="aside-label">Yazar</span>
+        <span class="avatar-circle" aria-hidden="true">{% include author-initials.html name=page.author %}</span>
         <span class="aside-title">{{ page.author }}</span>
-        <span class="aside-text">{{ author_posts.size }} yazı</span>
     </a>
     {%- endif %}
     {%- if page.column %}
     <a class="aside-item aside-card" href="{% include column-url.html name=page.column %}">
         <span class="aside-label">Köşe</span>
         <span class="aside-title">{{ page.column }}</span>
-        <span class="aside-text">{{ column_posts.size }} yazı</span>
     </a>
     {%- endif %}
     <a class="aside-item aside-card" href="{{ '/hakkinda/' | relative_url }}">
         <span class="aside-label">Hakkında</span>
-        <span class="aside-text">{{ about_text | truncate: 140 }}</span>
+        <span class="aside-text aside-about">{{ about_text }}</span>
     </a>
 </aside>
