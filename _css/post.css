@@ -100,7 +100,7 @@
     line-height: 1.3;
 }
 
-.aside-card:hover .avatar-circle {
+.aside-card:hover .avatar-circle:not(.avatar-photo) {
     background: var(--muted);
     color: var(--bg);
 }
