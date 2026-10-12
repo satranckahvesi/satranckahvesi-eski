@@ -41,6 +41,7 @@ function restore(player) {
 
   if (!variation) {
     box.classList.remove('cp-in-variation');
+    box.querySelector(':scope > .comment-line')?.classList.remove('cp-duplicate');
     const blocks = toArray(box.children).filter(isBlock);
     savedBlocks.set(player, blocks.length ? blocks : null);
     const line = box.querySelector(':scope > .comment-line');
@@ -62,7 +63,22 @@ function restore(player) {
     box.append(content);
   }
   restoreLine(player, box);
+  hideDuplicateComment(box);
   ensurePlayButton(box);
+}
+
+const textOf = (el) => (el?.textContent || '').replace(/\s+/g, ' ').trim();
+
+// Inside a variation ChessPublica shows the active move's comment twice: as the comment line above the variation and
+// inline in the variation's own text, right after the move. The inline one stays (it is part of the variation); the
+// line is hidden when it only repeats it. A line with a different text (the mainline comment the variation hangs off)
+// stays.
+function hideDuplicateComment(box) {
+  const line = box.querySelector(':scope > .comment-line');
+  if (!line) return;
+  const inline = box.querySelector('.var-move.active')?.nextElementSibling;
+  const duplicate = Boolean(inline?.classList.contains('variation-comment')) && textOf(inline) === textOf(line);
+  line.classList.toggle('cp-duplicate', duplicate);
 }
 
 // Keeps the mainline comment ahead of the variations it introduces.
