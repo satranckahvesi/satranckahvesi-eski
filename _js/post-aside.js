@@ -1,6 +1,6 @@
 // Fills the panel beside an article (_includes/post-aside.html) from the top with as many of its items as fit in the
-// article's height (or the viewport's, if that is less: the panel sticks while the page scrolls), which differs from one
-// article to the next and changes as figures and boards load.
+// article's height, which differs from one article to the next and changes as figures and boards load. The panel
+// sticks while the page scrolls, unless what it shows is taller than the viewport.
 
 import { toArray } from './lib/dom.js';
 
@@ -16,7 +16,7 @@ export function installPostAside() {
       item.hidden = false;
     });
     if (getComputedStyle(aside).display === 'none') return;
-    // The inner box is as tall as the article, up to the height of the viewport it sticks in.
+    inner.classList.remove('is-tall');
     const gap = parseFloat(getComputedStyle(inner).rowGap) || 0;
     const room = inner.clientHeight;
     let used = 0;
@@ -30,6 +30,10 @@ export function installPostAside() {
         used += height;
       }
     }
+    inner.classList.toggle(
+      'is-tall',
+      used > innerHeight - 2 * parseFloat(getComputedStyle(document.documentElement).fontSize)
+    );
   };
 
   fit();
