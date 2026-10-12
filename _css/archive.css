@@ -258,6 +258,11 @@ a:hover .avatar-photo img {
     color: var(--ink);
 }
 
+/* "Devamını oku →" is never split: when it does not fit at the end of the last line it moves, whole, to the next one. */
+.post-list-more {
+    white-space: nowrap;
+}
+
 .post-list-meta a {
     color: inherit;
     border-bottom-style: none;
