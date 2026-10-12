@@ -1,7 +1,6 @@
 {%- comment %} The panel to the right of an article's text: the author's page, the column's page, the site and the neighbouring posts, in that
-    order. _js/post-aside.js shows as many of them, from the top, as the article is tall enough to hold. {% endcomment -%}
+    order, then the copyright. {% endcomment -%}
 <aside class="post-aside" aria-label="Satranç Kahvesi">
-<div class="aside-inner">
     {%- if page.author %}
     <a class="aside-item aside-card" href="{% include author-url.html name=page.author %}">
         <span class="aside-label">Yazar</span>
@@ -35,5 +34,5 @@
         {%- endif %}
     </nav>
     {%- endif %}
-</div>
+    <p class="aside-copy">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
 </aside>
