@@ -6,7 +6,7 @@ author: "FM Nazmi Can Doğan"
 column: "Satranç tarihi"
 ---
 
-Efsanevi Büyükusta Jan Timman'ın kariyerinin en önemli zaferlerinden biri 1982 _Mar del Plata_ turnuvasıydı. Turnuvaya kötü başlayan Timman hızla toparlanıp Karpov, Portisch ve Polugaevsky gibi devlerin önünde zirveye nasıl ulaştı?
+Efsanevi Büyükusta Jan Timman'ın kariyerinin en önemli zaferlerinden biri _1982 Mar del Plata (Clarín) Turnuvası_'ydı. Turnuvaya kötü başlayan Timman hızla toparlanıp Karpov, Portisch ve Polugaevsky gibi devlerin önünde zirveye nasıl ulaştı?
 
 Bu yazı, geçtiğimiz aylarda yaşamını yitiren Hollandalı Büyükusta **Jan Timman**'ın (1951-2026) kariyerinden bir turnuvaya odaklanacak. Timman'ın reyting listesinde dünya şampiyonu **Karpov'un ardından ikinci sırada** yer aldığı 1982 senesine gideceğiz. Arjantin'in iyileştirici havasında Timman'ın partilerinin öğretici anlarına odaklanacağız.
 
@@ -31,15 +31,15 @@ Oyunların önemli anlarında okuyucuyu Timman ile birlikte hamleleri bulmaya da
 
 {[P]} 31... Bxc5! { Siyahın güçlü seçeneklerinden yalnızca biri. } 32. Rxc5 Nxc5 33. Bxe5 { [P] [%csl Gh6][%cal Ge3h6] } (33. Qxc5 {[D]} 33... Rd2 $19 { Siyahın 31. hamlesinin ana fikri buydu. }) 33... Nd3! $19 { Bu hamle sayesinde artık 34.Qxh6+ üstünlük sağlamaz. Siyahın ...Nxe5 tehdidi bu fikrin başarılı olmasına engel oluyor. Kalite fazla olan Siyah, kolaylıkla olmasa da kazanmasını bildi. } 0-1
 
-Dünya satrancının ilk on isminden beşinin katıldığı (**Karpov, Timman, Polugaevsky, Portisch, Andersson**) 1982 _Mar del Plata_ turnuvası, Timman'ın kariyerinin en önemli zaferlerinden biriydi.
+Dünya satrancının ilk on isminden beşinin katıldığı (**Karpov, Timman, Polugaevsky, Portisch, Andersson**) _1982 Mar del Plata Turnuvası_, Timman'ın kariyerinin en önemli zaferlerinden biriydi.
 
-Öğretici eserleriyle tanınan **Zenon Franco**'nun (1956-2024) aktardığına göre turnuvanın hemen öncesinde Timman hastaydı. İlk turu kaybederek kötü bir başlangıç yapan Timman, Güney Amerika havasının kendisine yaradığını sonraki turlarda hissedecek ve Arjantin'de oynanan son Clarín turnuvasını kazanacaktı.
+Öğretici eserleriyle tanınan **Zenon Franco**'nun (1956-2024) aktardığına göre turnuvanın hemen öncesinde Timman hastaydı. İlk turu kaybederek kötü bir başlangıç yapan Timman, Güney Amerika havasının kendisine yaradığını sonraki turlarda hissedecek ve Arjantin'de oynanan son _Clarín Turnuvası_'nı kazanacaktı.
 
 Timman şöyle [anlatıyordu](https://es.chessbase.com/post/zenon-franco-683-magistral-clarin-1982):
 
 > "Acı bir öksürük ve çatlamış dudaklarla kıvranırken, Madrid'den Arjantin Pampas'ına giden, on saatlik direkt gece uçuşuna bindim. Córdoba'da uçaktan indiğimizde hava kararmaya başlamıştı ama güneş hâlâ parlıyordu. Çimenlerin taze kokusunu derin bir nefesle içime çektim. Daha sonra öğrendim ki Arjantin'in bu bölgesi akciğer rahatsızlığı olan insanlar için sevilen bir uğrak noktasıymış."
 
-Clarín turnuvasını 1979 senesinde Spassky ve Petrosian'ı da yenerek, 1980'de ise Karpov ve Timman önünde kazanan Bent Larsen, 1982'ye gelindiğinde harika bir sonuç elde edemese de ilk tura zaferle başlamıştı. Aynı yıl Buenos Aires'e taşınan Larsen ömrünün sonuna kadar orada ikamet etmiştir.
+_Clarín Turnuvası_'nı 1979 senesinde Spassky ve Petrosian'ı da yenerek, 1980'de ise Karpov ve Timman önünde kazanan Bent Larsen, 1982'ye gelindiğinde harika bir sonuç elde edemese de ilk tura zaferle başlamıştı. Aynı yıl Buenos Aires'e taşınan Larsen ömrünün sonuna kadar orada ikamet etmiştir.
 
 [Event "Mar del Plata"]
 [Site "Mar del Plata ARG"]
@@ -61,7 +61,7 @@ Oyunun kendisi belki çok heyecan verici değil, ancak bu videoyu paylaşmama ve
 <figcaption>"Liefde voor Hout" (Ahşap Aşkı), TV belgeseli (VPRO), 1979. Yönetmen: Jop Pannekoek<br>Belgeselin bu bölümünde Timman, Andersson ve Ree sohbet ederken görülebilir.</figcaption>
 </figure>
 
-Sade, teknik konumlara olan hâkimiyeti nedeniyle bir oyunsonu efsanesi olarak anılan Andersson, 1982 Clarín turnuvasını bir galibiyet ve on iki beraberlikle bitirmişti.
+Sade, teknik konumlara olan hâkimiyeti nedeniyle bir oyunsonu efsanesi olarak anılan Andersson, _1982 Clarín Turnuvası_'nı bir galibiyet ve on iki beraberlikle bitirmişti.
 
 Turnuva oynandığı sırada yetmiş bir yaşında olan **Miguel Najdorf**, yaşına rağmen bu devler arenasında yalnızca üç oyun kaybetmişti. Otuz yaşındaki rakibi Timman ise belki de bu oyunun yarattığı ivmeyle turnuva zaferine imza atacaktı.
 
@@ -84,7 +84,7 @@ Garry Kasparov, _"My Great Predecessors"_ (Benim Ustalarım) serisinin dördünc
 
 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Bxc6 { Günümüzde de üst seviyelerde karşılaşılan bu hamlenin amacı, 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 hamleleriyle girilen Kırışmalı İspanyol'u, Siyahın az önce geliştirdiği atın ve filin uygunsuz konumda olduğu iddiasıyla oynamaktır. } 6... dxc6 { [%csl Re7,Rf6] } 7. d3 { [%csl Ge5][%cal Gf3e5] } 7... Nd7 { Siyah hemen uygunsuz durumdaki atının yerini düzelterek başlıyor. Artık f-piyonu kullanılabilir. } 8. Nbd2 O-O { Beyaz genel olarak d4 veya f4 sürüşü ile merkezdeki üstünlüğünü ve taş etkinliğini artırmak ister. Siyahın ise fil çiftiyle uzun vadeli bir oyun hedeflediği söylenebilir. } 9. Nc4 Bf6 (9... f6 { Bu hamle daha sık tercih ediliyor. } 10. Nh4 { Siyahın oyundaki fikriyle kaçınmak istediği hamle budur. } { [%cal Gh4f5] } 10... Nc5 11. Nf5 Bxf5 12. exf5 Qd5 13. Qg4 e4 14. Ne3 Qe5 15. Nc4 Qd5 { Karpov, Anatoly - Petrosian, Tigran V, 1/2-1/2, URS-chT. }) 10. b4!? { [D] Siyahın vezir kanadı piyonlarının ilerleyişini önleyerek filini geliştirmek istiyor. } { [%csl Gc6,Gc7,Gb7,Ga6][%cal Gc1b2] } (10. b3 { Piyonlara artık tahtada olmayan açık renkli filinin görevini vermek daha yaygın bir yöntem. } 10... Re8 11. Bb2 c5 12. a4 b6 13. h3 { [%cal Gf3h2,Gf2f4] } 13... Rb8 14. Nh2 b5 15. axb5 axb5 16. Ne3 $14 { Kholmov, Ratmir D - Beliavsky, Alexander G, 1-0, URS, 1982. } { [%cal Gf2f4,Ge3d5,Ge3f5] }) 10... Re8 11. Bb2 b6 { [%cal Gc8b7,Ga6a5] } 12. Bc3 g6 13. Nfd2 { [%csl Gf4][%cal Gf2f4] } 13... c5 14. a3 cxb4 15. axb4 Nb8?! { [P] İlk kritik an. Siyah zaman bulabilirse atını d4-karesine götürmek istiyor. Bunu başarırsa güzel bir konumu olacak. } (15... b5 16. Ne3 { [%cal Gd2b3,Ge3d5] } 16... Nb6 { daha sağlamdı. } { [%cal Gb6a4] }) 16. f4! exf4 17. Bxf6 (17. e5 Bg7 18. Qf3 { [%csl Ra8] } 18... Ra7 19. Qxf4 Be6 20. Ne4 $16) 17... Qxf6 18. e5 Qc6 19. Ne4 { [%cal Ge4f6] } 19... Nd7 20. Rxf4 Bb7 { [P] } 21. Qd2! (21. Qf3?! b5 22. Na5 Qb6+ 23. Kh1 Nxe5! 24. Nf6+?? Qxf6 $19) 21... b5 22. Ne3 (22. Na5 Qb6+ 23. Kh1? Bxe4 24. Rxe4 Rxe5 $17) 22... Qb6 (22... Rxe5? { [D] Beyaz atların gazabından kurtulmanın olanaksızlığını gösteren bir egzersiz olurdu. } 23. Ng4! { [%cal Gg4h6,Rg4f6] } 23... Re7 24. Nef6+ Nxf6 (24... Kh8 25. Nxd7 Rxd7 26. Ne5 $18) 25. Rxf6 { Siyah vezire kaçacak uygun bir kare yoktur. } 25... Qd5 { [D] } 26. Rxg6+! $18) 23. d4 (23. Nc5! Nxc5 (23... Rxe5 24. Ng4! Nxc5 25. bxc5 Rxc5 26. d4 Rd5 27. Nh6+! $18) 24. bxc5 Qxc5 25. d4 $18 { [%cal Ge3g4] }) 23... Bxe4 24. Rxe4 Rad8 { [%cal Gd7e5] } 25. Qf2 Nf6?! (25... f6 { Şahı böylesine zayıflatmak riskli görünüyor ancak Stockfish'e göre çok daha iyi savunma olanakları sunardı. }) 26. Rf4 Nh5 27. Rxf7 Qxd4 { [%csl Ga1][%cal Gd4a1] } 28. Rf1 Qxe5 { [P] } 29. Ng4! { Atın koyu renklerden saldırısı belirleyici olacak. } { [%cal Gg4h6,Gg4e5] } 29... Qg5 { [%csl Gh6] } (29... Qd4 30. Qxd4 Rxd4 31. Nh6+ Kh8 { [D] } 32. g4! $18 { Bu kazandıran ayrıntı nedeniyle Siyah vezirleri değişemez. }) 30. h3 { Siyah neredeyse _zugzwang_ durumundadır, ancak yine de hemen kazanmak mümkün değil. } 30... c6 31. Qf3 Qd2 32. c3 Qg5 33. Qxc6 Rf8 34. Qe6 Rxf7 35. Qxf7+ Kh8 36. Qc7 Qd2?? { Bu hamleyle birlikte Siyah belki de terk ediyor. } (36... Re8) 37. Qe5+ Ng7 38. Rf7 Rg8 39. Nf6 $18 { [%cal Rf6e8,Gf6g8] } 1-0
 
-Arjantin satrancına damga vuran 1935 doğumlu Büyükusta **Oscar Panno**, 1953'te Dünya Gençler Şampiyonu ve yine aynı sene Arjantin şampiyonu olmuştu. Oyunlarını incelediğimiz geleneksel _Mar del Plata_ turnuvasını farklı yıllarda kazanmıştı.
+Arjantin satrancına damga vuran 1935 doğumlu Büyükusta **Oscar Panno**, 1953'te Dünya Gençler Şampiyonu ve yine aynı sene Arjantin şampiyonu olmuştu. Oyunlarını incelediğimiz geleneksel _Mar del Plata Turnuvası_'nı farklı yıllarda kazanmıştı.
 
 1950'li yıllarda yıldızı parlayan Oscar Panno, satranç gelişimi için pek kaynağın bulunmadığı bir coğrafyada yaşıyordu. Arjantin'de _Shakhmaty v SSSR_ dergisinin sayılarını "bir yıl geriden" takip ediyorlar ve bu eksikliği kapatmak için yoğun çaba harcamak zorunda kalıyorlardı.
 
@@ -109,7 +109,7 @@ Yıldızının parladığı yıllarda profesyonel satranç oynamak yerine mühen
 
 Reyting sıralamasında Karpov'dan sonra ikinci sırada yer alan Timman'ın, Merano'dan yorgun dönen dünya şampiyonu karşısında nasıl bir performans sergileyeceği belki de kendisi için turnuvanın kaderini belirleyecek ve olası bir maçta dünya şampiyonu karşısındaki şansını gösterecekti.
 
-Karpov ise bundan önceki Clarín turnuvasıyla beraber o yıllarda neredeyse önüne çıkan **her turnuvayı kazanmaktaydı**. Timman ve Polugaevsky'e göre, **Korchnoi**'ya karşı henüz birkaç ay önce **ünvanını savunmuş** olması şampiyonun 1982 Clarín turnuvasındaki performansını olumsuz etkilemişti.
+Karpov ise bundan önceki _Clarín Turnuvası_ ile beraber o yıllarda neredeyse önüne çıkan **her turnuvayı kazanmaktaydı**. Timman ve Polugaevsky'e göre, **Korchnoi**'ya karşı henüz birkaç ay önce **ünvanını savunmuş** olması şampiyonun _1982 Clarín Turnuvası_'ndaki performansını olumsuz etkilemişti.
 
 [Event "Mar del Plata"]
 [Site "Mar del Plata ARG"]
@@ -253,11 +253,11 @@ Son tura turnuva şampiyonluğunu garanti ederek giren Timman, bir başka efsane
 [BlackElo "2655"]
 [Annotator "FM Nazmi Can Doğan"]
 
-1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 Ne4 8. Nxe4 Bxe4 9. Nh4 {[D] Beyazla hızlı bir beraberlik yapmak için uygun seçim. } 9... Bxg2 10. Nxg2 d5 11. Qa4 Qd7 12. Qxd7 Nxd7 13. cxd5 exd5 14. Be3 c6 { Taraflar beraberlikte anlaştılar. Bu beraberlikle birlikte Timman 1982 _Mar del Plata_ turnuvasını ikinci ile arasında 1,5 puan farkla kazanmış oldu. } 1/2-1/2
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7 5. Bg2 Be7 6. O-O O-O 7. Nc3 Ne4 8. Nxe4 Bxe4 9. Nh4 {[D] Beyazla hızlı bir beraberlik yapmak için uygun seçim. } 9... Bxg2 10. Nxg2 d5 11. Qa4 Qd7 12. Qxd7 Nxd7 13. cxd5 exd5 14. Be3 c6 { Taraflar beraberlikte anlaştılar. Bu beraberlikle birlikte Timman, _1982 Mar del Plata Turnuvası_'nı ikinci ile arasında 1,5 puan farkla kazanmış oldu. } 1/2-1/2
 
 Ocak 1982 reyting listesinde 2720 puanlı Dünya Şampiyonu Anatoly Karpov'un ardından 2655 Elo ile ikinci sırada yer alan Jan Timman, bu turnuvayla sıralamadaki yerinin tesadüf olmadığını satranç dünyasına gösteriyordu. Ne var ki bu, Timman'ın kariyerinin zirvesiydi. Sonraki yıllarda ise Kasparov'un yükselişiyle birlikte Elo sıralamasında ancak üçüncü sıraya kadar çıkabilmişti.
 
-_Mar del Plata_ 1982 Uluslararası Satranç Turnuvası çapraz tablosu:
+_Mar del Plata 1982 Uluslararası Satranç Turnuvası_ çapraz tablosu:
 
 <pre>
                       1 2 3 4 5 6 7 8 9 0 1 2 3 4  Puan
