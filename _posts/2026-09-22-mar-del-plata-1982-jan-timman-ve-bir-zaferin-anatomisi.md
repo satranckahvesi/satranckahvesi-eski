@@ -35,9 +35,9 @@ Dünya satrancının ilk on isminden beşinin katıldığı (**Karpov, Timman, P
 
 Öğretici eserleriyle tanınan **Zenon Franco**'nun (1956-2024) aktardığına göre turnuvanın hemen öncesinde Timman hastaydı. İlk turu kaybederek kötü bir başlangıç yapan Timman, Güney Amerika havasının kendisine yaradığını sonraki turlarda hissedecek ve Arjantin'de oynanan son Clarín turnuvasını kazanacaktı.
 
-Şampiyon şöyle diyordu:
+Şampiyon şöyle [diyordu](https://es.chessbase.com/post/zenon-franco-683-magistral-clarin-1982):
 
-> "Acı bir öksürük ve çatlamış dudaklarla kıvranırken, Madrid'den Arjantin Pampas'ına giden, on saatlik direkt gece uçuşuna bindim. Córdoba'da uçaktan indiğimizde hava kararmıştı; güneş hâlâ parlıyordu ve çimenlerin taze kokusunu derin bir nefesle içime çektim. Daha sonra öğrendim ki Arjantin'in bu bölgesi akciğer rahatsızlığı olan insanlar için sevilen bir uğrak noktasıymış."
+> "Acı bir öksürük ve çatlamış dudaklarla kıvranırken, Madrid'den Arjantin Pampas'ına giden, on saatlik direkt gece uçuşuna bindim. Córdoba'da uçaktan indiğimizde hava kararmaya başlamıştı ama güneş hâlâ parlıyordu. Çimenlerin taze kokusunu derin bir nefesle içime çektim. Daha sonra öğrendim ki Arjantin'in bu bölgesi akciğer rahatsızlığı olan insanlar için sevilen bir uğrak noktasıymış."
 
 Clarín turnuvasını 1979 senesinde Spassky ve Petrosian'ı da yenerek, 1980'de ise Karpov ve Timman önünde kazanan Bent Larsen, 1982'ye gelindiğinde harika bir sonuç elde edemese de ilk tura zaferle başlamıştı. Aynı yıl Buenos Aires'e taşınan Larsen ömrünün sonuna kadar orada ikamet etmiştir.
 
