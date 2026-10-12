@@ -35,7 +35,7 @@
     flex-basis: 100%;
 }
 
-/* The menu links are as big as the footer's (0.9rem) in the folded menu; from 52em they are --nav-size, with a thin
+/* The menu links are as big as the footer's (half of --home-title-size) in the folded menu; from 52em they are --nav-size, with a thin
    vertical rule to the left of each. The rule is a pseudo-element rather than a border
    so it can stand on the text's baseline instead of filling the line box. The room for it is a margin,
    not padding, so the hover underline (the bottom border) spans only the text. At line-height 1 the
@@ -43,7 +43,7 @@
    not grow when the underline appears. */
 
 .nav-links {
-    font-size: 0.9rem;
+    font-size: calc(var(--home-title-size) / 2);
 }
 
 /* The folded menu's links are laid out like the footer's: the same line height and underline room, and the same
@@ -346,7 +346,7 @@
     gap: var(--footer-gap);
     color: var(--ink);
     font-family: var(--font-mono);
-    font-size: 0.9rem;
+    font-size: calc(var(--home-title-size) / 2);
     text-align: center;
 }
 

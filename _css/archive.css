@@ -173,10 +173,6 @@
    colon). The first line is half of it (.title-lead) and the author / column / date line below
    matches that first line; so does the excerpt under them. */
 
-#yazilar {
-    --home-title-size: 1.6rem;
-}
-
 #yazilar .post-list-body > a {
     font-size: var(--home-title-size);
     line-height: 34px;
