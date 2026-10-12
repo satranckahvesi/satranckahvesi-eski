@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 0.35rem;
+    gap: 0.75rem;
     flex-basis: 100%;
 }
 
@@ -46,10 +46,13 @@
     font-size: 0.9rem;
 }
 
+/* The folded menu's links are laid out like the footer's: the same line height and underline room, and the same
+   gap between them (0.75rem, the footer's --footer-gap), so both columns are spaced alike. */
+
 .nav-links a {
     position: relative;
-    padding: 0;
-    line-height: 1;
+    padding: 0 0 1px;
+    line-height: 1.5;
     white-space: nowrap;
     border-bottom: 1px dotted transparent;
 }
@@ -63,6 +66,8 @@
 
     .nav-links a {
         margin-left: 0.6rem;
+        padding: 0;
+        line-height: 1;
     }
 
     .nav-links a::before {
@@ -180,6 +185,21 @@
     .nav-links {
         order: 4;
         flex-basis: 100%;
+    }
+
+    /* The folded menu opens over the page instead of pushing it down: a panel under the header, at the right edge
+       of the content column like the buttons. Without JavaScript (no [data-menu]) the links are not folded and stay in
+       the flow. */
+    .site-nav[data-menu] .nav-links {
+        position: absolute;
+        top: 100%;
+        right: max(1rem, calc((100vw - var(--column)) / 2));
+        z-index: 20;
+        flex-basis: auto;
+        padding: 1rem 1.25rem;
+        background: var(--bg);
+        border: 1px solid var(--hairline);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
     }
 }
 
