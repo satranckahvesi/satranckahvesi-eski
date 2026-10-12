@@ -2,7 +2,6 @@
     order. _js/post-aside.js shows as many of them, from the top, as the article is tall enough to hold. {% endcomment -%}
 {%- assign about_page = site.pages | where: "url", "/hakkinda/" | first -%}
 {%- assign about_html = about_page.content | markdownify -%}
-{%- capture about_text %}{% include first-paragraph.html html=about_html %}{% endcapture -%}
 <aside class="post-aside" aria-label="Satranç Kahvesi">
     <a class="aside-item aside-brand" href="{{ '/' | relative_url }}">
         {%- include logo-icon.html halo="aside-logo-halo" class="aside-logo" -%}
@@ -21,8 +20,9 @@
         <span class="aside-title">{{ page.column }}</span>
     </a>
     {%- endif %}
-    <a class="aside-item aside-card" href="{{ '/hakkinda/' | relative_url }}">
-        <span class="aside-label">Hakkında</span>
-        <span class="aside-text aside-about">{{ about_text }}</span>
-    </a>
+    {%- comment %} A div, not a link: the page's text has links of its own. {% endcomment %}
+    <div class="aside-item aside-card aside-about">
+        <a class="aside-label" href="{{ '/hakkinda/' | relative_url }}">Hakkında</a>
+        <div class="aside-text">{{ about_html }}</div>
+    </div>
 </aside>
