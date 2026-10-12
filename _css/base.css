@@ -23,6 +23,9 @@ html {
        (_css/layout.css) is written in terms of --logo-size. */
     --logo-size: 3.1rem;
     --brand-size: 1.3rem;
+    /* Size of a title on the home page (its first line, the author line and the excerpt are half of it); below 52em the
+       footer and the menu are that size too. */
+    --home-title-size: 1.6rem;
     /* Width of the content column; wider on big screens. */
     --column: 42rem;
     color-scheme: light;

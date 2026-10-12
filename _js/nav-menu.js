@@ -20,7 +20,9 @@ export function installNavMenu() {
   menu.addEventListener('click', (event) => {
     if (event.target.closest('a')) set(false);
   });
-  document.addEventListener('click', (event) => {
+  // pointerdown rather than click: iOS Safari sends no click for a tap on an element that is not interactive, which
+  // is most of the page.
+  document.addEventListener('pointerdown', (event) => {
     if (!nav.contains(event.target)) set(false);
   });
   document.addEventListener('keydown', (event) => {
