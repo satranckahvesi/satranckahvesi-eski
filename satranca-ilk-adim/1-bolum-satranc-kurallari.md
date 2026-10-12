@@ -6,9 +6,6 @@ author: "Görkem Sivri"
 column: "Başlangıç düzeyi"
 standalone: true
 permalink: /satranca-ilk-adim/1-bolum-satranc-kurallari/
-redirect_from:
-  - /posts/satranc-kurallari/
-  - /posts/1-bolum-satranc-kurallari/
 ---
 
 Satranç, iki kişi arasında sıra ile yapılan hamlelerle oynanan bir zekâ oyunudur. Oyun, **SATRANÇ TAHTASI** adı verilen bir zeminin üzerinde, **SATRANÇ TAŞLARI** denen taşlarla oynanır. Tahta ve taşlar birlikte **SATRANÇ TAKIMI** olarak adlandırılır.
@@ -72,7 +69,7 @@ Başlangıçta tahtada 32 adet taş bulunur. Bu taşlar, yarısı açık renkli,
 | KALE | ♖ | 2 |
 | FİL | ♗ | 2 |
 | AT | ♘ | 2 |
-| PİYON (ER) | ♙ | 8 |
+| PİYON | ♙ | 8 |
 {: .table-center .piece-symbols}
 
 Taşların tahtaya başlangıçta dizilişi aşağıdaki şekildedir (Diyagram 1.4):
@@ -99,7 +96,7 @@ Taşların hareket etme ve rakip taşları alma kurallarının ayrıntılarına 
 
 2a3. At dışındaki taşlar, diğer taşların üzerinden — kendi renklerinden ya da rakip renkten olsun — atlayamazlar.
 
-2a4. Bir A taşı, hamlenin rakibe geçmesi halinde rakip taşlar tarafından alınabilecek durumda ise A taşı için **TEHDİT ALTINDA** denir.
+2a4. Bir taş, hamlenin rakibe geçmesi halinde rakip taşlar tarafından alınabilecek durumda ise bu taş için **TEHDİT ALTINDA** denir.
 
 Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye adım atan bir taş, rakip bir taş tarafından alınabilecek durumda kalıyor ise sözkonusu kare için tehdit altında (ya da kontrol altında) denir.
 
@@ -107,9 +104,7 @@ Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye 
 
 ### 2b. Taşların hareket biçimleri
 
-*(Kitaptaki yıldızlı kareler bu yazıda daire olarak gösterilmiştir: yeşil daireler taşın gidebileceği kareleri, kırmızı daireler alabileceği taşı belirtir.)*
-
-**FİL**, çapraz olarak istediği kadar ilerler ve taş alır. Diyagram 1.5'teki fil, yıldızla işaretlenmiş karelere gidebilir ve yolunun üzerindeki rakip taşları (b7-atı) alabilir.
+**FİL**, çapraz olarak istediği kadar ilerler ve taş alır. Diyagram 1.5'teki fil, işaretlenmiş karelere gidebilir ve yolunun üzerindeki rakip taşları (b7-atı) alabilir.
 
 [Event "Diyagram 1.5"]
 [SetUp "1"]
@@ -149,13 +144,13 @@ Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye 
 
 *Diyagram 1.8*
 
-**PİYON**, yalnızca öne doğru ve tek bir kare ilerleyebilir, ancak söz konusu karenin boş olması gereklidir. Piyon yalnızca ön çaprazındaki iki karede bulunan taşları alabilir. İlerleme ve taş alma şekli farklı olan tek taş piyondur. Piyonlar ilk kez hareket ederken, yine önlerinin boş olması kaydıyla, bir yerine iki kare ilerleyebilirler. Örneğin Diyagram 1.9'da a2-karesinde bulunan piyon a3- ve a4-karelerinden birine gidebilir; f3-piyonu ise yalnızca f4'e gidebilir. c4-karesinde bulunan piyonun önü rakip at tarafından tıkanmış olduğu için düz ilerleyemez ama hemen ön çaprazında bulunan d5-filini alabilir.
+**PİYON**, yalnızca öne doğru ve tek bir kare ilerleyebilir, ancak söz konusu karenin boş olması gereklidir. Piyon yalnızca ön çaprazındaki iki karede bulunan taşları alabilir. İlerleme ve taş alma şekli farklı olan tek taş piyondur. Piyonlar ilk kez hareket ederken, yine önlerinin boş olması kaydıyla, bir yerine iki kare ilerleyebilirler. Örneğin Diyagram 1.9'da a2-karesinde bulunan piyon a3 ve a4 karelerinden birine gidebilir; f3 piyonu ise yalnızca f4'e gidebilir. c4-karesinde bulunan piyonun önü rakip at tarafından tıkanmış olduğu için düz ilerleyemez ama hemen ön çaprazında bulunan d5-filini alabilir.
 
 [Event "Diyagram 1.9"]
 [SetUp "1"]
 [FEN "8/8/8/2nb4/2P5/5P2/P7/8 w - - 0 1"]
 
-{ [%csl Ga4,Ga3,Gf4,Rd5] } *
+{ [%cal Ga2a3,Ga2a4] [%csl Gf4,Rd5] } *
 
 *Diyagram 1.9*
 
@@ -171,7 +166,7 @@ Taşlar gibi kareler de tehdit (ya da kontrol) altında olabilirler. Bir kareye 
 
 Şah, diğer taşlardan farklı olarak, tehdit altında bir kareye gidemez veya rakip taşların tehdidi altında bırakılamaz. Başka bir deyişle hamle sırasının sahibi olan oyuncu, rakibinin şahını alabiliyor durumda olmamalıdır. Eğer alabiliyor ise tahtadaki konum kurallara aykırıdır; tahtada kurallara aykırı bir konumun ortaya çıkmasına yol açan hamleye ise **KURALDIŞI HAMLE** denir.
 
-Rakip şahın tehdit edilmesine **ŞAH ÇEKMEK** (ya da kış demek) denir.
+Rakip şahın tehdit edilmesine **ŞAH ÇEKMEK** denir.
 
 Şaha yöneltilen tehdit kurallara uygun hiç bir hamle yardımıyla engellenemiyorsa, şah için **MAT OLMUŞ** denir. Aşağıdaki diyagramlarda birkaç mat örneği gösterilmiştir.
 
@@ -213,7 +208,7 @@ Başlangıç konumu:
 [FEN "8/4p3/8/5P2/8/8/8/K6k b - - 0 1"]
 [Crop "top-half"]
 
-*
+{ [%cal Ge7e5] } *
 
 Siyahın hamlesi (e7-e5):
 
@@ -222,7 +217,7 @@ Siyahın hamlesi (e7-e5):
 [FEN "8/8/8/4pP2/8/8/8/K6k w - e6 0 1"]
 [Crop "top-half"]
 
-*
+{ [%cal Rf5e6] }*
 
 Beyazın geçerken alışı sonrası konum (f5xe6):
 
@@ -244,7 +239,7 @@ Başlangıç konumu:
 [FEN "8/2P5/8/8/8/8/8/K6k w - - 0 1"]
 [Crop "top-half"]
 
-*
+{ [%cal Gc7c8] } *
 
 Piyon terfii sonrası konum (c8=V):
 
@@ -270,9 +265,9 @@ Başlangıç konumu:
 [FEN "4k3/8/8/8/8/8/8/R3K2R w KQ - 0 1"]
 [Crop "bottom-half"]
 
-*
+{ [%cal Ge1c1,Ga1d1,Ye1h1,Yh1f1] }*
 
-a1-kalesi ile rok sonrası konum:
+a1-kalesi ile uzun rok sonrası konum:
 
 [Event "Rok: a1-kalesi ile"]
 [SetUp "1"]
@@ -281,7 +276,7 @@ a1-kalesi ile rok sonrası konum:
 
 *
 
-h1-kalesi ile rok sonrası konum:
+h1-kalesi ile kısa rok sonrası konum:
 
 [Event "Rok: h1-kalesi ile"]
 [SetUp "1"]
@@ -320,7 +315,7 @@ Oyun aşağıdaki durumlarda beraberlikle biter:
 
 4b1. Taraflardan hiçbirinin mat etmek için yeterli taşı bulunmuyorsa,
 
-4b2. Hamle sırasına sahip olan oyuncu, şahı tehdit altında olmadığı halde, kurallara uygun hiçbir hamle yapamıyorsa (**PAT**, aşağıda hamle sırasının Siyahta olduğu birkaç pat örneği gösterilmiştir),
+4b2. Hamle sırasına sahip olan oyuncu, şahı tehdit altında olmadığı halde, kurallara uygun hiçbir hamle yapamıyorsa (**PAT**, aşağıda **hamle sırasının Siyahta** olduğu birkaç pat örneği gösterilmiştir),
 
 <div class="diagram-row" markdown="1">
 
