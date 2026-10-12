@@ -32,12 +32,9 @@ html {
 }
 
 @media (min-width: 52em) {
-    :root { --nav-size: 0.86rem; }
+    :root { --nav-size: 0.86rem; --column: 56rem; }
 }
 
-@media (min-width: 64em) {
-    :root { --column: 56rem; }
-}
 
 /* Dark palette: the head script (_includes/head.html) always sets data-theme
    from the saved choice or the OS setting. The media query is the fallback
