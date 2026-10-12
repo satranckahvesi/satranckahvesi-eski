@@ -35,18 +35,17 @@
         color: var(--muted);
     }
 
-    /* The content stays in view while the page scrolls, within the viewport's height (_js/post-aside.js shows the items
-       that fit in it). */
+    /* The content stays in view while the page scrolls, unless it is taller than the viewport: then it would be cut off,
+       so it scrolls with the page (_js/post-aside.js sets .is-tall). */
     .aside-inner {
         position: sticky;
         top: 1rem;
         display: flex;
         flex-direction: column;
         gap: 1.75rem;
-        height: 100%;
-        max-height: calc(100vh - 2rem);
-        overflow: hidden;
     }
+
+    .aside-inner.is-tall { position: static; }
 }
 
 .aside-item {
