@@ -58,7 +58,7 @@ Oyunun kendisi belki çok heyecan verici değil, ancak bu videoyu paylaşmama ve
 
 <figure class="video-embed">
 <iframe src="https://www.youtube.com/embed/E48r-JTSAVM?start=1001" title="Timman, Andersson ve Ree" allowfullscreen loading="lazy"></iframe>
-<figcaption>_"Liefde voor Hout"_ (Ahşap Aşkı), TV belgeseli (VPRO), 1979. Yönetmen: Jop Pannekoek<br>Belgeselin bu bölümünde Timman, Andersson ve Ree sohbet ederken görülebilir.</figcaption>
+<figcaption>"Liefde voor Hout" (Ahşap Aşkı), TV belgeseli (VPRO), 1979. Yönetmen: Jop Pannekoek<br>Belgeselin bu bölümünde Timman, Andersson ve Ree sohbet ederken görülebilir.</figcaption>
 </figure>
 
 Sade, teknik konumlara olan hâkimiyeti nedeniyle bir oyunsonu efsanesi olarak anılan Andersson, 1982 Clarín turnuvasını bir galibiyet ve on iki beraberlikle bitirmişti.
