@@ -94,6 +94,12 @@
 
 .post-aside .avatar-circle { border-color: currentColor; }
 
+/* A picture of the author is as big as the logo below it. */
+.post-aside .avatar-photo {
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
 .aside-title {
     font-weight: bold;
     font-size: 1.1rem;
