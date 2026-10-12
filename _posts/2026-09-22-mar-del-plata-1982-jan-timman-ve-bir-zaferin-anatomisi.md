@@ -277,6 +277,5 @@ _Mar del Plata_ 1982 Uluslararası Satranç Turnuvası çapraz tablosu:
  14    Giardelli      0 ½ 0 ½ ½ ½ ½ ½ ½ ½ ½ 0 0 *  4½
 </pre>
 
-Timman'ın _Mar del Plata_'daki zaferi, tek bir turnuvadan fazlasını anlatıyor: Hastalıkla ve bir kayıpla turnuvaya başlayan Timman'ın, dönemin dünya şampiyonunu ve çağının en güçlü oyuncularını geride bırakıp art arda sekiz oyun kazanarak turnuva sıralamasında zirveye ulaşması, satrancın mücadele ve incelik gibi öğelerini ortaya koyuyor.
+Sadece oynadığı oyunlarla değil, yazdığı kitaplar, hazırladığı etüdler ve satranca adanmış yaşamıyla satranç aşkının ölümsüz bir sembolü olan Jan Timman hayat perdesini kapatsa da, eserleri ve eşsiz mirası her zaman bizimle kalacak. Jan Timman'ın anısına saygıyla... 
 
-Hollanda satrancının efsane ismi, hamleleri ve yazılarıyla kuşaklara ilham veren Jan Timman'ın (1951-2026) anısına saygıyla.
