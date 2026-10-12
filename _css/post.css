@@ -77,14 +77,8 @@
     font-size: var(--nav-size);
 }
 
-.aside-copy {
-    margin: 0;
-    font-size: 0.85rem;
-}
-
 .aside-note {
-    /* Right under the copyright line, which has the panel's gap above it: closer to it than to the items. */
-    margin: -1.25rem 0 0;
+    margin: 0;
     font-size: 0.75rem;
     line-height: 1.45;
 }

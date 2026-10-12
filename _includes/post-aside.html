@@ -1,5 +1,5 @@
 {%- comment %} Two panels to the right of an article's text: the author's page and the column's page at its top; the site, the
-    neighbouring posts, the copyright and the notice that goes with it at its bottom. {% endcomment -%}
+    neighbouring posts and the copyright notice at its bottom. {% endcomment -%}
 <aside class="post-aside post-aside-top" aria-label="Yazar ve köşe">
     {%- if page.author %}
     {%- capture author_url %}{% include author-url.html name=page.author %}{% endcapture %}
@@ -37,6 +37,5 @@
         {%- endif %}
     </nav>
     {%- endif %}
-    <p class="aside-copy">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
     <p class="aside-note">Bu sayfada yayınlanan yazının telif hakları yazarına ait olup, yayınlama ve çoğaltma yetkisi Satranç Kahvesi’ne aittir. Önceden yazılı izin alınmaksızın kısmen veya tamamen kopyalanamaz, çoğaltılamaz ve kaynak göstermeksizin başka platformlarda yayınlanamaz.</p>
 </aside>

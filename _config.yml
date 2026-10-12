@@ -1,9 +1,10 @@
 title: Satranç Kahvesi
 description: Kahve eşliğinde satranç sohbetleri
 lang: tr
-# The logo is the share image of every page (og:image, twitter:image) and the publisher logo in the structured data.
+# The logo is the publisher logo in the structured data.
 logo: /assets/img/icon-512.png
-# The share image is a square logo: a small card beside the text, not a large banner.
+# Link previews (WhatsApp etc.): a small square logo (under 300 px wide), which WhatsApp shows as a horizontal card with
+# the image on the left and the title and text on the right. A bigger image makes it a vertical card.
 twitter:
   card: summary
 baseurl: ""
@@ -53,7 +54,7 @@ defaults:
       path: ""
     values:
       image:
-        path: /assets/img/icon-512.png
-        width: 512
-        height: 512
+        path: /assets/img/icon-192.png
+        width: 192
+        height: 192
         alt: Satranç Kahvesi logosu
