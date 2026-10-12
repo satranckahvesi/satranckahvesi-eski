@@ -1,12 +1,12 @@
 /* The view switcher above each PGN game (built by _js/pgn/view-switcher.js)
    and the rule after each game. */
 
-/* Short tick between sections. */
+/* Short tick between sections, muted. */
 
 .pgn-divider {
     width: 3.5rem;
     margin: 2.5rem auto;
-    border-top: 2px solid var(--ink);
+    border-top: 2px solid var(--muted);
 }
 
 .pgn-switcher {
