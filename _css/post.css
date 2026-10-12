@@ -32,7 +32,10 @@
         border: 1px solid var(--hairline);
         text-align: center;
         color: var(--muted);
+        transition: border-color 0.15s;
     }
+
+    .post-aside:hover { border-color: var(--ink); }
 
     .post-aside-top { top: 0; }
 
@@ -94,7 +97,6 @@
     color: inherit;
 }
 
-.aside-neighbor:hover .aside-title { text-decoration: underline; }
 
 .post-aside .avatar-circle { border-color: currentColor; }
 
@@ -115,7 +117,18 @@
     color: var(--bg);
 }
 
-.aside-card:hover .aside-title { text-decoration: underline; }
+.aside-title { transition: color 0.15s; }
+
+/* Hover brings the panel's border and the item under the pointer out of the muted colour: no underline. */
+.aside-title:hover { color: var(--ink); }
+
+.aside-brand-name { transition: color 0.15s; }
+
+.aside-brand:hover .aside-brand-name { color: var(--ink); }
+
+.aside-logo { transition: opacity 0.15s; }
+
+.aside-brand:hover .aside-logo { opacity: 1; }
 
 
 
