@@ -16,7 +16,11 @@ export function installNavMenu() {
   button.hidden = false;
   set(false);
 
-  button.addEventListener('click', () => set(!nav.hasAttribute('data-open')));
+  button.addEventListener('click', () => {
+    const open = !nav.hasAttribute('data-open');
+    set(open);
+    if (open) menu.querySelector('a')?.focus({ preventScroll: true });
+  });
   menu.addEventListener('click', (event) => {
     if (event.target.closest('a')) set(false);
   });

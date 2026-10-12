@@ -162,8 +162,23 @@
         margin-left: auto;
         /* Lifts the buttons the last pixel: the letters' middle is a little above where their bottom edge puts it. */
         margin-bottom: 0.07rem;
-        gap: 0.5rem;
+        gap: 0;
     }
+
+    /* Each button is a 44px square touch target (the drawing stays 1.5rem; the rest is padding). The group's right
+       edge is pulled out by the padding, so the icons still end at the content column's edge. */
+    .menu-toggle,
+    .theme-toggle,
+    .refresh-app {
+        align-items: center;
+        justify-content: center;
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    .menu-toggle { gap: 0.3rem; padding-inline: 0.5rem; }
+
+    .nav-tools { margin-right: -0.5rem; }
 
     .nav-links {
         order: 4;
@@ -176,14 +191,32 @@
     .site-nav[data-menu] .nav-links {
         position: absolute;
         top: 100%;
+        left: max(1rem, calc((100vw - var(--column)) / 2));
         right: max(1rem, calc((100vw - var(--column)) / 2));
         z-index: 20;
         flex-basis: auto;
-        padding: 1rem 1.25rem;
+        align-items: stretch;
+        gap: 0;
+        padding: 0 1rem;
+        font-size: 1rem;
         background: var(--bg);
         border: 1px solid var(--hairline);
         box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
     }
+
+    /* The links of the open menu are full-width rows at least 44px tall, with a hairline between them. */
+    .site-nav[data-menu] .nav-links a {
+        display: flex;
+        align-items: center;
+        min-height: 48px;
+        padding: 0;
+        border-bottom: 1px solid var(--hairline);
+    }
+
+    .site-nav[data-menu] .nav-links a:last-child { border-bottom: none; }
+
+    .site-nav[data-menu] .nav-links a:hover,
+    .site-nav[data-menu] .nav-links a[aria-current="page"] { color: var(--ink); font-weight: bold; }
 }
 
 /* The app's refresh button (shown only in the installed app) sits left of the theme button. */
@@ -205,6 +238,17 @@
     margin: 0;
     color: inherit;
     cursor: pointer;
+}
+
+.menu-toggle-icon-close,
+.site-nav[data-open] .menu-toggle-icon-open { display: none; }
+
+.site-nav[data-open] .menu-toggle-icon-close { display: block; }
+
+.menu-toggle-label {
+    align-self: center;
+    font-family: var(--font-mono);
+    font-size: var(--nav-size);
 }
 
 .menu-toggle[hidden],
