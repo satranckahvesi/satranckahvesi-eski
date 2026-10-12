@@ -10,6 +10,8 @@ Bize ulaşmak ya da yazılarınızı göndermek için ... adresine e-posta gönd
 
 Bu site [GitHub Pages](https://pages.github.com/) ile barındırılıyor; satranç partilerinin ve diyagramların gösterimi için [ChessPublica](https://chesspublica.github.io/) kullanılıyor.
 
+Sitede yayınlanan yazıların telif hakları yazarlarına ait olup, yayınlama ve çoğaltma yetkisi Satranç Kahvesi’ne aittir. Önceden yazılı izin alınmaksızın kısmen veya tamamen kopyalanamaz, çoğaltılamaz ve kaynak göstermeksizin başka platformlarda yayınlanamaz.
+
 Yayın ekibi:  
 ...  
 ...  
