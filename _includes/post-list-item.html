@@ -2,7 +2,7 @@
   One <li> of a post list.
     post:        the post
     meta:        what follows the title: "author_column", "author" or "column"
-    excerpt:     "true" to show the post's first paragraph under the meta line
+    excerpt:     "true" to show the post's first paragraph under the meta line, ending with a "Devamını oku" link
 {%- endcomment -%}
 {%- assign post = include.post -%}
 <li>
@@ -23,7 +23,7 @@
         {%- if include.excerpt %}
         {%- capture first_paragraph %}{% include first-paragraph.html html=post.content %}{% endcapture %}
         {%- if first_paragraph != "" %}
-        <p class="post-list-excerpt">{{ first_paragraph }}</p>
+        <p class="post-list-excerpt">{{ first_paragraph }} <a class="post-list-more" href="{{ post.url | relative_url }}" aria-label="{{ post.title | escape }}: devamını oku">Devamını oku →</a></p>
         {%- endif %}
         {%- endif %}
     </div>
