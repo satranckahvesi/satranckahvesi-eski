@@ -97,15 +97,20 @@
     font-size: clamp(0.65rem, 10cqw, var(--nav-size));
 }
 
-/* Yazarlar page: round initials above the name. */
+/* Yazarlar page, and the article's panel: the author's round picture (or initials) above the name; the picture and
+   the name are separate links. */
 
-.avatar-list a {
+
+.avatar-list li {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.6rem;
     width: 6.5rem;
     text-align: center;
+}
+
+.avatar-list a {
     border-bottom-style: none;
 }
 
@@ -113,7 +118,23 @@
     border-bottom-style: none;
 }
 
-.avatar-list a:hover .avatar-circle {
+/* The link is the round picture itself: its square box would otherwise take the corners around it, which then react to
+   the pointer. The link takes the pointer with its rounded shape; the square box of the picture inside it would not. */
+.avatar-link {
+    display: flex;
+    border-radius: 50%;
+}
+
+.avatar-link * {
+    pointer-events: none;
+}
+
+.avatar-link:hover .avatar-circle:not(.avatar-photo) {
+    background: var(--avatar-ink, var(--ink));
+    color: var(--bg);
+}
+
+.avatar-circle {
     background: var(--ink);
     color: var(--bg);
 }
@@ -136,6 +157,8 @@
 
 .avatar-photo {
     overflow: hidden;
+    width: 6.5rem;
+    height: 6.5rem;
 }
 
 .avatar-photo img {
@@ -151,6 +174,7 @@ a:hover .avatar-photo img {
     filter: none;
 }
 
+.avatar-list a.avatar-name,
 .avatar-name {
     font-weight: bold;
     font-size: 1rem;

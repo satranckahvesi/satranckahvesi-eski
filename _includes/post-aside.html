@@ -5,7 +5,7 @@
     {%- capture author_url %}{% include author-url.html name=page.author %}{% endcapture %}
     <div class="aside-item aside-card">
         <span class="aside-label">Yazar</span>
-        <a class="aside-avatar" href="{{ author_url }}" tabindex="-1" aria-hidden="true">{% include author-avatar.html name=page.author %}</a>
+        <a class="avatar-link" href="{{ author_url }}" tabindex="-1" aria-hidden="true">{% include author-avatar.html name=page.author %}</a>
         <a class="aside-title" href="{{ author_url }}">{{ page.author }}</a>
     </div>
     {%- endif %}
