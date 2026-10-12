@@ -292,3 +292,7 @@ Mar del Plata 1982 Uluslararası Satranç Turnuvası çapraz tablosu:
 =12    Franco         0 0 0 0 0 ½ ½ 0 0 1 1 1 * 1  5
  14    Giardelli      0 ½ 0 ½ ½ ½ ½ ½ ½ ½ ½ 0 0 *  4½
 </pre>
+
+Timman’ın Mar del Plata’daki zaferi, tek bir turnuvadan fazlasını anlatıyor: Hastalıkla ve bir kayıpla turnuvaya başlayan Timman'ın, dönemin dünya şampiyonunu ve çağının en güçlü oyuncularını geride bırakıp son 8 turdan 8 puan toplaması, satrancın mücadele ve incelik gibi öğelerini ortaya koyuyor. 1982, Timman’ın reyting listesindeki en parlak yılı ve kariyerinin zirvesiydi.
+
+Hollanda satrancının efsane ismi, hamleleri ve yazılarıyla kuşaklara ilham veren Jan Timman’ın (1951-2026) anısına saygıyla.
