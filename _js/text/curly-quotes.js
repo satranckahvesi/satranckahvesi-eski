@@ -2,7 +2,7 @@
 // corrupt PGN text embedded in posts. Curly quotes are applied here instead,
 // to the rendered DOM, skipping the elements that hold literal PGN/FEN text.
 
-import { toCurly } from './curly.js';
+import { toTypography } from './curly.js';
 
 const SKIPPED_TAGS = new Set(['PGN', 'FEN', 'PUZZLE', 'PGN-PLAYER', 'PGN-STUDY', 'CODE', 'PRE', 'SCRIPT', 'STYLE']);
 
@@ -21,13 +21,13 @@ function insideSkippedElement(node, root) {
   return false;
 }
 
-/** Curly-quotes every eligible text node under `root`. */
+/** Curly-quotes (and "1/2" to "½") every eligible text node under `root`. */
 export function curlyPass(root) {
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
   const targets = [];
   for (let node = walker.nextNode(); node; node = walker.nextNode()) {
     const text = node.nodeValue;
-    if (!text.includes('"') && !text.includes("'") && !text.includes('--')) continue;
+    if (!text.includes('"') && !text.includes("'") && !text.includes('--') && !text.includes('1/2')) continue;
     if (!insideSkippedElement(node, root)) targets.push(node);
   }
   for (const node of targets) {
@@ -35,7 +35,9 @@ export function curlyPass(root) {
     // (**Jan Timman**'ın): hand over the preceding sibling's last character as
     // context, then strip it back off.
     const prevChar = node.previousSibling ? node.previousSibling.textContent.slice(-1) : '';
-    const converted = prevChar ? toCurly(prevChar + node.nodeValue).slice(prevChar.length) : toCurly(node.nodeValue);
+    const converted = prevChar
+      ? toTypography(prevChar + node.nodeValue).slice(prevChar.length)
+      : toTypography(node.nodeValue);
     // Skip the write when nothing changed: a same-value assignment still
     // queues a mutation record and would re-trigger the watcher.
     if (node.nodeValue !== converted) node.nodeValue = converted;

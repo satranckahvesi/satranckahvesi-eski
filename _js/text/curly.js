@@ -1,4 +1,4 @@
-// Pure text transforms: straight quotes to curly quotes, "--" to an em dash.
+// Pure text transforms: straight quotes to curly quotes, "--" to an em dash, "1/2" to "½".
 
 // "--" becomes "—" unless it stands alone between whitespace (the null-move
 // token in PGN movetext) or is part of a longer run of hyphens.
@@ -20,4 +20,16 @@ export function toCurly(text) {
     .replace(/'/g, '’')
     .replace(/(^|[-—\s([{'])"/g, '$1“')
     .replace(/"/g, '”');
+}
+
+// "1/2" standing on its own becomes "½" (a result such as 1/2-1/2, or half a point). Not touched: a longer number or
+// date around it (11/2, 1/2/2020, 1/25, 1/2,5), a letter in front or behind (a link's path), or a slash.
+// No lookbehind (Safari before 16.4 fails to parse it): the character in front is captured and put back.
+export function toHalves(text) {
+  return text.replace(/(^|[^\p{L}\p{N}/.,])1\/2(?![\p{L}\p{N}/]|[.,]\p{N})/gu, '$1½');
+}
+
+// Everything the prose gets: curly quotes, em dashes and halves.
+export function toTypography(text) {
+  return toHalves(toCurly(text));
 }
