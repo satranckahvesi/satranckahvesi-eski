@@ -1,7 +1,7 @@
 /* A single article: header, prose, tables, figures, embeds. */
 
 /* The article keeps the site column, so its left edge lines up with the masthead. The title, the meta line and the
-   body are only 40rem wide and sit at the left, so lines stay at a comfortable 65 to 70 characters (the site column
+   body are at most 40rem wide and sit at the left, so lines stay at a comfortable 65 to 70 characters (the site column
    gives about 95 at 18px). <pgn-study> breaks out of the body to the viewport (see study.css), which depends on
    where the body sits in the site column. */
 
@@ -12,20 +12,25 @@
     text-align: left;
 }
 
-/* Two panels in the part of the article's column to the right of its 40rem text (1rem clear of it), one at the top of the
-   article and one at its bottom; only where that part is wide enough (from 52em: the column is 56rem). Each is as tall as
-   what it holds. */
-.post { position: relative; }
+/* Two panels in the part of the article's column to the right of its text (1rem clear of it), one at the top of the
+   article and one at its bottom; from 52em. The text is 40rem wide, or less when the column is narrower: the panels
+   always keep at least 14rem. Each is as tall as what it holds. */
+.post {
+    --text-width: 40rem;
+    position: relative;
+}
 
 .post-aside { display: none; }
 
 @media (min-width: 52em) {
+    .post { --text-width: min(40rem, 100% - 15rem); }
+
     .post-aside {
         display: flex;
         flex-direction: column;
         gap: 1.75rem;
         position: absolute;
-        left: 41rem;
+        left: calc(var(--text-width) + 1rem);
         right: 0;
         padding: 1rem;
         box-sizing: border-box;
@@ -123,7 +128,7 @@
 .post-title,
 .post-meta,
 .post-body {
-    max-width: 40rem;
+    max-width: var(--text-width);
 }
 
 .post-body {
