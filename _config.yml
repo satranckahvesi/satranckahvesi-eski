@@ -3,9 +3,10 @@ description: Kahve eşliğinde satranç sohbetleri
 lang: tr
 # The logo is the publisher logo in the structured data.
 logo: /assets/img/icon-512.png
-# Link previews (WhatsApp etc.) use a wide 1200x630 card, not the square logo.
+# Link previews (WhatsApp etc.): a small square logo (under 300 px wide), which WhatsApp shows as a horizontal card with
+# the image on the left and the title and text on the right. A bigger image makes it a vertical card.
 twitter:
-  card: summary_large_image
+  card: summary
 baseurl: ""
 url: "https://satranckahvesi.com"
 google_analytics: G-EQR45VG5M7
@@ -53,7 +54,7 @@ defaults:
       path: ""
     values:
       image:
-        path: /assets/img/share.png
-        width: 1200
-        height: 630
+        path: /assets/img/icon-192.png
+        width: 192
+        height: 192
         alt: Satranç Kahvesi logosu
