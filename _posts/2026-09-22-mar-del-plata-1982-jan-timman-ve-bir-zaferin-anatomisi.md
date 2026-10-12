@@ -132,7 +132,7 @@ Karpov ise bundan önceki Clarín turnuvasıyla beraber o yıllarda neredeyse ö
 
 Dünyanın iki numarası için yine kazanılması gereken bir oyun. Henüz Uluslararası Usta bile olmayan Arjantinli rakibi karşısında büyük reyting ve tecrübe farkının ortaya konması gerekiyordu.
 
-Daha sonra Uluslararası Usta ünvanına kavuşacak **Sergio Carlos Giardelli** (1955-2015) bu turnuvada sonuncu olsa da, ülkesini olimpiyatlarda temsil etmiş ve ülke şampiyonasında dereceler elde etmiş Arjantin satrancının önemli isimlerindendi.
+Daha sonra Uluslararası Usta ünvanına kavuşacak **Sergio Carlos Giardelli** (1955-2015) bu turnuvada sonuncu olsa da, ülkesini olimpiyatlarda temsil etmiş ve ülke şampiyonalarında dereceler elde etmiş bir oyuncu olarak Arjantin satrancının önemli isimlerindendi.
 
 [Event "Mar del Plata"]
 [Site "Mar del Plata ARG"]
