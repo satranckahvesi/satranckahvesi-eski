@@ -156,6 +156,7 @@
 /* A picture instead of initials: grey until the link is hovered (the picture covers the circle, so the initials' inverted hover colours do not show). */
 
 .avatar-photo {
+    border: none;
     overflow: hidden;
     width: 6.5rem;
     height: 6.5rem;
