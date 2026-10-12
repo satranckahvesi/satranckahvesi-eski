@@ -10,6 +10,9 @@ export const studyEngine = (study) => engineOf(innerPlayer(study));
 /** The variation the reader is currently inside, if any. */
 export const variationOf = (engine) => engine?._variation ?? null;
 
+/** The playback speed multiplier the reader chose (ChessPublica plays one move every 1000 / speed ms). */
+export const speedOf = (engine) => engine?.state?.speed;
+
 /** Steps out of the current variation without touching the stack of parents above it. */
 export const detachVariation = (engine) => {
   engine._variation = null;

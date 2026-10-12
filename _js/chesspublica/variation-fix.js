@@ -5,7 +5,7 @@
 // switching between variations leave the previous one cleanly.
 
 import { toArray } from '../lib/dom.js';
-import { detachVariation, engineOf, variationOf } from './engine.js';
+import { detachVariation, engineOf, speedOf, variationOf } from './engine.js';
 
 // Top-level variation blocks last seen on the mainline, per player.
 const savedBlocks = new WeakMap();
@@ -23,8 +23,8 @@ function ensurePlayButton(box) {
     button.className = 'comment-play-btn';
     button.append(
       Object.assign(document.createElement('span'), {
-        className: 'lucide-icon',
-      }),
+        className: 'lucide-icon'
+      })
     );
     box.append(button);
   }
@@ -151,8 +151,7 @@ function onClick(player, event) {
 
 // Space plays on from where the reader is: one move at a time, through the variation, back into the line it branched
 // from (the parent variation, then the mainline), until the end or until the reader acts. ChessPublica's own autoplay
-// is removed on this site, so this is a plain timer over single steps.
-const STEP_MS = 1100;
+// is removed on this site, so this is a plain timer over single steps, paced by the player's own speed setting.
 const timers = new WeakMap();
 
 function stepForward(player) {
@@ -179,18 +178,24 @@ function stepForward(player) {
 const isPlaying = (player) => timers.has(player);
 
 function stopPlaying(player) {
-  clearInterval(timers.get(player));
+  clearTimeout(timers.get(player));
   timers.delete(player);
 }
 
-function startPlaying(player) {
-  if (!stepForward(player)) return;
+function scheduleStep(player) {
+  // Read every time: the reader can change the speed while it plays.
+  const delay = 1000 / (speedOf(engineOf(player)) || 1);
   timers.set(
     player,
-    setInterval(() => {
-      if (!stepForward(player)) stopPlaying(player);
-    }, STEP_MS),
+    setTimeout(() => {
+      if (stepForward(player)) scheduleStep(player);
+      else stopPlaying(player);
+    }, delay)
   );
+}
+
+function startPlaying(player) {
+  if (stepForward(player)) scheduleStep(player);
 }
 
 const isTyping = (el) => el && (['INPUT', 'TEXTAREA', 'SELECT', 'BUTTON'].includes(el.tagName) || el.isContentEditable);
@@ -231,6 +236,6 @@ export function installVariationFix(body, watcher) {
       if (isPlaying(active)) stopPlaying(active);
       else startPlaying(active);
     },
-    true,
+    true
   );
 }
