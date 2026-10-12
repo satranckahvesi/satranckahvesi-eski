@@ -63,8 +63,22 @@ function restore(player) {
     box.append(content);
   }
   restoreLine(player, box);
+  syncActiveMove(box, variation);
   hideDuplicateComment(box);
   ensurePlayButton(box);
+}
+
+// ChessPublica counts every move of the variation text, nested variations included, to find the move to highlight,
+// so after a nested variation it marks a move too early. The variation's own moves (not those of nested lists) are
+// what its index counts; highlight the one at that index.
+function syncActiveMove(box, variation) {
+  const content = variation.contentEl;
+  if (!content || !(variation.index >= 1)) return;
+  const own = toArray(content.querySelectorAll('.var-move')).filter((m) => m.closest('.variation-content') === content);
+  const target = own[variation.index - 1];
+  if (!target) return;
+  box.querySelectorAll('.var-move.active').forEach((m) => m !== target && m.classList.remove('active'));
+  if (!target.classList.contains('active')) target.classList.add('active');
 }
 
 const textOf = (el) => (el?.textContent || '').replace(/\s+/g, ' ').trim();
