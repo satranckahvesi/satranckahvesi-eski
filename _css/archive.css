@@ -227,7 +227,7 @@
 
 .post-list-meta a:hover { border-bottom: none; }
 
-/* Below 52em the artwork sits above the content, at most 18rem wide; from 52em it is beside it (below). */
+/* Below 52em the artwork sits above the content, centred, at most 18rem wide; from 52em it is beside it (below). */
 
 .split {
     display: flex;
@@ -238,6 +238,7 @@
 .split > .home-art {
     display: block;
     order: -1;
+    align-self: center;
     width: min(100%, 18rem);
     height: auto;
     color: var(--ink);
