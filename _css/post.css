@@ -12,16 +12,16 @@
     text-align: left;
 }
 
-/* Outlines the part of the article's column to the right of its 40rem text. */
+/* Outlines the part of the article's column to the right of its 40rem text, 1rem clear of it. */
 .post { position: relative; }
 
-@media (min-width: 40.01rem) {
+@media (min-width: 41.01rem) {
     .post::after {
         content: "";
         position: absolute;
         top: 0;
         bottom: 0;
-        left: 40rem;
+        left: 41rem;
         right: 0;
         border: 1px solid var(--muted);
         pointer-events: none;
