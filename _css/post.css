@@ -74,7 +74,14 @@
     line-height: 1.3;
 }
 
+.aside-card:hover .avatar-circle {
+    background: var(--ink);
+    color: var(--bg);
+}
+
 .aside-card:hover .aside-title { text-decoration: underline; }
+
+.aside-about { text-align: left; }
 
 .aside-text {
     font-size: 0.85rem;
