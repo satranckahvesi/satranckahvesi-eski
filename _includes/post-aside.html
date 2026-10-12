@@ -2,17 +2,18 @@
     neighbouring posts, the copyright and the notice that goes with it at its bottom. {% endcomment -%}
 <aside class="post-aside post-aside-top" aria-label="Yazar ve köşe">
     {%- if page.author %}
-    <a class="aside-item aside-card" href="{% include author-url.html name=page.author %}">
+    {%- capture author_url %}{% include author-url.html name=page.author %}{% endcapture %}
+    <div class="aside-item aside-card">
         <span class="aside-label">Yazar</span>
-        {% include author-avatar.html name=page.author %}
-        <span class="aside-title">{{ page.author }}</span>
-    </a>
+        <a class="aside-avatar" href="{{ author_url }}" tabindex="-1" aria-hidden="true">{% include author-avatar.html name=page.author %}</a>
+        <a class="aside-title" href="{{ author_url }}">{{ page.author }}</a>
+    </div>
     {%- endif %}
     {%- if page.column %}
-    <a class="aside-item aside-card" href="{% include column-url.html name=page.column %}">
+    <div class="aside-item aside-card">
         <span class="aside-label">Köşe</span>
-        <span class="aside-title">{{ page.column }}</span>
-    </a>
+        <a class="aside-title" href="{% include column-url.html name=page.column %}">{{ page.column }}</a>
+    </div>
     {%- endif %}
 </aside>
 <aside class="post-aside post-aside-bottom" aria-label="Satranç Kahvesi">
