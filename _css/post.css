@@ -102,31 +102,13 @@
 
 .post-aside .avatar-circle { border-color: currentColor; }
 
-/* A picture of the author is as big as the logo below it. */
-.post-aside .avatar-photo {
-    width: 6.5rem;
-    height: 6.5rem;
-}
+/* The author's initials turn muted-dark on hover, like the rest of the panel. */
+.post-aside { --avatar-ink: var(--muted); }
 
 .aside-title {
     font-weight: bold;
     font-size: 1.1rem;
     line-height: 1.3;
-}
-
-.aside-avatar {
-    display: flex;
-    /* The link is the round picture itself: its square box would otherwise take the corners around it, which then
-       react to the pointer. */
-    border-radius: 50%;
-}
-
-/* The link takes the pointer, with its rounded shape; the square box of the picture inside it would not. */
-.aside-avatar * { pointer-events: none; }
-
-.aside-avatar:hover .avatar-circle:not(.avatar-photo) {
-    background: var(--muted);
-    color: var(--bg);
 }
 
 .aside-title { transition: color 0.15s; }
