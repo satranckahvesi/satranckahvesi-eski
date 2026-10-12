@@ -9,7 +9,7 @@ permalink: /yazarlar/
   {% for author in authors %}
   <li>
     <a href="{% include author-url.html name=author %}">
-      <span class="avatar-circle" aria-hidden="true">{% include author-initials.html name=author %}</span>
+      {% include author-avatar.html name=author %}
       <span class="avatar-name">{{ author }}</span>
     </a>
   </li>

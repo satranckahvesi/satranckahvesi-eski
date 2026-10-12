@@ -1,0 +1,10 @@
+{%- comment %} The round picture of an author: assets/img/yazarlar/<slug>.jpg when there is one (grey, in colour on hover), else the
+    author's initials. name: the author. {% endcomment -%}
+{%- assign slug = include.name | slugify: "latin" -%}
+{%- assign photo_path = '/assets/img/yazarlar/' | append: slug | append: '.jpg' -%}
+{%- assign photo = site.static_files | where: "path", photo_path | first -%}
+{%- if photo -%}
+<span class="avatar-circle avatar-photo" aria-hidden="true"><img src="{{ photo_path | relative_url }}" alt="" width="240" height="240" loading="lazy" decoding="async"></span>
+{%- else -%}
+<span class="avatar-circle" aria-hidden="true">{% include author-initials.html name=include.name %}</span>
+{%- endif -%}

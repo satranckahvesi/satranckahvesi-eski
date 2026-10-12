@@ -4,7 +4,7 @@
     {%- if page.author %}
     <a class="aside-item aside-card" href="{% include author-url.html name=page.author %}">
         <span class="aside-label">Yazar</span>
-        <span class="avatar-circle" aria-hidden="true">{% include author-initials.html name=page.author %}</span>
+        {% include author-avatar.html name=page.author %}
         <span class="aside-title">{{ page.author }}</span>
     </a>
     {%- endif %}
