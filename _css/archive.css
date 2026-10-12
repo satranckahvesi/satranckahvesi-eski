@@ -29,7 +29,7 @@
    and how many posts it holds; hovering fills the square with the artwork's diagonal hatching. */
 
 /* Every square is the size of one square of the home page artwork. That artwork is a third of the split's width
-   less its gap (see .split), and a square is a third of that; below 52em, where the artwork is hidden, a fixed size.
+   less its gap (see .split), and a square is a third of that; below 52em, where the artwork is a different size, a fixed size.
    The board has no more tracks than squares (koseler/index.md sets --board-cols, at most 2, and --board-cols-wide, at
    most 3): an empty track would stretch the top rule past the last square. */
 
@@ -227,7 +227,21 @@
 
 .post-list-meta a:hover { border-bottom: none; }
 
-.split > .home-art { display: none; }
+/* Below 52em the artwork sits above the content, at most 18rem wide; from 52em it is beside it (below). */
+
+.split {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.split > .home-art {
+    display: block;
+    order: -1;
+    width: min(100%, 18rem);
+    height: auto;
+    color: var(--ink);
+}
 
 /* From 52em the home page and the menu pages (Hakkında, Köşeler, Yazarlar, Yazılar; layout "split") are a
    2fr / 1fr grid: the content on the left, the artwork on the right. On the home and Yazılar pages the post
@@ -240,8 +254,7 @@
         column-gap: 2rem;
     }
 
-    /* The artwork fills the right track and stays in view beside the content; below 52em it is
-       hidden, since it would only land after the whole content. */
+    /* The artwork fills the right track and stays in view beside the content. */
     /* The content starts at the top of the grid row (a paragraph would otherwise open with its default top
        margin). The first line of text has some space above its letters (half its leading and the face's
        ascender gap, 4 to 5px on these pages), so the artwork is lowered by about that much: the top of the
@@ -252,6 +265,7 @@
 
     .split > .home-art {
         display: block;
+        order: 0;
         width: 100%;
         height: auto;
         align-self: start;
