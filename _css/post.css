@@ -43,8 +43,6 @@
         display: flex;
         flex-direction: column;
         gap: 1.75rem;
-        height: 100%;
-        overflow: hidden;
     }
 
     .aside-inner.is-tall { position: static; }

@@ -18,7 +18,8 @@ export function installPostAside() {
     if (getComputedStyle(aside).display === 'none') return;
     inner.classList.remove('is-tall');
     const gap = parseFloat(getComputedStyle(inner).rowGap) || 0;
-    const room = inner.clientHeight;
+    const asideStyle = getComputedStyle(aside);
+    const room = aside.clientHeight - parseFloat(asideStyle.paddingTop) - parseFloat(asideStyle.paddingBottom);
     let used = 0;
     let full = false;
     for (const item of items) {
@@ -40,6 +41,5 @@ export function installPostAside() {
   // The panel is as tall as the article, so its height changes with it; the width decides whether it shows at all.
   const observer = new ResizeObserver(fit);
   observer.observe(article);
-  observer.observe(inner);
   addEventListener('resize', fit);
 }
