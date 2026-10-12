@@ -6,7 +6,7 @@ author: "FM Nazmi Can Doğan"
 column: "Satranç tarihi"
 ---
 
-Efsanevi satranççı Jan Timman’ın kariyerinin en önemli zaferlerinden biri 1982 Mar del Plata turnuvasıydı. Turnuvaya kötü bir başlangıç yapan Timman hızla toparlanıp Karpov, Portisch ve Polugaevsky gibi devlerin önünde zirveye nasıl ulaştı?
+Efsanevi satranç ustası Jan Timman’ın kariyerinin en önemli zaferlerinden biri 1982 Mar del Plata turnuvasıydı. Turnuvaya kötü bir başlangıç yapan Timman hızla toparlanıp Karpov, Portisch ve Polugaevsky gibi devlerin önünde zirveye nasıl ulaştı?
 
 Bu yazı, geçtiğimiz aylarda yaşamını yitiren, satranç dünyasının efsane isimlerinden **Jan Timman**'ın (1951-2026) kariyerinden küçük bir bölüme odaklanacak. Timman'ın reyting listesinde dünya şampiyonu **Karpov'un ardından ikinci sırada** yer aldığı 1982 senesine gideceğiz. Arjantin'in iyileştirici havasında Timman'ın partilerinin öğretici anlarına odaklanacağız.
 
