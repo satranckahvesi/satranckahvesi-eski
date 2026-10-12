@@ -1,5 +1,5 @@
 {%- comment %} The panel to the right of an article's text: the author's page, the column's page, the site and the neighbouring posts, in that
-    order, then the copyright. {% endcomment -%}
+    order, then the copyright and the notice that goes with it. {% endcomment -%}
 <aside class="post-aside" aria-label="Satranç Kahvesi">
     {%- if page.author %}
     <a class="aside-item aside-card" href="{% include author-url.html name=page.author %}">
@@ -35,4 +35,5 @@
     </nav>
     {%- endif %}
     <p class="aside-copy">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <p class="aside-note">Bu sayfada yayınlanan yazının telif hakları yazarına ait olup, yayınlama ve çoğaltma yetkisi Satranç Kahvesi’ne aittir. Önceden yazılı izin alınmaksızın kısmen veya tamamen kopyalanamaz, çoğaltılamaz ve kaynak göstermeksizin başka platformlarda yayınlanamaz.</p>
 </aside>
