@@ -65,7 +65,7 @@ Sade, teknik konumlara olan hâkimiyeti nedeniyle bir oyunsonu efsanesi olarak a
 
 Turnuva oynandığı sırada yetmiş bir yaşında olan **Miguel Najdorf**, yaşına rağmen bu devler arenasında yalnızca üç oyun kaybetmişti. Otuz yaşındaki rakibi Timman ise belki de bu oyunun yarattığı ivmeyle turnuva zaferine imza atacaktı.
 
-Kasparov, _"My Great Predecessors"_ (_Benim Ustalarım_) serisinin dördüncü cildinde, _*Najdorf*_'a ayırdığı kısmın _King's Indian Revelations_ ("Şah-Hint Sırları") adlı bölümünün sonlarına doğru şöyle anlatıyordu:
+Kasparov, _"My Great Predecessors"_ (_Benim Ustalarım_) serisinin dördüncü cildinde, _**Najdorf**_'a ayırdığı kısmın _King's Indian Revelations_ ("Şah-Hint Sırları") adlı bölümünün sonlarına doğru şöyle anlatıyordu:
 
 > "Najdorf, tıpkı Arjantin Şampiyonası'nda olduğu gibi defalarca birinci bitirdiği, geleneksel Buenos Aires ve _Mar del Plata_ turnuvalarının ilham kaynağıydı. Daha sonraki yıllarda, yaşının ağırlığı kendini hissettirmeye başladığında, bu turnuvalara onur konuğu olarak katılırdı. Bazen masaların arasında dolaşıp pozisyonları büyük bir ilgiyle incelerken kendini kaybeder ve boş sandalyelerden birine oturuverirdi. Oyuncular gülümser, belki de içlerinden Najdorf'un tahtada aniden bir hamle yapıp yapmayacağını merak ederlerdi."
 
