@@ -161,12 +161,13 @@
         order: 2;
         margin-left: auto;
         /* Lifts the buttons the last pixel: the letters' middle is a little above where their bottom edge puts it. */
-        margin-bottom: 0.07rem;
+        margin-bottom: calc(0.07rem - (44px - 1.5rem) / 2);
         gap: 0;
     }
 
     /* Each button is a 44px square touch target (the drawing stays 1.5rem; the rest is padding). The group's right
-       edge is pulled out by the padding, so the icons still end at the content column's edge. */
+       edge is pulled out by the padding, so the icons still end at the content column's edge, and the bottom is
+       dropped by it, so the icons keep their place beside the name's letters. */
     .menu-toggle,
     .theme-toggle,
     .refresh-app {
@@ -176,9 +177,7 @@
         min-height: 44px;
     }
 
-    .menu-toggle { gap: 0.3rem; padding-inline: 0.5rem; }
-
-    .nav-tools { margin-right: -0.5rem; }
+    .nav-tools { margin-right: calc((1.5rem - 44px) / 2); }
 
     .nav-links {
         order: 4;
@@ -244,12 +243,6 @@
 .site-nav[data-open] .menu-toggle-icon-open { display: none; }
 
 .site-nav[data-open] .menu-toggle-icon-close { display: block; }
-
-.menu-toggle-label {
-    align-self: center;
-    font-family: var(--font-mono);
-    font-size: var(--nav-size);
-}
 
 .menu-toggle[hidden],
 .refresh-app[hidden] { display: none; }
