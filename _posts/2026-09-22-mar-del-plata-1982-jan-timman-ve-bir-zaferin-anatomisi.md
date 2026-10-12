@@ -88,7 +88,9 @@ Beyaz atların gazabından kurtulmanın olanaksızlığını gösteren bir egzer
 
 Arjantin satrancına damga vuran 1935 doğumlu Büyükusta **Oscar Panno**, 1953'te Dünya Gençler Şampiyonu ve yine aynı sene Arjantin şampiyonu olmuştu. Oyunlarını incelediğimiz geleneksel Mar del Plata turnuvasını farklı yıllarda kazanmıştı.
 
-1950'li yıllarda yıldızı parlayan Oscar Panno, satranç gelişimi için pek kaynağın bulunmadığı bir coğrafyada yaşıyordu. Arjantin'de _Shakhmaty v SSSR_ dergisinin sayılarını "1 yıl geriden" takip ediyorlar ve bu eksikliği kapatmak için yoğun çaba harcamak zorunda kalıyorlardı. 1956 yılında Adaylar Turnuvası'nda oynamaya hak kazanacak, fakat turnuva zamanına kadar askerlik görevini sürdürdüğü için turnuvaya hazırlanma şansı olmayacaktı. Belki de bu nedenle, Smyslov'un rahatça birinci olarak Botvinnik ile oynama hakkı elde ettiği turnuvada, sonuncu olan hemşerisi **Pilnik**'in önünde dokuzuncu olacaktı. 
+1950'li yıllarda yıldızı parlayan Oscar Panno, satranç gelişimi için pek kaynağın bulunmadığı bir coğrafyada yaşıyordu. Arjantin'de _Shakhmaty v SSSR_ dergisinin sayılarını "1 yıl geriden" takip ediyorlar ve bu eksikliği kapatmak için yoğun çaba harcamak zorunda kalıyorlardı.
+
+1956 yılında Adaylar Turnuvası'nda oynamaya hak kazanacak, fakat turnuva zamanına kadar askerlik görevini sürdürdüğü için turnuvaya hazırlanma şansı olmayacaktı. Belki de bu nedenle, Smyslov'un rahatça birinci olarak Botvinnik ile oynama hakkı elde ettiği turnuvada, sonuncu olan hemşerisi **Pilnik**'in önünde dokuzuncu olacaktı. 
 
 Yıldızının parladığı yıllarda profesyonel satranç oynamak yerine mühendislik yapmayı tercih eden Panno, bu satırların yazarının da sevdiği Şah-Hint Savunması'nda günümüzde hâlâ sevilen bir varyanta adını vermiştir. Şu an aktif olmasa da kısa bir süre aktif kalan bir [YouTube kanalı](https://www.youtube.com/@GMOscarPanno) da bulunan Büyükusta Oscar Panno, İspanyolca içerikler üretmiş, **Aronian** ve **Anand** gibi isimlerle analizler yapmıştı.
 
