@@ -308,9 +308,11 @@
     line-height: 1;
 }
 
-/* A wide <pre> scrolls on its own instead of widening the post column. */
+/* A wide <pre> scrolls on its own instead of widening the post column. Its bottom margin is the same 1rem (= 1em of
+   body text) that separates two paragraphs; the browser default would be 1em of the smaller <pre> font. */
 
 .post-body pre {
+    margin: 0 0 1rem;
     max-width: 100%;
     overflow-x: auto;
     font-size: 0.75rem;
