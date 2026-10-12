@@ -43,7 +43,7 @@ export function installPushButton() {
   let run = null;
 
   // Shows one of the messages in the banner, with an optional main button.
-  function show(state, { label, action, dismissLabel = 'Kapat' } = {}) {
+  function show(state, { label, action, dismissLabel = 'Tamam' } = {}) {
     for (const message of banner.querySelectorAll('[data-state]')) message.hidden = message.dataset.state !== state;
     primary.hidden = !label;
     if (label) primary.textContent = label;
