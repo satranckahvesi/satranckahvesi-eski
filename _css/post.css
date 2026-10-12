@@ -12,40 +12,47 @@
     text-align: left;
 }
 
-/* Two panels in the part of the article's column to the right of its text (1rem clear of it), one at the top of the
-   article and one at its bottom; from 52em. The text is 40rem wide, or less when the column is narrower: the panels
-   always keep at least 14rem. Each is as tall as what it holds. */
+/* Two panels with the author, the column, the site, the neighbouring posts and the copyright notice. Below 52em they
+   follow the article's text, one under the other, as cards as wide as the text. From 52em they sit in the part of the
+   article's column to the right of its text (1rem clear of it), one at the top of the article and one at its bottom.
+   The text is 40rem wide, or less when the column is narrower: the panels always keep at least 14rem. Each is as tall
+   as what it holds. */
 .post {
     --text-width: 40rem;
     position: relative;
 }
 
-.post-aside { display: none; }
+.post-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    max-width: var(--text-width);
+    margin-top: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid var(--hairline);
+    text-align: center;
+    color: var(--muted);
+    transition: border-color 0.15s;
+}
 
 @media (min-width: 52em) {
     .post { --text-width: min(40rem, 100% - 15rem); }
 
     .post-aside {
-        display: flex;
-        flex-direction: column;
-        gap: 1.75rem;
         position: absolute;
         left: calc(var(--text-width) + 1rem);
         right: 0;
-        padding: 1rem;
-        box-sizing: border-box;
-        border: 1px solid var(--hairline);
-        text-align: center;
-        color: var(--muted);
-        transition: border-color 0.15s;
+        max-width: none;
+        margin-top: 0;
     }
-
-    .post-aside:hover { border-color: var(--ink); }
 
     .post-aside-top { top: 0; }
 
     .post-aside-bottom { bottom: 0; }
 }
+
+.post-aside:hover { border-color: var(--ink); }
 
 .aside-item {
     display: flex;
