@@ -12,6 +12,22 @@
     text-align: left;
 }
 
+/* Outlines the strip of the screen to the right of the article's column. */
+@media (min-width: 42.01rem) {
+    .post::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: max(0px, calc(50% - var(--column) / 2));
+        border: 1px solid var(--muted);
+        border-right-width: 0;
+        pointer-events: none;
+        box-sizing: border-box;
+    }
+}
+
 .post-title,
 .post-meta,
 .post-body {
