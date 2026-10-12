@@ -44,14 +44,9 @@
     border-left: 1.5px solid var(--ink);
 }
 
-@media (min-width: 40em) {
-    .section ul.board-list {
-        grid-template-columns: repeat(var(--board-cols-wide, 3), var(--board-cell));
-    }
-}
-
 @media (min-width: 52em) {
     .section ul.board-list {
+        grid-template-columns: repeat(var(--board-cols-wide, 3), var(--board-cell));
         --board-cell: calc((min(var(--column), 100vw - 2rem) - 2rem) / 9);
     }
 }

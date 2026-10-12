@@ -80,7 +80,7 @@ the scroll waits for every `<pgn-player>`/`<pgn-study>` to be ready (`allElement
 - `.pgn-comment` is a `<p>`, so `.post-body p { margin: 0 0 1em }` wins over its margin-top; its padding-top is
   only reset inside `pgn-study`.
 - A standalone `<pgn-player>` has a flat 400px board and `width: fit-content`; `cqw` only resolves against a
-  definite width, hence `width: 100%` below 900px. Inline diagrams are sized with `--diagram-max-width`
+  definite width, hence `width: 100%` below 52em. Inline diagrams are sized with `--diagram-max-width`
   (not `--board-size`, which `--small` would shrink again).
 - `box-shadow` highlights (active comment, puzzle "your move") spread past the box and get clipped by
   `overflow-x`; a few pixels of padding give them room.

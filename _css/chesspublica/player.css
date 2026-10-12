@@ -30,10 +30,10 @@
     overflow-wrap: break-word;
 }
 
-/* ChessPublica's board is a flat 400px; below 900px it follows the column. A
+/* ChessPublica's board is a flat 400px; below 52em it follows the column. A
    container needs a definite width for cqw to resolve, hence width: 100%. */
 
-@media (max-width: 899px) {
+@media (max-width: 51.99em) {
     .post-body pgn-player {
         width: 100%;
         container-type: inline-size;

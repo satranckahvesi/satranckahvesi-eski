@@ -11,8 +11,7 @@
 
 /* Nav: below 52em a right-aligned row of icon buttons above the title, with the
    links in a column folded behind the menu button (they stay visible when
-   JavaScript is off); from 52em up a column of links pinned to the header's top-right corner, which
-   turns into a row from 64em, where there is room beside the logo. */
+   JavaScript is off); from 52em up a row of links beside the logo. */
 
 .site-nav {
     display: flex;
@@ -85,29 +84,13 @@
 @media (min-width: 52em) {
     .site-nav[data-menu]:not([data-open]) .nav-links { display: flex; }
 
-    .nav-links {
-        flex-basis: auto;
-        gap: 0.5rem;
-    }
-
-    /* Inside the content column: the right edge is the column's (see .site-header's padding-inline), not the page's. */
-    .site-nav {
-        position: absolute;
-        top: 1.5rem;
-        right: max(1rem, calc((100vw - var(--column)) / 2));
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 0.5rem;
-        max-width: none;
-        margin: 0;
-    }
 }
 
-/* From 64em the header is one row on the content column's edges: logo, name, then the menu links
+/* From 52em the header is one row on the content column's edges: logo, name, then the menu links
    right beside it, all on one baseline (see .masthead-name). The nav wrapper dissolves (display: contents) so its
    links and buttons become items of that row; the buttons stay in the top-right corner. */
 
-@media (min-width: 64em) {
+@media (min-width: 52em) {
     .site-header {
         display: flex;
         align-items: flex-end;
@@ -149,9 +132,9 @@
 }
 
 /* Below 52em the header is one row: the logo and name at the left, the icon buttons at the right (the nav wrapper
-   dissolves, as from 64em, so its buttons and links become items of the header). The buttons drop to a row of their
+   dissolves, as from 52em, so its buttons and links become items of the header). The buttons drop to a row of their
    own, still at the right, only when the row is too narrow for them; the links of the open menu are a column under
-   them. The header's side padding follows the content column, like from 64em. */
+   them. The header's side padding follows the content column, like from 52em. */
 
 @media (max-width: 51.99em) {
     .site-header {
@@ -252,15 +235,6 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-}
-
-/* From 52em the nav is out of flow, so the header's 1.5rem top padding counts
-   toward the same 3.5rem gap that separates the logo from the first section. */
-
-@media (min-width: 52em) {
-    .masthead {
-        margin-top: 2rem;
-    }
 }
 
 .masthead a,
@@ -403,13 +377,13 @@
     margin-bottom: calc(var(--logo-size) * 0.1008 - 0.2597em);
 }
 
-/* From 52em: like the header, the logo at the left and the links in a column at the right, each with a rule to its
-   left (see .nav-links a); from 64em one row, the links right beside the logo on its baseline (see .masthead-name). */
+/* From 52em: like the header, the logo at the left and the links in one row right beside it on its baseline (see
+   .masthead-name), each with a rule to its left (see .nav-links a). */
 
 @media (min-width: 52em) {
     .site-footer {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: flex-end;
         /* No column gap: the links' own margin is the whole space between the name and the first rule, as in the header. */
         gap: 0.5rem 0;
@@ -423,7 +397,12 @@
         flex: 1 1 0;
         min-width: 0;
         align-items: flex-end;
-        gap: 0.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 0.5rem 0.75rem;
+        margin-left: 1rem;
+        margin-bottom: calc(var(--logo-size) * 0.1008 - 0.2251em);
     }
 
     .site-footer .footer-links > *,
@@ -475,21 +454,6 @@
         flex: 0 0 100%;
         margin-top: 2.25rem;
         text-align: center;
-    }
-}
-
-@media (min-width: 64em) {
-    .site-footer {
-        justify-content: flex-start;
-    }
-
-    .footer-links {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-end;
-        gap: 0.5rem 0.75rem;
-        margin-left: 1rem;
-        margin-bottom: calc(var(--logo-size) * 0.1008 - 0.2251em);
     }
 }
 
