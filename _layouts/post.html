@@ -12,6 +12,9 @@ layout: default
     <div class="post-body">
         {{ content }}
     </div>
+    {%- unless page.standalone %}
+    {% include post-aside.html %}
+    {%- endunless %}
 </article>
 
 {% unless page.standalone %}

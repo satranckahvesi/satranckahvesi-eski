@@ -21,6 +21,7 @@ import { wrapFigures } from './post-figures.js';
 import { curlyPass, keepCommentsCurly } from './text/curly-quotes.js';
 import { installAppButton } from './install-app.js';
 import { installNavMenu } from './nav-menu.js';
+import { installPostAside } from './post-aside.js';
 import { installPushButton } from './push.js';
 import { holdLoadNotice, installLinkNotice, installRefreshButton } from './refresh-app.js';
 import { installServiceWorker } from './service-worker.js';
@@ -61,6 +62,7 @@ if (body) {
 }
 
 installThemeToggle();
+installPostAside();
 installNavMenu();
 installAppButton();
 installPushButton();
