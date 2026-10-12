@@ -23,7 +23,7 @@
         bottom: 0;
         left: 41rem;
         right: 0;
-        border: 1px solid var(--muted);
+        border: 1px solid var(--hairline);
         pointer-events: none;
         box-sizing: border-box;
     }
