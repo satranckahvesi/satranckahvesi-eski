@@ -1,6 +1,6 @@
-{%- comment %} The panel to the right of an article's text: the author's page, the column's page, the site and the neighbouring posts, in that
-    order, then the copyright and the notice that goes with it. {% endcomment -%}
-<aside class="post-aside" aria-label="Satranç Kahvesi">
+{%- comment %} Two panels to the right of an article's text: the author's page and the column's page at its top; the site, the
+    neighbouring posts, the copyright and the notice that goes with it at its bottom. {% endcomment -%}
+<aside class="post-aside post-aside-top" aria-label="Yazar ve köşe">
     {%- if page.author %}
     <a class="aside-item aside-card" href="{% include author-url.html name=page.author %}">
         <span class="aside-label">Yazar</span>
@@ -14,6 +14,8 @@
         <span class="aside-title">{{ page.column }}</span>
     </a>
     {%- endif %}
+</aside>
+<aside class="post-aside post-aside-bottom" aria-label="Satranç Kahvesi">
     <a class="aside-item aside-brand" href="{{ '/' | relative_url }}">
         {%- include logo-icon.html halo="aside-logo-halo" class="aside-logo" -%}
         <span class="aside-brand-name">Satranç Kahvesi</span>
