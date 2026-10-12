@@ -48,6 +48,8 @@
     align-items: center;
     gap: 0.5rem;
     flex: none;
+    /* Only as wide as what it holds, so a link does not reach out over the empty space around it. */
+    align-self: center;
     color: inherit;
 }
 
