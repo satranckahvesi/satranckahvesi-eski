@@ -8,7 +8,7 @@ permalink: /hakkinda/
 
 Bize ulaşmak ya da sitede yayınlanmak üzere yazılarınızı iletmek için ... adresine e-posta gönderebilirsiniz. Yayın ekibimiz, paylaştığınız tüm öneri ve yazıları büyük bir titizlikle ve özenle incelemektedir. Anca değerlendirme süreci zaman alabildiğinden, yanıt sürelerinde yaşanabilecek olası gecikmelerde göstereceğiniz sabır ve anlayış için şimdiden teşekkür ederiz. 
 
-Sitede yayınlanan yazıların telif hakları yazarlarına ait olup, yayınlama ve çoğaltma yetkisi Satranç Kahvesi’ne aittir. Önceden yazılı izin alınmaksızın kısmen veya tamamen kopyalanamaz, çoğaltılamaz ve kaynak göstermeksizin başka platformlarda yayınlanamaz.
+Sitede yayınlanan yazıların telif hakları yazarlarına, yayınlama ve çoğaltma yetkisi ise Satranç Kahvesi’ne aittir. Önceden yazılı izin alınmaksızın kısmen veya tamamen kopyalanamaz, çoğaltılamaz ve kaynak göstermeksizin başka platformlarda yayınlanamaz.
 
 Bu site [GitHub Pages](https://pages.github.com/) ile barındırılıyor; satranç partilerinin ve diyagramların gösterimi için [ChessPublica](https://chesspublica.github.io/) kullanılıyor.
 
