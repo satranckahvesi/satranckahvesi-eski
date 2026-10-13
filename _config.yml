@@ -45,6 +45,7 @@ exclude:
   - scripts/
   - vendor/
   - node_modules/
+  - next-app/
 
 # Leading chess titles that are not part of a person's name (author initials).
 chess_titles: [FM, GM, IM, CM, WFM, WGM, WIM, WCM, NM, AGM, AIM]
